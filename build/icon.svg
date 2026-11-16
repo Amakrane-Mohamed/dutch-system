@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1C2B5A"/><stop offset="1" stop-color="#0E1A3A"/></linearGradient>
+    <pattern id="z" width="96" height="96" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#E3A72F" stroke-opacity=".09" stroke-width="2"><rect x="28" y="28" width="40" height="40"/><rect x="28" y="28" width="40" height="40" transform="rotate(45 48 48)"/></g>
+    </pattern>
+    <clipPath id="sq"><rect x="100" y="100" width="824" height="824" rx="186"/></clipPath>
+  </defs>
+  <g clip-path="url(#sq)"><rect x="100" y="100" width="824" height="824" fill="url(#bg)"/><rect x="100" y="100" width="824" height="824" fill="url(#z)"/></g>
+  <g transform="translate(512 512) scale(14)">
+    <rect x="-15" y="-15" width="30" height="30" rx="3" fill="#0E1A3A" stroke="#E3A72F" stroke-width="2"/>
+    <rect x="-15" y="-15" width="30" height="30" rx="3" fill="#0E1A3A" stroke="#E3A72F" stroke-width="2" transform="rotate(45)"/>
+    <circle r="7.5" fill="none" stroke="#E3A72F" stroke-width="1.5"/>
+    <path d="M-11 4 L11 -4" stroke="#F6F0E4" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-11" cy="4" r="2.2" fill="#C8553D"/><circle cx="11" cy="-4" r="2.2" fill="#12756B"/>
+  </g>
+</svg>

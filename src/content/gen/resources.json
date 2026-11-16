@@ -1,0 +1,1111 @@
+[
+ {
+  "id": "nicosweg",
+  "name": "DW Nicos Weg (A1–B1)",
+  "type": "course",
+  "level": "A1–B1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "العمود الفقري المجاني لخطتك: دورة فيديو من Deutsche Welle بالتعاون مع وكالة العمل الألمانية. لكل مستوى مقدمة + 18 فصلًا × 4 دروس، مع تمارين وقواعد ومفردات، وواجهة باللغة العربية. الأكثر توصية في r/German.",
+   "en": "Your free backbone: a Deutsche Welle video course made with the Federal Employment Agency. Each level has an intro + 18 chapters × 4 lessons, with exercises, grammar and vocab, and an Arabic interface. The most recommended free course on r/German."
+  },
+  "urls": [
+   "https://learngerman.dw.com/ar/nicos-weg/c-47993645",
+   "https://learngerman.dw.com/en/nicos-weg-a1/c-36519789",
+   "https://learngerman.dw.com/en/nicos-weg-a2/c-36519797",
+   "https://learngerman.dw.com/de/nicos-weg-b1/c-36519718"
+  ],
+  "primary": true,
+  "arabic": true
+ },
+ {
+  "id": "dwplacement",
+  "name": "DW Einstufungstest + Deutschtrainer",
+  "type": "course",
+  "level": "A1–B1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "اختبر مستواك في نهاية كل مرحلة. و Deutschtrainer فيه 100 موضوع مفردات قصير.",
+   "en": "Check your level at the end of each phase. The Deutschtrainer has 100 short vocab topics."
+  },
+  "urls": [
+   "https://learngerman.dw.com/en/placement-test",
+   "https://learngerman.dw.com/de/deutschtrainer/c-62078010"
+  ]
+ },
+ {
+  "id": "nicosyt",
+  "name": "Nicos Weg – YouTube",
+  "type": "youtube",
+  "level": "A1–B1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "نفس حلقات الدورة على يوتيوب، والفيلم الكامل لكل مستوى. ممتاز للاستماع على الهاتف.",
+   "en": "The same episodes on YouTube plus the full film per level. Great for listening on your phone."
+  },
+  "urls": [
+   "https://www.youtube.com/playlist?list=PLs7zUO7VPyJ6eoN6SmB1UcwvPUagK87ix",
+   "https://www.youtube.com/playlist?list=PLs7zUO7VPyJ7YxTq_g2Rcl3Jthd5bpTdY",
+   "https://www.youtube.com/playlist?list=PLs7zUO7VPyJ5razSfhOUVbTv9q6SAuPx-"
+  ]
+ },
+ {
+  "id": "schritte",
+  "name": "Schritte international Neu 1–6 (Hueber)",
+  "type": "books",
+  "level": "A1: 1–2 · A2: 3–4 · B1: 5–6",
+  "phases": [
+   "a1",
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "≈ 23 € للجزء (كتاب الدرس + كتاب التمارين)",
+   "en": "≈ €23 per volume (Kursbuch + Arbeitsbuch)"
+  },
+  "why": {
+   "ar": "كتاب الدرس وكتاب التمارين في مجلد واحد، 7 دروس لكل جزء، والصوتيات مجانية على الإنترنت. مستعمل في دورات الاندماج في ألمانيا ويُعدّ لامتحانات Goethe/telc. اختر سلسلة واحدة فقط.",
+   "en": "Coursebook and workbook in one volume, 7 Lektionen each, free online audio. Used in German integration courses and prepares for Goethe/telc. Pick ONE series only."
+  },
+  "urls": [
+   "https://www.hueber.de/schritte-international-neu",
+   "https://shop.hueber.de/en/schritte-int-neu-1-kb-ab-978-3-19-361082-9.html"
+  ],
+  "primary": true
+ },
+ {
+  "id": "menschen",
+  "name": "Menschen A1.1–B1.2 (Hueber)",
+  "type": "books",
+  "level": "A1–B1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "A1.1: كتاب 15.50 € + تمارين 13.50 €",
+   "en": "A1.1: Kursbuch €15.50 + Arbeitsbuch €13.50"
+  },
+  "why": {
+   "ar": "بديل في ستة أنصاف مستويات. لا تشترِ السلسلتين.",
+   "en": "Alternative in six half-levels. Do not buy both series."
+  },
+  "urls": [
+   "https://www.hueber.de/reihe/menschen"
+  ],
+  "optional": true
+ },
+ {
+  "id": "netzwerk",
+  "name": "Netzwerk neu A1–B1 (Klett)",
+  "type": "books",
+  "level": "A1–B1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "حسب المكتبة",
+   "en": "varies by shop"
+  },
+  "why": {
+   "ar": "بديل ثالث شائع في معاهد Goethe.",
+   "en": "A third option popular at Goethe-Instituts."
+  },
+  "urls": [
+   "https://www.klett-sprachen.de/netzwerk-neu/r-1/605"
+  ],
+  "optional": true
+ },
+ {
+  "id": "anki",
+  "name": "Anki + 4000 German Words by Frequency",
+  "type": "vocab",
+  "level": "A1–B2",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني (الحاسوب، AnkiWeb، أندرويد)",
+   "en": "Free (desktop, AnkiWeb, Android)"
+  },
+  "why": {
+   "ar": "التكرار المتباعد هو أقوى أداة للمفردات حسب مجتمع r/German. أكثر 4000 كلمة استعمالًا مع الصوت والجمع وجمل أمثلة. 20 بطاقة جديدة يوميًا.",
+   "en": "Spaced repetition is the strongest vocab tool according to r/German. The 4,000 most frequent words with audio, plurals and example sentences. 20 new cards a day."
+  },
+  "urls": [
+   "https://apps.ankiweb.net/",
+   "https://ankiweb.net/shared/info/1367106924",
+   "https://ankiweb.net/shared/info/653061995"
+  ],
+  "primary": true
+ },
+ {
+  "id": "verbformen",
+  "name": "verbformen.de",
+  "type": "vocab",
+  "level": "A1–C1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "ابحث عن der/die/das والجمع وكل تصريفات الفعل في ثوانٍ.",
+   "en": "Look up der/die/das, plurals and every verb form in seconds."
+  },
+  "urls": [
+   "https://www.verbformen.de/"
+  ]
+ },
+ {
+  "id": "dwds",
+  "name": "DWDS + Duden",
+  "type": "vocab",
+  "level": "A2+",
+  "phases": [
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "القواميس المرجعية مع أمثلة ونطق.",
+   "en": "Reference dictionaries with examples and pronunciation."
+  },
+  "urls": [
+   "https://www.dwds.de/",
+   "https://www.duden.de/"
+  ]
+ },
+ {
+  "id": "mira",
+  "name": "Deutsch mit Mira",
+  "type": "arabic",
+  "level": "A1–B2",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "سلسلة «تعلم الألمانية من الصفر» بالعربية، درس لكل قاعدة A1 بمشاهدات تتجاوز مليون مشاهدة لبعض الدروس، مع بث مباشر للمراجعة.",
+   "en": "The Arabic \"German from zero\" series, one video per A1 grammar point, some with over a million views, plus live review streams."
+  },
+  "urls": [
+   "https://www.youtube.com/@DeutschmitMira"
+  ],
+  "arabic": true,
+  "primary": true
+ },
+ {
+  "id": "shehata",
+  "name": "Shehata Deutsch – الألمانية مع مستر شحاته",
+  "type": "arabic",
+  "level": "A1–B2",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "من أقدم القنوات العربية لتعليم الألمانية: قوائم A1 و A2 و B1 و B2 وتدريب امتحانات Goethe بالعربية.",
+   "en": "One of the oldest Arabic German channels: A1, A2, B1, B2 playlists and Goethe exam training in Arabic."
+  },
+  "urls": [
+   "https://www.youtube.com/@MohammadShehata-Official",
+   "https://www.youtube.com/playlist?list=PLOLEcgfCxrf-_aFPd2gnBsHfA066_Ka0M",
+   "https://www.youtube.com/playlist?list=PLOLEcgfCxrf8bFnxewy5RmOH0tMXV2HdG",
+   "https://www.youtube.com/playlist?list=PLOLEcgfCxrf85Hzb1RYMXuDKhBbpNxtqF",
+   "https://www.youtube.com/playlist?list=PLOLEcgfCxrf9zsfn7fo5Ik4cyt-c1jcHa",
+   "https://www.youtube.com/playlist?list=PLOLEcgfCxrf9xtuJ7zrYBUCLr9RnhRiob"
+  ],
+  "arabic": true,
+  "primary": true
+ },
+ {
+  "id": "badr",
+  "name": "German with Badr (بالدارجة)",
+  "type": "arabic",
+  "level": "A0–A2",
+  "phases": [
+   "a1",
+   "a2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "أستاذ مغربي يشرح بالدارجة، خاصة النطق والأخطاء التي يقع فيها المغاربة.",
+   "en": "A Moroccan teacher explaining in Darija, especially pronunciation and typical Moroccan mistakes."
+  },
+  "urls": [
+   "https://www.youtube.com/@Eaasygerman",
+   "https://deutschmitbadr.de/"
+  ],
+  "arabic": true
+ },
+ {
+  "id": "gtc",
+  "name": "German Training Center (بالدارجة)",
+  "type": "arabic",
+  "level": "A1–B1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "دروس A1 بالدارجة المغربية، وشرح وحدات امتحان Goethe/ÖSD B1 (Sprechen و Schreiben)، ونصائح Bewerbung.",
+   "en": "A1 lessons in Moroccan Darija, Goethe/ÖSD B1 Speaking and Writing explained, and application tips."
+  },
+  "urls": [
+   "https://www.youtube.com/@GermanTrainingCenter"
+  ],
+  "arabic": true
+ },
+ {
+  "id": "yaghi",
+  "name": "Deutsch mit Ahmad Yaghi",
+  "type": "arabic",
+  "level": "A1–B1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "شرح عربي واضح للقواعد ومحادثات مثل مقابلة العمل، وملخصات A1–A2.",
+   "en": "Clear Arabic grammar explanations, dialogues like a job interview, and A1–A2 summaries."
+  },
+  "urls": [
+   "https://www.youtube.com/@DeutschmitAhmadYaghi"
+  ],
+  "arabic": true
+ },
+ {
+  "id": "bdarija",
+  "name": "Deutsch B'darija",
+  "type": "arabic",
+  "level": "B1",
+  "phases": [
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "نصائح امتحان B1 (Goethe/ÖSD) بالدارجة: Lesen و Hören و Schreiben و Sprechen.",
+   "en": "B1 exam tips (Goethe/ÖSD) in Darija: reading, listening, writing, speaking."
+  },
+  "urls": [
+   "https://www.youtube.com/@deutschbdarija"
+  ],
+  "arabic": true
+ },
+ {
+  "id": "easygerman",
+  "name": "Easy German + Super Easy German",
+  "type": "youtube",
+  "level": "A1–C1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "مقابلات في الشارع بترجمة ألمانية وإنجليزية، وقوائم لكل مستوى. الأكثر توصية للاستماع الحقيقي.",
+   "en": "Street interviews with German + English subtitles and playlists per level. The top pick for real spoken German."
+  },
+  "urls": [
+   "https://www.youtube.com/@EasyGerman",
+   "https://www.youtube.com/playlist?list=PLk1fjOl39-50kWobutO8NVFzbw9PHtbbg",
+   "https://www.youtube.com/playlist?list=PLk1fjOl39-5201BUdhtOM_x23poNvLouT",
+   "https://www.youtube.com/playlist?list=PLk1fjOl39-53yooogv6RaJAK29mx7nz1d",
+   "https://www.youtube.com/playlist?list=PLk1fjOl39-51lvdiuQYsLW-0aGIdNNknA",
+   "https://www.youtube.com/playlist?list=PLk1fjOl39-53GxQIn1Hxdouokf0J0SDpl"
+  ],
+  "primary": true
+ },
+ {
+  "id": "lingoni",
+  "name": "lingoni GERMAN (Learn German with Jenny)",
+  "type": "youtube",
+  "level": "A1–B2",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "قناة Jenny سابقًا: دروس قواعد واضحة لكل مستوى، تحضير Goethe/telc A1، وتمارين استماع A1/A2 و B1.",
+   "en": "Formerly Learn German with Jenny: clear grammar per level, Goethe/telc A1 prep, A1/A2 and B1 listening practice."
+  },
+  "urls": [
+   "https://www.youtube.com/@lingoniGERMAN",
+   "https://www.youtube.com/playlist?list=PL5QyCnFPRx0GxaFjdAVkx7K9TfEklY4sg",
+   "https://www.youtube.com/playlist?list=PL5QyCnFPRx0EvA_Kg42rbnyJC484MSJc8",
+   "https://www.youtube.com/playlist?list=PL5QyCnFPRx0G5PtPzSzKSErpev2uDf5ef",
+   "https://www.youtube.com/playlist?list=PL5QyCnFPRx0G7Zy9OEU62AIPuwRcWvX8U"
+  ],
+  "primary": true
+ },
+ {
+  "id": "anja",
+  "name": "Learn German with Anja",
+  "type": "youtube",
+  "level": "A1–A2",
+  "phases": [
+   "a1",
+   "a2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "دورة A1 ممتعة وواضحة (63 درسًا) وقائمة للنطق.",
+   "en": "A fun, clear A1 course (63 lessons) and a pronunciation playlist."
+  },
+  "urls": [
+   "https://www.youtube.com/@LearnGermanwithAnja",
+   "https://www.youtube.com/playlist?list=PLYzp2xhTw9W1Z9RvnCoveC0W7pkwUMHXy"
+  ]
+ },
+ {
+  "id": "marija",
+  "name": "Deutsch mit Marija",
+  "type": "youtube",
+  "level": "B1–C1",
+  "phases": [
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "ممتحِنة telc سابقة: نصائح الامتحان، B2 Sprechen، والكتابة.",
+   "en": "A former telc examiner: exam tips, B2 speaking and writing."
+  },
+  "urls": [
+   "https://www.youtube.com/@DeutschmitMarija",
+   "https://www.youtube.com/playlist?list=PL3o7sSg88Dn3dRLZPgsGlRdoDmsOX79kj",
+   "https://www.youtube.com/playlist?list=PL3o7sSg88Dn0u6xltU160L6N78oMg-JUI",
+   "https://www.youtube.com/playlist?list=PL3o7sSg88Dn0EZTysBToTed3nA6kDlEc1"
+  ]
+ },
+ {
+  "id": "coffeebreak",
+  "name": "Coffee Break German",
+  "type": "podcasts",
+  "level": "A1–B1",
+  "phases": [
+   "a1",
+   "a2"
+  ],
+  "cost": {
+   "ar": "الصوت مجاني",
+   "en": "Free audio"
+  },
+  "why": {
+   "ar": "دروس صوتية منظمة بالإنجليزية للمبتدئين، مثالية في الطريق.",
+   "en": "Structured audio lessons in English for beginners, perfect on the go."
+  },
+  "urls": [
+   "https://coffeebreaklanguages.com/coffeebreakgerman/"
+  ]
+ },
+ {
+  "id": "dwn",
+  "name": "Deutsch – warum nicht? (DW)",
+  "type": "podcasts",
+  "level": "A1–A2",
+  "phases": [
+   "a1",
+   "a2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "دورة صوتية كلاسيكية من DW في 4 أجزاء.",
+   "en": "A classic DW audio course in 4 series."
+  },
+  "urls": [
+   "https://learngerman.dw.com/en/deutsch-warum-nicht/s-2548"
+  ]
+ },
+ {
+  "id": "slowgerman",
+  "name": "Slow German (Annik Rubens)",
+  "type": "podcasts",
+  "level": "A2–B1",
+  "phases": [
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "حلقات مجانية",
+   "en": "Free episodes"
+  },
+  "why": {
+   "ar": "قصص عن ألمانيا بنطق بطيء وواضح.",
+   "en": "Slowly spoken stories about life in Germany."
+  },
+  "urls": [
+   "https://www.slowgerman.com/"
+  ]
+ },
+ {
+  "id": "egpodcast",
+  "name": "Easy German Podcast",
+  "type": "podcasts",
+  "level": "B1+",
+  "phases": [
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني (النصوص مدفوعة)",
+   "en": "Free (transcripts paid)"
+  },
+  "why": {
+   "ar": "محادثات طبيعية عن الحياة في ألمانيا.",
+   "en": "Natural conversations about life in Germany."
+  },
+  "urls": [
+   "https://www.easygerman.org/podcast",
+   "https://www.youtube.com/playlist?list=PLk1fjOl39-52AXeDQz2WPVv-wZnkjldoX"
+  ]
+ },
+ {
+  "id": "nachrichtenleicht",
+  "name": "nachrichtenleicht.de (Deutschlandfunk)",
+  "type": "reading",
+  "level": "A2–B1",
+  "phases": [
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "أخبار أسبوعية بلغة ألمانية بسيطة مع صوت وقاموس.",
+   "en": "Weekly news in simple German with audio and a glossary."
+  },
+  "urls": [
+   "https://www.nachrichtenleicht.de/"
+  ],
+  "primary": true
+ },
+ {
+  "id": "logo",
+  "name": "logo! (ZDF – Nachrichten für Kinder)",
+  "type": "reading",
+  "level": "A2–B1",
+  "phases": [
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "أخبار للأطفال بجمل قصيرة وفيديوهات: قراءة واستماع سهلان.",
+   "en": "Kids news in short sentences with videos: easy reading and listening."
+  },
+  "urls": [
+   "https://www.logo.de"
+  ]
+ },
+ {
+  "id": "topthema",
+  "name": "DW Top-Thema",
+  "type": "reading",
+  "level": "B1–B2",
+  "phases": [
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "مقال أسبوعي من DW مع صوت ومفردات وأسئلة فهم.",
+   "en": "A weekly DW article with audio, vocabulary and comprehension questions."
+  },
+  "urls": [
+   "https://learngerman.dw.com/de/top-thema/s-8031"
+  ],
+  "primary": true
+ },
+ {
+  "id": "lgn",
+  "name": "DW Langsam gesprochene Nachrichten",
+  "type": "reading",
+  "level": "B2",
+  "phases": [
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "أخبار يومية (الاثنين–السبت) بنطق بطيء مع النص الكامل: تمرين يومي ممتاز للقراءة والاستماع في B2.",
+   "en": "Daily news (Mon–Sat) read slowly with the full transcript: an ideal daily B2 reading + listening drill."
+  },
+  "urls": [
+   "https://learngerman.dw.com/de/langsam-gesprochene-nachrichten/s-60040332"
+  ],
+  "primary": true
+ },
+ {
+  "id": "tagesschau",
+  "name": "tagesschau.de",
+  "type": "reading",
+  "level": "B2",
+  "phases": [
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "الأخبار الألمانية الأصلية: الهدف النهائي للقراءة والاستماع.",
+   "en": "Authentic German news: the final goal for reading and listening."
+  },
+  "urls": [
+   "https://www.tagesschau.de/"
+  ]
+ },
+ {
+  "id": "schubert",
+  "name": "Schubert Verlag – Online-Aufgaben",
+  "type": "reading",
+  "level": "A1–C1",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "آلاف تمارين القواعد والمفردات المجانية لكل مستوى.",
+   "en": "Thousands of free grammar and vocab exercises per level."
+  },
+  "urls": [
+   "https://www.schubert-verlag.de/aufgaben/"
+  ]
+ },
+ {
+  "id": "deutschbuch",
+  "name": "mein-deutschbuch.de + Lingolia",
+  "type": "reading",
+  "level": "A1–B2",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "شرح القواعد مع تمارين. Lingolia من أكثر المراجع توصية على r/German.",
+   "en": "Grammar explanations with exercises. Lingolia is a top r/German recommendation."
+  },
+  "urls": [
+   "https://www.mein-deutschbuch.de",
+   "https://www.lingolia.com/de/"
+  ]
+ },
+ {
+  "id": "italki",
+  "name": "italki",
+  "type": "speaking",
+  "level": "A2+",
+  "phases": [
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "حسب المعلم",
+   "en": "varies by tutor"
+  },
+  "why": {
+   "ar": "معلم أسبوعي للمحادثة وتصحيح نصوص Bewerbung. ابحث عن معلم «Goethe B1 Prüfungsvorbereitung».",
+   "en": "A weekly tutor for speaking and correcting your application texts. Search for \"Goethe B1 Prüfungsvorbereitung\"."
+  },
+  "urls": [
+   "https://www.italki.com/en/teachers/german"
+  ],
+  "primary": true
+ },
+ {
+  "id": "tandem",
+  "name": "Tandem",
+  "type": "speaking",
+  "level": "A2+",
+  "phases": [
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني (اشتراك اختياري)",
+   "en": "Free (optional premium)"
+  },
+  "why": {
+   "ar": "تبادل لغوي مجاني مع ألمان يتعلمون العربية أو الفرنسية.",
+   "en": "Free language exchange with Germans learning Arabic or French."
+  },
+  "urls": [
+   "https://www.tandem.net/"
+  ]
+ },
+ {
+  "id": "hellotalk",
+  "name": "HelloTalk",
+  "type": "speaking",
+  "level": "A2+",
+  "phases": [
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني (اشتراك اختياري)",
+   "en": "Free (optional premium)"
+  },
+  "why": {
+   "ar": "رسائل صوتية ونصية مع متحدثين أصليين يصححون جملك.",
+   "en": "Voice and text chats with native speakers who correct your sentences."
+  },
+  "urls": [
+   "https://www.hellotalk.com/"
+  ]
+ },
+ {
+  "id": "languagetool",
+  "name": "LanguageTool + DeepL Write",
+  "type": "writing",
+  "level": "A2+",
+  "phases": [
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني (نسخ مدفوعة)",
+   "en": "Free (paid tiers)"
+  },
+  "why": {
+   "ar": "مصحح إملائي ونحوي للألمانية. اكتب أولًا بنفسك، ثم صحّح، ثم انسخ الأخطاء إلى دفتر أخطائك.",
+   "en": "German grammar and spelling checkers. Write yourself first, then check, then copy your mistakes into your error log."
+  },
+  "urls": [
+   "https://languagetool.org/de",
+   "https://www.deepl.com/write"
+  ]
+ },
+ {
+  "id": "goethe-a1",
+  "name": "Goethe-Zertifikat A1 – Übungsmaterial",
+  "type": "exam",
+  "level": "A1",
+  "phases": [
+   "a1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "امتحان نموذجي تفاعلي مع تصحيح تلقائي للقراءة والاستماع.",
+   "en": "Interactive model exam with automatic scoring for reading and listening."
+  },
+  "urls": [
+   "https://bfu.goethe.de/a1_sd1/",
+   "https://www.goethe.de/ins/de/de/prf/prf/gzsd1/ueb.html"
+  ]
+ },
+ {
+  "id": "goethe-a2",
+  "name": "Goethe-Zertifikat A2 – Modellsatz",
+  "type": "exam",
+  "level": "A2",
+  "phases": [
+   "a2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "نماذج رسمية مع الصوت.",
+   "en": "Official model sets with audio."
+  },
+  "urls": [
+   "https://www.goethe.de/ins/de/de/prf/prf/gzsd2/ub2.html",
+   "https://www.goethe.de/pro/relaunch/prf/materialien/A2/A2_Modellsatz_Erwachsene.pdf"
+  ]
+ },
+ {
+  "id": "goethe-b1",
+  "name": "Goethe-Zertifikat B1 – Modellsatz + Übungssatz",
+  "type": "exam",
+  "level": "B1",
+  "phases": [
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "امتحانك المستهدف: نموذج تفاعلي وملفات PDF وصوت وفيديو للمحادثة.",
+   "en": "Your target exam: interactive model set, PDFs, audio and a speaking video."
+  },
+  "urls": [
+   "https://bfu.goethe.de/b1_mod/",
+   "https://www.goethe.de/ins/de/de/prf/prf/gzb1/ueb.html",
+   "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_erwachsene.pdf"
+  ],
+  "primary": true
+ },
+ {
+  "id": "goethe-b2",
+  "name": "Goethe-Zertifikat B2 – Modellsatz",
+  "type": "exam",
+  "level": "B2",
+  "phases": [
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "نموذج مع الحلول والنصوص ومعايير التقييم.",
+   "en": "Model set with key, transcripts and assessment criteria."
+  },
+  "urls": [
+   "https://www.goethe.de/ins/de/de/prf/prf/gzb2/ue9.html",
+   "https://www.goethe.de/pro/relaunch/prf/materialien/B2/b2_modellsatz_erwachsene.pdf"
+  ]
+ },
+ {
+  "id": "telc-b1",
+  "name": "telc Deutsch B1 – Übungstest",
+  "type": "exam",
+  "level": "B1",
+  "phases": [
+   "b1"
+  ],
+  "cost": {
+   "ar": "تحميل مجاني",
+   "en": "Free download"
+  },
+  "why": {
+   "ar": "امتحان telc تجريبي كامل مع الحلول (صيغة مختلفة: Sprachbausteine).",
+   "en": "A full telc practice test with key (different format: Sprachbausteine)."
+  },
+  "urls": [
+   "https://www.telc.net/sprachpruefungen/deutsch/zertifikat-deutsch-telc-deutsch-b1/"
+  ]
+ },
+ {
+  "id": "telc-b2",
+  "name": "telc Deutsch B2",
+  "type": "exam",
+  "level": "B2",
+  "phases": [
+   "b2"
+  ],
+  "cost": {
+   "ar": "تحميل مجاني",
+   "en": "Free download"
+  },
+  "why": {
+   "ar": "صفحة telc B2 الرسمية مع اختبار تجريبي ونصائح التحضير.",
+   "en": "Official telc B2 page with a practice test and preparation tips."
+  },
+  "urls": [
+   "https://www.telc.net/index.php?L=5&id=647&no_cache=1",
+   "https://www.telc.net/fileadmin/user_upload/pdfs/Handbuch_und_Tipps_fuer_Pruefungsvorbereitung/Deutsch_B2_tipps_zur_Pruefungsvorbereitung.pdf"
+  ]
+ },
+ {
+  "id": "osd",
+  "name": "ÖSD – Übungsmaterialien",
+  "type": "exam",
+  "level": "A2–B1",
+  "phases": [
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "ÖSD Zertifikat B1 منتج مشترك مع Goethe: نفس الصيغة ونماذج إضافية.",
+   "en": "ÖSD Zertifikat B1 is a joint product with Goethe: same format, more practice sets."
+  },
+  "urls": [
+   "https://osd.at/portfolio-item/osd-zertifikat-a2-za2/",
+   "https://osd.at/wp-content/uploads/2026/09/ZB1-Uebungsmaterialien-Band-1_WEB.pdf",
+   "https://test-training-digital.osd.at/"
+  ]
+ },
+ {
+  "id": "goethe-ma",
+  "name": "Goethe-Institut Marokko (الرباط / الدار البيضاء)",
+  "type": "exam",
+  "level": "A1–C2",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "B1: 2500 درهم (مترشح خارجي) · A1: 1950 · A2: 2000 · B2: 2800",
+   "en": "B1: 2,500 MAD (external) · A1: 1,950 · A2: 2,000 · B2: 2,800"
+  },
+  "why": {
+   "ar": "سجّل فقط عبر المتجر الإلكتروني الرسمي. المعهد يحذّر من الوسطاء ولا يراسل إلا من عناوين @goethe.de. تقويم 2026/27 فيه دورات B1 في أوائل يونيو ويوليو 2027.",
+   "en": "Register only in the official webshop. The institute warns against agents and only emails from @goethe.de. The 2026/27 calendar has B1 sessions in early June and July 2027."
+  },
+  "urls": [
+   "https://www.goethe.de/ins/ma/de/spr/prf.html",
+   "https://www.goethe.de/ins/ma/de/spr/prf/anm.html",
+   "https://www.goethe.de/resources/files/pdf359/pruefungskalender-2026-27.pdf"
+  ],
+  "primary": true
+ },
+ {
+  "id": "miig",
+  "name": "Make it in Germany",
+  "type": "ausbildung",
+  "level": "—",
+  "phases": [
+   "a1",
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "البوابة الرسمية: كيف يعمل التكوين المهني، الشروط، والتأشيرة (اللغة الألمانية B1 على الأقل في الغالب).",
+   "en": "Official portal: how an Ausbildung works, requirements, and the visa (usually at least B1 German)."
+  },
+  "urls": [
+   "https://www.make-it-in-germany.com/de/",
+   "https://www.make-it-in-germany.com/en/study-training/training-in-germany",
+   "https://www.make-it-in-germany.com/en/visa-residence/types/vocational-training"
+  ],
+  "primary": true
+ },
+ {
+  "id": "ba",
+  "name": "Bundesagentur für Arbeit – Jobsuche + BERUFENET",
+  "type": "ausbildung",
+  "level": "—",
+  "phases": [
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "منصة الوظائف الرسمية: اختر «Ausbildung» وابحث عن «Fachinformatiker/in – Anwendungsentwicklung».",
+   "en": "The official job board: filter \"Ausbildung\" and search \"Fachinformatiker/in – Anwendungsentwicklung\"."
+  },
+  "urls": [
+   "https://www.arbeitsagentur.de/jobsuche/",
+   "https://web.arbeitsagentur.de/berufenet/"
+  ],
+  "primary": true
+ },
+ {
+  "id": "boards",
+  "name": "Ausbildung.de + AZUBIYO + planet-beruf",
+  "type": "ausbildung",
+  "level": "—",
+  "phases": [
+   "a2",
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "منصات كبيرة لعروض التكوين ونصائح كتابة الطلب.",
+   "en": "Large apprenticeship boards with application tips."
+  },
+  "urls": [
+   "https://www.ausbildung.de/",
+   "https://www.azubiyo.de/",
+   "https://www.planet-beruf.de/"
+  ]
+ },
+ {
+  "id": "visa",
+  "name": "Auswärtiges Amt – Visum Ausbildung + Botschaft Rabat",
+  "type": "ausbildung",
+  "level": "—",
+  "phases": [
+   "b1",
+   "b2"
+  ],
+  "cost": {
+   "ar": "رسوم حسب السفارة",
+   "en": "fee per embassy"
+  },
+  "why": {
+   "ar": "العقد + B1 (أو تأكيد من الشركة) + إثبات التمويل.",
+   "en": "Contract + B1 (or company confirmation) + proof of funds."
+  },
+  "urls": [
+   "https://digital.diplo.de/aus-und-weiterbildung",
+   "https://rabat.diplo.de/"
+  ]
+ },
+ {
+  "id": "recognition",
+  "name": "anabin + Anerkennung in Deutschland",
+  "type": "ausbildung",
+  "level": "—",
+  "phases": [
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "تحقق من معادلة الباكالوريا و Bac+2 في ألمانيا.",
+   "en": "Check how your Bac and Bac+2 are recognised in Germany."
+  },
+  "urls": [
+   "https://anabin.kmk.org/",
+   "https://www.anerkennung-in-deutschland.de/"
+  ]
+ },
+ {
+  "id": "europass",
+  "name": "Europass",
+  "type": "ausbildung",
+  "level": "—",
+  "phases": [
+   "a2",
+   "b1"
+  ],
+  "cost": {
+   "ar": "مجاني",
+   "en": "Free"
+  },
+  "why": {
+   "ar": "محرر سيرة ذاتية أوروبي؛ الشركات الألمانية تفضّل Lebenslauf جدولي.",
+   "en": "EU CV editor; German companies prefer a tabular Lebenslauf."
+  },
+  "urls": [
+   "https://europass.europa.eu/de"
+  ],
+  "optional": true
+ }
+]

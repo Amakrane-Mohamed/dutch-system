@@ -1,0 +1,785 @@
+{
+ "exams": [
+  {
+   "id": "goethe-b1",
+   "name": "Goethe-Zertifikat B1",
+   "level": "B1",
+   "res": "goethe-b1",
+   "videos": [
+    "A_nzwTvVzLY",
+    "XcNawpHowLo",
+    "vVYRDrC8XJ4",
+    "7wF2A2g845w"
+   ],
+   "parts": [
+    {
+     "skill": "lesen",
+     "name": "Lesen",
+     "minutes": 65,
+     "detail": {
+      "ar": "5 أجزاء، 30 سؤالًا: مدونة، مقالات، إعلانات، آراء قراء، تعليمات/نظام داخلي.",
+      "en": "5 parts, 30 items: blog, articles, ads, reader opinions, rules."
+     },
+     "strategy": {
+      "ar": "اقرأ الأسئلة أولًا. Teil 3: إعلان واحد يبقى بدون صاحب. ~13 دقيقة لكل جزء.",
+      "en": "Questions first. Part 3: one ad stays unmatched. ~13 min per part."
+     }
+    },
+    {
+     "skill": "hoeren",
+     "name": "Hören",
+     "minutes": 40,
+     "detail": {
+      "ar": "4 أجزاء، 30 سؤالًا. Teil 1 و 4 تُسمع مرتين، Teil 2 و 3 مرة واحدة.",
+      "en": "4 parts, 30 items. Parts 1 and 4 are played twice, 2 and 3 once."
+     },
+     "strategy": {
+      "ar": "استعمل وقت القراءة قبل كل جزء لتسطير الكلمات المفتاحية.",
+      "en": "Use the reading time before each part to underline key words."
+     }
+    },
+    {
+     "skill": "schreiben",
+     "name": "Schreiben",
+     "minutes": 60,
+     "detail": {
+      "ar": "Teil 1: إيميل لصديق (~80 كلمة، 20 د). Teil 2: مشاركة منتدى برأيك (~80 كلمة، 25 د). Teil 3: رسالة رسمية قصيرة (~40 كلمة، 15 د).",
+      "en": "Part 1: email to a friend (~80 words, 20 min). Part 2: forum opinion (~80 words, 25 min). Part 3: short formal message (~40 words, 15 min)."
+     },
+     "strategy": {
+      "ar": "أجب على النقاط الثلاث كلها، واستعمل روابط (weil, deshalb, außerdem). التحية والخاتمة تحسب.",
+      "en": "Cover all three points and use connectors. Greeting and closing count."
+     }
+    },
+    {
+     "skill": "sprechen",
+     "name": "Sprechen",
+     "minutes": 15,
+     "detail": {
+      "ar": "بالأزواج + 15 د تحضير. Teil 1: التخطيط معًا. Teil 2: عرض موضوع (5 شرائح). Teil 3: رد على عرض الشريك وسؤال.",
+      "en": "In pairs + 15 min prep. Part 1: plan together. Part 2: present a topic (5 slides). Part 3: respond to the partner and ask a question."
+     },
+     "strategy": {
+      "ar": "بنية العرض: الموضوع ← تجربتي ← الوضع في بلدي ← إيجابيات/سلبيات ← الخاتمة.",
+      "en": "Talk structure: topic → my experience → my country → pros/cons → conclusion."
+     }
+    }
+   ],
+   "pass": {
+    "ar": "كل وحدة من 100 نقطة، والنجاح بـ 60. يمكن اجتياز الوحدات منفصلة.",
+    "en": "Each module is out of 100, pass mark 60. Modules can be taken separately."
+   }
+  },
+  {
+   "id": "telc-b1",
+   "name": "telc Deutsch B1 (Zertifikat Deutsch)",
+   "level": "B1",
+   "res": "telc-b1",
+   "videos": [
+    "ekbixJzVgEY",
+    "1RTuNDi1v_4",
+    "Ausm6qx4cls"
+   ],
+   "parts": [
+    {
+     "skill": "lesen",
+     "name": "Leseverstehen + Sprachbausteine",
+     "minutes": 90,
+     "detail": {
+      "ar": "قراءة (3 أجزاء) + قواعد ومفردات في نصوص (2 أجزاء) معًا في 90 دقيقة.",
+      "en": "Reading (3 parts) + grammar/vocab gap texts (2 parts) together in 90 min."
+     },
+     "strategy": {
+      "ar": "Sprachbausteine سريعة النقاط: ابدأ بها إن كانت قواعدك قوية.",
+      "en": "Sprachbausteine are quick points: start with them if your grammar is strong."
+     }
+    },
+    {
+     "skill": "hoeren",
+     "name": "Hörverstehen",
+     "minutes": 30,
+     "detail": {
+      "ar": "3 أجزاء، أسئلة richtig/falsch.",
+      "en": "3 parts, true/false items."
+     },
+     "strategy": {
+      "ar": "Teil 2 يُسمع مرة واحدة: ركّز من الثانية الأولى.",
+      "en": "Part 2 is played once: focus from the first second."
+     }
+    },
+    {
+     "skill": "schreiben",
+     "name": "Schriftlicher Ausdruck",
+     "minutes": 30,
+     "detail": {
+      "ar": "رسالة شخصية أو شبه رسمية مع 4 نقاط.",
+      "en": "A personal or semi-formal letter covering 4 points."
+     },
+     "strategy": {
+      "ar": "فقرة لكل نقطة + تحية وخاتمة صحيحة.",
+      "en": "One paragraph per point + proper greeting and closing."
+     }
+    },
+    {
+     "skill": "sprechen",
+     "name": "Mündlicher Ausdruck",
+     "minutes": 15,
+     "detail": {
+      "ar": "بالأزواج + 20 د تحضير: التعارف، نقاش مع/ضد، التخطيط معًا.",
+      "en": "In pairs + 20 min prep: getting to know each other, pro/contra discussion, planning together."
+     },
+     "strategy": {
+      "ar": "اسأل شريكك وتفاعل، لا تلقِ خطابًا.",
+      "en": "Ask your partner and interact; do not give a speech."
+     }
+    }
+   ],
+   "pass": {
+    "ar": "300 نقطة: الجزء الكتابي 225 (تحتاج 135) والشفهي 75 (تحتاج 45).",
+    "en": "300 points: written 225 (need 135) and oral 75 (need 45)."
+   }
+  },
+  {
+   "id": "goethe-b2",
+   "name": "Goethe-Zertifikat B2",
+   "level": "B2",
+   "res": "goethe-b2",
+   "videos": [
+    "yTu8AtBF3P4",
+    "MXakwDlaXEc",
+    "_IdWd5g_NJY",
+    "Efb9beOa5R0"
+   ],
+   "parts": [
+    {
+     "skill": "lesen",
+     "name": "Lesen",
+     "minutes": 65,
+     "detail": {
+      "ar": "5 أجزاء، 30 سؤالًا: آراء، مقالات، نصوص متخصصة، تعليمات.",
+      "en": "5 parts, 30 items: opinions, articles, specialised texts, instructions."
+     },
+     "strategy": {
+      "ar": "Skimming للفكرة العامة ثم Scanning للتفاصيل.",
+      "en": "Skim for gist, then scan for details."
+     }
+    },
+    {
+     "skill": "hoeren",
+     "name": "Hören",
+     "minutes": 40,
+     "detail": {
+      "ar": "4 أجزاء. Teil 1 و 3 مرة واحدة، Teil 2 و 4 مرتين.",
+      "en": "4 parts. Parts 1 and 3 once, 2 and 4 twice."
+     },
+     "strategy": {
+      "ar": "في الأجزاء التي تُسمع مرة: اكتب كلمة مفتاحية فقط لكل سؤال.",
+      "en": "For parts heard once, note just one keyword per item."
+     }
+    },
+    {
+     "skill": "schreiben",
+     "name": "Schreiben",
+     "minutes": 75,
+     "detail": {
+      "ar": "Teil 1: مشاركة منتدى برأيك (~150 كلمة، 60 نقطة). Teil 2: رسالة رسمية (~100 كلمة، 40 نقطة).",
+      "en": "Part 1: forum opinion (~150 words, 60 points). Part 2: formal message (~100 words, 40 points)."
+     },
+     "strategy": {
+      "ar": "أجب على كل النقاط بترتيب منطقي واستعمل Nominalisierung وروابط B2.",
+      "en": "Cover all points logically, use nominalisation and B2 connectors."
+     }
+    },
+    {
+     "skill": "sprechen",
+     "name": "Sprechen",
+     "minutes": 15,
+     "detail": {
+      "ar": "+ 15 د تحضير. Teil 1: عرض (~4 دقائق لكل شخص) + أسئلة. Teil 2: نقاش مع/ضد.",
+      "en": "+ 15 min prep. Part 1: a ~4-minute talk each + questions. Part 2: pro/contra discussion."
+     },
+     "strategy": {
+      "ar": "Redemittel: Einerseits … andererseits. Ich sehe das anders, weil …",
+      "en": "Redemittel: Einerseits … andererseits. Ich sehe das anders, weil …"
+     }
+    }
+   ],
+   "pass": {
+    "ar": "كل وحدة من 100 نقطة، والنجاح بـ 60.",
+    "en": "Each module is out of 100, pass mark 60."
+   }
+  },
+  {
+   "id": "telc-b2",
+   "name": "telc Deutsch B2",
+   "level": "B2",
+   "res": "telc-b2",
+   "videos": [
+    "ekbixJzVgEY",
+    "yTu8AtBF3P4"
+   ],
+   "parts": [
+    {
+     "skill": "lesen",
+     "name": "Leseverstehen + Sprachbausteine",
+     "minutes": 90,
+     "detail": {
+      "ar": "قراءة (3 أجزاء) + Sprachbausteine (2 أجزاء).",
+      "en": "Reading (3 parts) + Sprachbausteine (2 parts)."
+     },
+     "strategy": {
+      "ar": "وزّع الوقت: 60 د قراءة، 30 د قواعد.",
+      "en": "Split the time: 60 min reading, 30 min grammar."
+     }
+    },
+    {
+     "skill": "hoeren",
+     "name": "Hörverstehen",
+     "minutes": 20,
+     "detail": {
+      "ar": "3 أجزاء، كل نص يُسمع مرة واحدة.",
+      "en": "3 parts, each text is heard once."
+     },
+     "strategy": {
+      "ar": "اقرأ كل الأسئلة قبل البداية.",
+      "en": "Read all items before it starts."
+     }
+    },
+    {
+     "skill": "schreiben",
+     "name": "Schriftlicher Ausdruck",
+     "minutes": 30,
+     "detail": {
+      "ar": "رسالة رسمية (شكوى أو طلب) من اختيارين.",
+      "en": "A formal letter (complaint or request), choice of two."
+     },
+     "strategy": {
+      "ar": "الجزء الكتابي كاملًا 140 دقيقة: لا تتجاوز 30 دقيقة هنا.",
+      "en": "The written part is 140 min total: keep this to 30 min."
+     }
+    },
+    {
+     "skill": "sprechen",
+     "name": "Mündlicher Ausdruck",
+     "minutes": 15,
+     "detail": {
+      "ar": "بالأزواج + 20 د تحضير: عرض، نقاش، حل مشكلة معًا.",
+      "en": "In pairs + 20 min prep: presentation, discussion, solving a problem together."
+     },
+     "strategy": {
+      "ar": "تفاعل: Was meinst du dazu?",
+      "en": "Interact: Was meinst du dazu?"
+     }
+    }
+   ],
+   "pass": {
+    "ar": "تحتاج 60٪ في الجزء الكتابي و 60٪ في الشفهي.",
+    "en": "You need 60% in the written part and 60% in the oral part."
+   }
+  }
+ ],
+ "redemittel": {
+  "b1": [
+   [
+    "Gemeinsam planen",
+    [
+     "Wie wäre es, wenn wir …?",
+     "Ich schlage vor, dass …",
+     "Das ist eine gute Idee.",
+     "Ich bin nicht sicher, ob …",
+     "Wer kümmert sich um …?"
+    ]
+   ],
+   [
+    "Präsentation",
+    [
+     "Ich möchte euch heute über … erzählen.",
+     "In meinem Heimatland ist das so: …",
+     "Ein Vorteil ist …, ein Nachteil ist …",
+     "Meiner Meinung nach …",
+     "Vielen Dank fürs Zuhören."
+    ]
+   ],
+   [
+    "E-Mail",
+    [
+     "Liebe/Lieber …,",
+     "vielen Dank für deine Nachricht.",
+     "Leider kann ich nicht …, weil …",
+     "Sehr geehrte Damen und Herren,",
+     "Mit freundlichen Grüßen"
+    ]
+   ]
+  ],
+  "b2": [
+   [
+    "Vortrag",
+    [
+     "Ich werde zunächst … und anschließend …",
+     "Im Folgenden möchte ich …",
+     "Zusammenfassend lässt sich sagen, dass …"
+    ]
+   ],
+   [
+    "Diskussion",
+    [
+     "Einerseits …, andererseits …",
+     "Da bin ich anderer Meinung, denn …",
+     "Das mag sein, aber …",
+     "Könnten Sie das genauer erklären?"
+    ]
+   ],
+   [
+    "Forumsbeitrag",
+    [
+     "Das Thema … wird oft diskutiert.",
+     "Ein wichtiges Argument dafür ist …",
+     "Dagegen spricht, dass …",
+     "Aus meiner Sicht …"
+    ]
+   ]
+  ]
+ },
+ "practice": [
+  {
+   "id": "b1-lesen",
+   "level": "b1",
+   "skill": "lesen",
+   "title": {
+    "ar": "Lesen B1: مدونة قصيرة",
+    "en": "Lesen B1: short blog"
+   },
+   "instr": {
+    "ar": "اقرأ النص وأجب: richtig أم falsch؟",
+    "en": "Read the text: richtig or falsch?"
+   },
+   "text": "Letzten Sommer habe ich ein Praktikum in einer kleinen IT-Firma in Köln gemacht. Am Anfang war alles neu: die Sprache, die Kollegen und die vielen Besprechungen. Mein Chef hat mir aber sehr geholfen. Jeden Morgen um neun Uhr hatten wir ein kurzes Meeting, in dem jeder erzählt hat, woran er gerade arbeitet. Nach drei Wochen durfte ich schon selbst eine kleine Funktion für eine App programmieren. Das Beste war das Team: Wir haben oft zusammen zu Mittag gegessen. Nächstes Jahr möchte ich dort eine Ausbildung machen.",
+   "items": [
+    {
+     "q": "Das Praktikum war in einer großen Firma.",
+     "options": [
+      "richtig",
+      "falsch"
+     ],
+     "answer": "falsch"
+    },
+    {
+     "q": "Das Team hatte jeden Morgen ein Meeting.",
+     "options": [
+      "richtig",
+      "falsch"
+     ],
+     "answer": "richtig"
+    },
+    {
+     "q": "Nach drei Wochen hat der Autor selbst programmiert.",
+     "options": [
+      "richtig",
+      "falsch"
+     ],
+     "answer": "richtig"
+    },
+    {
+     "q": "Der Autor möchte nicht mehr bei der Firma arbeiten.",
+     "options": [
+      "richtig",
+      "falsch"
+     ],
+     "answer": "falsch"
+    }
+   ]
+  },
+  {
+   "id": "b1-lesen-3",
+   "level": "b1",
+   "skill": "lesen",
+   "title": {
+    "ar": "Lesen B1 Teil 3: الإعلانات",
+    "en": "Lesen B1 part 3: ads"
+   },
+   "instr": {
+    "ar": "أي إعلان يناسب الشخص؟",
+    "en": "Which ad fits the person?"
+   },
+   "text": "A: Sprachcafé jeden Donnerstag, 18 Uhr, kostenlos – Deutsch sprechen mit Muttersprachlern.\nB: Programmierkurs für Anfänger: Python in 6 Wochen, samstags, 120 Euro.\nC: Wir suchen Azubis (m/w/d) als Fachinformatiker – Start 1. September, Bewerbung online.\nD: Möbel günstig abzugeben: Schreibtisch und Stuhl, nur Abholung.",
+   "items": [
+    {
+     "q": "Karim möchte kostenlos sein Deutsch üben.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": "A"
+    },
+    {
+     "q": "Lea sucht einen Ausbildungsplatz in der IT.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": "C"
+    },
+    {
+     "q": "Omar hat eine neue Wohnung und braucht einen Tisch zum Arbeiten.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "answer": "D"
+    }
+   ]
+  },
+  {
+   "id": "b1-hoeren",
+   "level": "b1",
+   "skill": "hoeren",
+   "title": {
+    "ar": "Hören B1 Teil 1: رسالة صوتية",
+    "en": "Hören B1 part 1: voicemail"
+   },
+   "instr": {
+    "ar": "استمع (مرتان) وأجب.",
+    "en": "Listen (twice) and answer."
+   },
+   "text": "Hallo Herr Benali, hier ist Frau Schneider von der Firma Datenwerk. Vielen Dank für Ihre Bewerbung. Wir möchten Sie gern zu einem Vorstellungsgespräch einladen. Das Gespräch findet online statt, am Dienstag, den zwölften April, um zehn Uhr. Bitte bestätigen Sie den Termin per E-Mail bis Freitag. Den Link schicken wir Ihnen dann. Auf Wiederhören!",
+   "items": [
+    {
+     "q": "Wie findet das Gespräch statt?",
+     "options": [
+      "online",
+      "in der Firma",
+      "am Telefon"
+     ],
+     "answer": "online"
+    },
+    {
+     "q": "Wann ist der Termin?",
+     "options": [
+      "Dienstag, 10 Uhr",
+      "Freitag, 10 Uhr",
+      "Dienstag, 12 Uhr"
+     ],
+     "answer": "Dienstag, 10 Uhr"
+    },
+    {
+     "q": "Was soll Herr Benali bis Freitag machen?",
+     "options": [
+      "den Termin per E-Mail bestätigen",
+      "anrufen",
+      "den Link schicken"
+     ],
+     "answer": "den Termin per E-Mail bestätigen"
+    }
+   ]
+  },
+  {
+   "id": "b1-hoeren-2",
+   "level": "b1",
+   "skill": "hoeren",
+   "title": {
+    "ar": "Hören B1: إعلان في المحطة",
+    "en": "Hören B1: station announcement"
+   },
+   "instr": {
+    "ar": "استمع مرة واحدة وأجب.",
+    "en": "Listen once and answer."
+   },
+   "text": "Achtung an Gleis sieben: Der ICE nach Berlin, planmäßige Abfahrt vierzehn Uhr zwanzig, hat heute etwa fünfzehn Minuten Verspätung. Grund dafür ist eine Reparatur am Zug. Reisende nach Hannover können auch den Regionalexpress um vierzehn Uhr dreißig von Gleis drei nehmen. Wir bitten um Entschuldigung.",
+   "items": [
+    {
+     "q": "Wie viel Verspätung hat der ICE?",
+     "options": [
+      "15 Minuten",
+      "30 Minuten",
+      "7 Minuten"
+     ],
+     "answer": "15 Minuten"
+    },
+    {
+     "q": "Warum ist der Zug verspätet?",
+     "options": [
+      "wegen einer Reparatur",
+      "wegen des Wetters",
+      "wegen eines Streiks"
+     ],
+     "answer": "wegen einer Reparatur"
+    },
+    {
+     "q": "Von welchem Gleis fährt der Regionalexpress?",
+     "options": [
+      "Gleis 3",
+      "Gleis 7",
+      "Gleis 14"
+     ],
+     "answer": "Gleis 3"
+    }
+   ]
+  },
+  {
+   "id": "b1-schreiben",
+   "level": "b1",
+   "skill": "schreiben",
+   "title": {
+    "ar": "Schreiben B1 Teil 2: مشاركة منتدى",
+    "en": "Schreiben B1 part 2: forum post"
+   },
+   "instr": {
+    "ar": "اكتب رأيك (~80 كلمة) في 25 دقيقة.",
+    "en": "Write your opinion (~80 words) in 25 minutes."
+   },
+   "prompt": "Im Forum einer Online-Zeitung lesen Sie: „Junge Leute sollten nach der Schule zuerst eine Ausbildung machen und nicht sofort studieren.“ Schreiben Sie Ihre Meinung.",
+   "minWords": 80,
+   "checklist": [
+    {
+     "ar": "رأيك واضح في البداية",
+     "en": "Your opinion is clear at the start"
+    },
+    {
+     "ar": "سببان على الأقل (weil / denn)",
+     "en": "At least two reasons (weil / denn)"
+    },
+    {
+     "ar": "مثال من حياتك",
+     "en": "An example from your life"
+    },
+    {
+     "ar": "خاتمة",
+     "en": "A conclusion"
+    }
+   ],
+   "model": "Ich finde, dass eine Ausbildung für viele junge Leute eine sehr gute Wahl ist. Man lernt einen Beruf direkt in der Praxis und verdient schon Geld. Außerdem kann man später immer noch studieren, wenn man möchte. In Marokko studieren fast alle nach dem Abitur, aber viele finden danach keine Arbeit, weil ihnen die Praxis fehlt. Trotzdem sollte jeder selbst entscheiden, denn nicht alle Berufe kann man mit einer Ausbildung lernen. Für mich ist die Ausbildung als Fachinformatiker der richtige Weg."
+  },
+  {
+   "id": "b1-schreiben-3",
+   "level": "b1",
+   "skill": "schreiben",
+   "title": {
+    "ar": "Schreiben B1 Teil 3: رسالة رسمية",
+    "en": "Schreiben B1 part 3: formal message"
+   },
+   "instr": {
+    "ar": "اكتب رسالة قصيرة (~40 كلمة) في 15 دقيقة.",
+    "en": "Write a short message (~40 words) in 15 minutes."
+   },
+   "prompt": "Sie können am Montag nicht zu Ihrem Deutschkurs kommen. Schreiben Sie Ihrer Kursleiterin, Frau Müller: Entschuldigen Sie sich und erklären Sie den Grund.",
+   "minWords": 40,
+   "checklist": [
+    {
+     "ar": "Sehr geehrte Frau Müller,",
+     "en": "Sehr geehrte Frau Müller,"
+    },
+    {
+     "ar": "اعتذار + السبب",
+     "en": "Apology + reason"
+    },
+    {
+     "ar": "اقتراح أو سؤال (المهام؟)",
+     "en": "A suggestion or question (homework?)"
+    },
+    {
+     "ar": "Mit freundlichen Grüßen",
+     "en": "Mit freundlichen Grüßen"
+    }
+   ],
+   "model": "Sehr geehrte Frau Müller,\nleider kann ich am Montag nicht zum Kurs kommen, weil ich ein Vorstellungsgespräch in einer IT-Firma habe. Das tut mir sehr leid. Könnten Sie mir bitte die Hausaufgaben per E-Mail schicken?\nMit freundlichen Grüßen\nMohamed"
+  },
+  {
+   "id": "b1-sprechen",
+   "level": "b1",
+   "skill": "sprechen",
+   "title": {
+    "ar": "Sprechen B1 Teil 2: عرض",
+    "en": "Sprechen B1 part 2: presentation"
+   },
+   "instr": {
+    "ar": "حضّر 3 دقائق عن الموضوع وسجّل نفسك.",
+    "en": "Prepare a 3-minute talk and record yourself."
+   },
+   "prompt": "Thema: „Sollte man in der Freizeit das Handy ausschalten?“ – 1. Thema vorstellen 2. Eigene Erfahrung 3. Situation in Ihrem Heimatland 4. Vor- und Nachteile 5. Abschluss und Dank",
+   "minWords": 0,
+   "checklist": [
+    {
+     "ar": "الشرائح الخمس بالترتيب",
+     "en": "All five slides in order"
+    },
+    {
+     "ar": "تجربة شخصية",
+     "en": "A personal experience"
+    },
+    {
+     "ar": "مقارنة مع المغرب",
+     "en": "Comparison with Morocco"
+    },
+    {
+     "ar": "3 دقائق دون توقف طويل",
+     "en": "3 minutes without long pauses"
+    }
+   ],
+   "model": ""
+  },
+  {
+   "id": "b2-lesen",
+   "level": "b2",
+   "skill": "lesen",
+   "title": {
+    "ar": "Lesen B2: مقال رأي",
+    "en": "Lesen B2: opinion article"
+   },
+   "instr": {
+    "ar": "اقرأ وأجب.",
+    "en": "Read and answer."
+   },
+   "text": "Künstliche Intelligenz verändert die Softwareentwicklung grundlegend. Während Programmierer früher einen Großteil ihrer Zeit mit Routineaufgaben verbrachten, übernehmen heute KI-Werkzeuge das Schreiben einfacher Funktionen. Kritiker befürchten, dass Berufseinsteiger dadurch weniger lernen. Befürworter hingegen betonen, dass gerade Auszubildende von der Technologie profitieren könnten, sofern sie verstehen, was die Werkzeuge vorschlagen. Entscheidend sei daher nicht die Frage, ob KI eingesetzt werde, sondern wie verantwortungsvoll dies geschehe.",
+   "items": [
+    {
+     "q": "Was befürchten Kritiker?",
+     "options": [
+      "Berufseinsteiger lernen weniger.",
+      "KI ist zu teuer.",
+      "Programmierer verdienen mehr."
+     ],
+     "answer": "Berufseinsteiger lernen weniger."
+    },
+    {
+     "q": "Unter welcher Bedingung profitieren Auszubildende?",
+     "options": [
+      "wenn sie die Vorschläge verstehen",
+      "wenn sie keine KI nutzen",
+      "wenn sie mehr Routineaufgaben machen"
+     ],
+     "answer": "wenn sie die Vorschläge verstehen"
+    },
+    {
+     "q": "Was ist laut Text entscheidend?",
+     "options": [
+      "wie verantwortungsvoll KI eingesetzt wird",
+      "ob KI eingesetzt wird",
+      "wie schnell KI ist"
+     ],
+     "answer": "wie verantwortungsvoll KI eingesetzt wird"
+    }
+   ]
+  },
+  {
+   "id": "b2-hoeren",
+   "level": "b2",
+   "skill": "hoeren",
+   "title": {
+    "ar": "Hören B2: تقرير إذاعي",
+    "en": "Hören B2: radio report"
+   },
+   "instr": {
+    "ar": "استمع مرة واحدة فقط.",
+    "en": "Listen once only."
+   },
+   "text": "Immer mehr Unternehmen in Deutschland suchen Auszubildende im Ausland. Laut einer aktuellen Umfrage konnten im vergangenen Jahr rund ein Drittel der Betriebe nicht alle Ausbildungsplätze besetzen. Besonders betroffen sind das Handwerk, die Pflege und die IT-Branche. Viele Firmen bieten deshalb Sprachkurse an und helfen bei der Wohnungssuche. Experten raten Bewerbern aus dem Ausland, sich mindestens ein Jahr vor Ausbildungsbeginn zu bewerben.",
+   "items": [
+    {
+     "q": "Wie viele Betriebe konnten nicht alle Plätze besetzen?",
+     "options": [
+      "etwa ein Drittel",
+      "die Hälfte",
+      "fast alle"
+     ],
+     "answer": "etwa ein Drittel"
+    },
+    {
+     "q": "Welche Branche wird genannt?",
+     "options": [
+      "IT",
+      "Tourismus",
+      "Banken"
+     ],
+     "answer": "IT"
+    },
+    {
+     "q": "Wann sollte man sich bewerben?",
+     "options": [
+      "ein Jahr vorher",
+      "einen Monat vorher",
+      "nach der Ankunft"
+     ],
+     "answer": "ein Jahr vorher"
+    }
+   ]
+  },
+  {
+   "id": "b2-schreiben",
+   "level": "b2",
+   "skill": "schreiben",
+   "title": {
+    "ar": "Schreiben B2 Teil 1: مشاركة منتدى",
+    "en": "Schreiben B2 part 1: forum post"
+   },
+   "instr": {
+    "ar": "اكتب ~150 كلمة في 50 دقيقة.",
+    "en": "Write ~150 words in 50 minutes."
+   },
+   "prompt": "Forum „Arbeit der Zukunft“: Sollten Auszubildende im ersten Jahr im Homeoffice arbeiten dürfen? Äußern Sie Ihre Meinung, nennen Sie Vor- und Nachteile und machen Sie einen Vorschlag.",
+   "minWords": 150,
+   "checklist": [
+    {
+     "ar": "مقدمة للموضوع",
+     "en": "Introduce the topic"
+    },
+    {
+     "ar": "إيجابيات وسلبيات",
+     "en": "Pros and cons"
+    },
+    {
+     "ar": "رأيك مع تبرير",
+     "en": "Your opinion with reasons"
+    },
+    {
+     "ar": "اقتراح عملي",
+     "en": "A practical suggestion"
+    },
+    {
+     "ar": "روابط B2 (zwar … aber، dennoch)",
+     "en": "B2 connectors (zwar … aber, dennoch)"
+    }
+   ],
+   "model": "Die Frage, ob Auszubildende schon im ersten Jahr im Homeoffice arbeiten sollten, wird in vielen Betrieben diskutiert. Einerseits spart man Fahrzeit und kann konzentriert arbeiten. Gerade in der IT ist das technisch problemlos möglich. Andererseits lernt man als Berufseinsteiger sehr viel durch den direkten Kontakt mit Kollegen: Man kann schnell Fragen stellen und sieht, wie Probleme im Team gelöst werden. Zwar gibt es Videokonferenzen, dennoch ersetzen sie das persönliche Gespräch nicht vollständig. Aus meiner Sicht sollte das erste Ausbildungsjahr überwiegend im Büro stattfinden. Ich schlage deshalb vor, dass Auszubildende zunächst einen Tag pro Woche zu Hause arbeiten dürfen und dieser Anteil später steigt, wenn sie selbstständiger geworden sind."
+  },
+  {
+   "id": "b2-sprechen",
+   "level": "b2",
+   "skill": "sprechen",
+   "title": {
+    "ar": "Sprechen B2 Teil 1: عرض 4 دقائق",
+    "en": "Sprechen B2 part 1: 4-minute talk"
+   },
+   "instr": {
+    "ar": "حضّر 15 دقيقة ثم تكلّم 4 دقائق وسجّل.",
+    "en": "Prepare 15 minutes, speak 4 minutes, record."
+   },
+   "prompt": "Thema: „Lebenslanges Lernen – notwendig oder überbewertet?“ Stellen Sie verschiedene Positionen vor, nennen Sie Vor- und Nachteile, Ihre Meinung und Beispiele.",
+   "minWords": 0,
+   "checklist": [
+    {
+     "ar": "بنية واضحة: مقدمة – عرض – خاتمة",
+     "en": "Clear structure: intro – body – conclusion"
+    },
+    {
+     "ar": "موقفان مختلفان",
+     "en": "Two different positions"
+    },
+    {
+     "ar": "رأيك + مثال",
+     "en": "Your opinion + an example"
+    },
+    {
+     "ar": "4 دقائق",
+     "en": "4 minutes"
+    }
+   ],
+   "model": ""
+  }
+ ]
+}

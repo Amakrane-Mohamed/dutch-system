@@ -1,0 +1,39 @@
+{
+  "name": "rihla-deutsch",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint src",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "app": "npm run build && electron .",
+    "app:dev": "node scripts/app-dev.mjs",
+    "icons": "node scripts/make-icons.mjs",
+    "package:mac": "npm run build && node scripts/package-mac.mjs",
+    "smoke:app": "npm run build && electron scripts/smoke-electron.cjs write && electron scripts/smoke-electron.cjs read"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "electron": "^45.3.0",
+    "oxlint": "^1.90.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
+  },
+  "main": "electron/main.cjs",
+  "description": "Rihla · رحلة — German A1→B2 through Arabic, for an Ausbildung in Germany",
+  "author": "Mohamed"
+}

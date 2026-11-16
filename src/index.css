@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@font-face { font-family: "Alexandria"; src: url("/fonts/Alexandria.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Fraunces"; src: url("/fonts/Fraunces.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Noto Naskh Arabic"; src: url("/fonts/NotoNaskhArabic.woff2") format("woff2"); font-weight: 400 700; font-display: swap; }
+
+/* Rihla · رحلة — ink navy, saffron gold, terracotta, zellige teal, Majorelle blue on cream paper. */
+@theme {
+  --color-ink: #0E1A3A;
+  --color-ink-2: #1C2B5A;
+  --color-ink-3: #33437A;
+  --color-saffron: #E3A72F;
+  --color-saffron-soft: #F7E7C2;
+  --color-saffron-deep: #B57F12;
+  --color-terra: #C8553D;
+  --color-terra-soft: #F4D9D0;
+  --color-zellige: #12756B;
+  --color-zellige-soft: #D3EAE5;
+  --color-majorelle: #2F4BCE;
+  --color-majorelle-soft: #DCE2FA;
+  --color-paper: #F6F0E4;
+  --color-paper-2: #FBF8F1;
+  --color-sand: #EADFC8;
+  --color-sand-2: #D9C9A8;
+  --color-mute: #6B6455;
+  --font-sans: "Alexandria", "Noto Naskh Arabic", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-naskh: "Noto Naskh Arabic", "Alexandria", serif;
+  --animate-rise: rise 0.5s cubic-bezier(.2,.8,.2,1) both;
+  --animate-pop: pop 0.45s cubic-bezier(.2,1.4,.4,1) both;
+  --animate-flicker: flicker 1.6s ease-in-out infinite;
+  --animate-float: float 3.5s ease-in-out infinite;
+  @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+  @keyframes pop { 0% { transform: scale(.6); opacity: 0 } 100% { transform: scale(1); opacity: 1 } }
+  @keyframes flicker { 0%,100% { transform: scale(1) rotate(-2deg) } 50% { transform: scale(1.08) rotate(2deg) } }
+  @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-4px) } }
+}
+
+html, body, #root { min-height: 100%; }
+body { @apply bg-paper text-ink antialiased; font-feature-settings: "kern"; -webkit-tap-highlight-color: transparent; }
+::selection { background: #F7E7C2; }
+
+/* German is always LTR, even inside Arabic paragraphs. */
+.de { direction: ltr; unicode-bidi: isolate; font-family: var(--font-sans); }
+.display { font-family: var(--font-display); font-variation-settings: "SOFT" 50, "WONK" 0; letter-spacing: -0.01em; }
+.naskh { font-family: var(--font-naskh); line-height: 1.95; }
+[dir="rtl"] .flip-rtl { transform: scaleX(-1); }
+
+/* Subtle zellige pattern: 8-point khatam stars on a grid. */
+.zellige-bg {
+  background-color: var(--color-ink);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23E3A72F' stroke-opacity='.13' stroke-width='1'%3E%3Cpath d='M28 8l5.9 14.1L48 28l-14.1 5.9L28 48l-5.9-14.1L8 28l14.1-5.9z'/%3E%3Cpath d='M14 14h28v28H14z' transform='rotate(45 28 28)'/%3E%3Cpath d='M14 14h28v28H14z'/%3E%3Ccircle cx='0' cy='0' r='6'/%3E%3Ccircle cx='56' cy='0' r='6'/%3E%3Ccircle cx='0' cy='56' r='6'/%3E%3Ccircle cx='56' cy='56' r='6'/%3E%3C/g%3E%3C/svg%3E");
+}
+.zellige-light {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%230E1A3A' stroke-opacity='.05' stroke-width='1'%3E%3Cpath d='M14 14h28v28H14z' transform='rotate(45 28 28)'/%3E%3Cpath d='M14 14h28v28H14z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.card { @apply rounded-2xl bg-paper-2 ring-1 ring-sand shadow-[0_1px_0_#EADFC8,0_8px_24px_-16px_rgba(14,26,58,.25)]; }
+.hairline { @apply border-sand; }
+.scroll-thin::-webkit-scrollbar { width: 8px; height: 8px }
+.scroll-thin::-webkit-scrollbar-thumb { background: #D9C9A8; border-radius: 8px }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+/* ---------- macOS desktop app (Electron, hiddenInset title bar) ---------- */
+.mac-desktop header { -webkit-app-region: drag; }
+.mac-desktop header a, .mac-desktop header button, .mac-desktop header input { -webkit-app-region: no-drag; }
+/* Arabic (RTL): the traffic lights sit over the top bar's left edge */
+.mac-desktop[dir='rtl'] header > div { padding-left: 96px; }
+/* English (LTR): they sit over the sidebar's top-left corner */
+.mac-desktop[dir='ltr'] aside { padding-top: 52px; }
+.desktop { -webkit-user-select: none; user-select: none; }
+.desktop input, .desktop textarea, .desktop [contenteditable], .desktop .de, .desktop p, .desktop td { -webkit-user-select: text; user-select: text; }

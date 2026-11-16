@@ -1,0 +1,5426 @@
+[
+ {
+  "id": "sounds",
+  "order": 1,
+  "level": "A1",
+  "title": {
+   "ar": "النطق الألماني للناطقين بالعربية",
+   "en": "German sounds for Arabic speakers"
+  },
+  "titleDe": "Die Aussprache",
+  "minutes": 30,
+  "summary": {
+   "ar": "الأصوات السهلة عليك (ch = خ، r، h) والأصوات التي تحتاج تدريبًا (ü، ö، ich، p)، وقاعدة الحروف المتحركة الطويلة والقصيرة.",
+   "en": "The sounds that are easy for you (ch = خ, r, h) and the ones to drill (ü, ö, ich, p), plus long and short vowels."
+  },
+  "resources": [
+   "badr",
+   "shehata",
+   "lingoni"
+  ],
+  "videos": [
+   "TNwopLJMmSw",
+   "Mr97reuPZ34",
+   "hEzHhX8GeqQ",
+   "1rnPFloFiX0"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "الخبر الجيد أولًا: في الألمانية أصوات يصعب على الأوروبيين نطقها، لكنها **موجودة عندك أصلًا** في العربية والدارجة، مثل **ch = خ** في **Bach** و**Buch**. أما الأصوات الصعبة عليك فهي **ü** و**ö** و**ch** الناعمة في **ich** وحرف **p**. اضغط على أي كلمة ألمانية لتسمعها.",
+     "en": "Good news first: German has sounds Europeans struggle with but **you already have** from Arabic and Darija, like **ch = خ** in **Bach** and **Buch**. The hard ones for you are **ü**, **ö**, the soft **ch** in **ich**, and **p**. Tap any German word to hear it."
+    }
+   },
+   {
+    "type": "sounds",
+    "title": {
+     "ar": "أصوات تعرفها مسبقًا",
+     "en": "Your advantage"
+    },
+    "items": [
+     {
+      "de": "Bach, Buch, acht",
+      "ar": "خ",
+      "tip": {
+       "ar": "بعد **a, o, u, au** تُنطق **ch** مثل الخاء تمامًا: Buch = «بوخ».",
+       "en": "After **a, o, u, au**, **ch** is exactly خ: Buch = \"bookh\"."
+      }
+     },
+     {
+      "de": "rot, Reis, Brot",
+      "ar": "ر / غ",
+      "tip": {
+       "ar": "**r** الألمانية تُنطق من الحلق وتشبه **غ** خفيفة. الراء المغربية مفهومة أيضًا، لكن جرّب الغين الخفيفة.",
+       "en": "German **r** is made in the throat, close to a light **غ**. A Moroccan rolled r is understood, but try the light غ."
+      }
+     },
+     {
+      "de": "Haus, Hund",
+      "ar": "هـ",
+      "tip": {
+       "ar": "**h** في أول الكلمة تُنطق دائمًا مثل الهاء.",
+       "en": "**h** at the start of a word is always pronounced, like ه."
+      }
+     },
+     {
+      "de": "ja, Jahr",
+      "ar": "ي",
+      "tip": {
+       "ar": "**j** تُنطق مثل الياء: ja = «يا».",
+       "en": "**j** sounds like ي: ja = \"ya\"."
+      }
+     },
+     {
+      "de": "Wasser, wie",
+      "ar": "ڤ",
+      "tip": {
+       "ar": "**w** تُنطق مثل **ڤ** (v)، وليست واوًا: Wasser = «ڤاسر».",
+       "en": "**w** sounds like English v, never like و: Wasser = \"vasser\"."
+      }
+     }
+    ]
+   },
+   {
+    "type": "sounds",
+    "title": {
+     "ar": "أصوات تحتاج تدريبًا",
+     "en": "Drill these"
+    },
+    "items": [
+     {
+      "de": "ich, Milch, Mädchen",
+      "ar": "≠ خ ≠ ش",
+      "tip": {
+       "ar": "بعد **e, i, ä, ö, ü** وبعد الحروف الساكنة تصبح **ch** صوتًا ناعمًا بين **ش** و**هـ**: ضع لسانك كما في الياء وأخرج الهواء. **ich** ليست «إيخ» ولا «إيش».",
+       "en": "After **e, i, ä, ö, ü** and consonants, **ch** is a soft hiss between ش and ه: put your tongue as for ي and blow. **ich** is neither \"ikh\" nor \"ish\"."
+      }
+     },
+     {
+      "de": "ü: Tür, müde, Übung",
+      "ar": "—",
+      "tip": {
+       "ar": "قل **i** (ي) ثم دوّر شفتيك كأنك تقول **u**، دون أن يتحرك لسانك. مثل **u** الفرنسية في *tu*. خطأ شائع عند المغاربة: Tür ← «تير».",
+       "en": "Say **i** then round your lips as for **u**, tongue still. Like French *tu*. Common Moroccan mistake: Tür → \"Tir\"."
+      }
+     },
+     {
+      "de": "ö: schön, Köln, hören",
+      "ar": "—",
+      "tip": {
+       "ar": "قل **e** ثم دوّر شفتيك. مثل **eu** الفرنسية في *peu*.",
+       "en": "Say **e** then round your lips. Like French *peu*."
+      }
+     },
+     {
+      "de": "p: Paket, Papier, Pause",
+      "ar": "ب ≠ p",
+      "tip": {
+       "ar": "العربية ليس فيها **p**. أغلق شفتيك وأطلق الهواء بقوة بلا صوت في الحنجرة. ضع ورقة أمام فمك: يجب أن تتحرك مع **p** ولا تتحرك مع **b**.",
+       "en": "Arabic has no **p**. Close your lips and release a puff of air with no voice. A paper in front of your mouth should move for p, not for b."
+      }
+     },
+     {
+      "de": "ei / ie: mein, Wien",
+      "ar": "آي / إي",
+      "tip": {
+       "ar": "**ei** = «آي» (mein = «ماين») و**ie** = ياء طويلة (Wien = «ڤين»). اقرأ الحرف الثاني!",
+       "en": "**ei** = \"eye\" (mein) and **ie** = long ee (Wien). Read the second letter!"
+      }
+     },
+     {
+      "de": "v: Vater, viel",
+      "ar": "ف",
+      "tip": {
+       "ar": "**v** في الكلمات الألمانية الأصلية تُنطق **ف**: Vater = «فاتر».",
+       "en": "In native German words **v** is **f**: Vater = \"fater\"."
+      }
+     },
+     {
+      "de": "z: Zeit, zehn",
+      "ar": "تس",
+      "tip": {
+       "ar": "**z** = «تس»: zehn = «تسين». ليست زايًا!",
+       "en": "**z** = \"ts\": zehn = \"tsehn\". Never like English z!"
+      }
+     },
+     {
+      "de": "s + Vokal: Sonne, sehr",
+      "ar": "ز",
+      "tip": {
+       "ar": "**s** قبل حرف متحرك تُنطق **ز**: Sonne = «زونه». و**sch** = ش، و**st/sp** في أول الكلمة = «شت/شب».",
+       "en": "**s** before a vowel is **z**: Sonne = \"zonne\". **sch** = ش, and **st/sp** at the start = \"sht/shp\"."
+      }
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "md": {
+     "ar": "### القاعدة الذهبية للحروف المتحركة\nالحرف المتحرك **طويل** إذا جاء بعده حرف ساكن واحد أو **h** أو كُتب مضاعفًا: **Tag، Sohn، Boot**. ويكون **قصيرًا** إذا جاء بعده حرفان ساكنان: **Mann، Bett، kommen**.\n\nفكّر فيها كالعربية: الفتحة القصيرة مقابل الألف الممدودة. **Stadt** (قصير) ≈ «شتَت»، **Staat** (طويل) ≈ «شتات».",
+     "en": "### The golden vowel rule\nA vowel is **long** before one consonant, before **h**, or when doubled: **Tag, Sohn, Boot**. It is **short** before two consonants: **Mann, Bett, kommen**.\n\nThink of Arabic: short fatha vs long alif. **Stadt** (short) vs **Staat** (long)."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Das Buch ist gut.",
+      "ar": "الكتاب جيد.",
+      "en": "The book is good.",
+      "dar": "Lktab mzyan."
+     },
+     {
+      "de": "Ich trinke Milch.",
+      "ar": "أنا أشرب الحليب.",
+      "en": "I drink milk.",
+      "dar": "Ana kanchrab l7lib."
+     },
+     {
+      "de": "Die Tür ist offen.",
+      "ar": "الباب مفتوح.",
+      "en": "The door is open."
+     },
+     {
+      "de": "Köln ist schön.",
+      "ar": "كولونيا جميلة.",
+      "en": "Cologne is beautiful."
+     },
+     {
+      "de": "Das Paket ist hier.",
+      "ar": "الطرد هنا.",
+      "en": "The parcel is here."
+     },
+     {
+      "de": "Wie viel Zeit hast du?",
+      "ar": "كم لديك من الوقت؟",
+      "en": "How much time do you have?",
+      "dar": "Ch7al 3ndk dyal lwaqt?"
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "تمرين يومي (5 دقائق): اقرأ هذه الأزواج بصوت عالٍ وسجّل نفسك: **ich / ach**، **Tier / Tür**، **lesen / lösen**، **Bein / Pein**. ثم استمع إلى نطق التطبيق وقارن. قناة **German with Badr** تشرح هذه الأخطاء بالدارجة.",
+     "en": "Daily drill (5 minutes): read these pairs aloud and record yourself: **ich / ach**, **Tier / Tür**, **lesen / lösen**, **Bein / Pein**. Compare with the app audio. **German with Badr** explains these mistakes in Darija."
+    }
+   }
+  ],
+  "vocab": [
+   "acht",
+   "gut",
+   "schön",
+   "müde",
+   "die-Milch",
+   "die-Tür",
+   "das-Buch"
+  ],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي حرف عربي هو الأقرب إلى ch في كلمة Buch؟",
+     "en": "Which Arabic letter is closest to \"ch\" in \"Buch\"?"
+    },
+    "options": [
+     "خ",
+     "ش",
+     "ك",
+     "ح"
+    ],
+    "answer": "خ",
+    "explain": {
+     "ar": "بعد u تُنطق ch خاءً.",
+     "en": "After u, ch = خ."
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "كيف تُنطق ch في كلمة ich؟",
+     "en": "How is \"ch\" in \"ich\" pronounced?"
+    },
+    "options": [
+     {
+      "ar": "صوت ناعم بين ش و هـ",
+      "en": "a soft hiss between ش and ه"
+     },
+     {
+      "ar": "مثل خ تمامًا",
+      "en": "exactly like خ"
+     },
+     {
+      "ar": "مثل ك",
+      "en": "like k"
+     },
+     {
+      "ar": "مثل تش",
+      "en": "like ch in \"chair\""
+     }
+    ],
+    "answer": {
+     "ar": "صوت ناعم بين ش و هـ",
+     "en": "a soft hiss between ش and ه"
+    },
+    "explain": {
+     "ar": "بعد i تكون ch ناعمة.",
+     "en": "After i, ch is soft."
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي كلمة فيها حرف متحرك طويل؟",
+     "en": "Which word has a LONG vowel?"
+    },
+    "options": [
+     "Tag",
+     "Mann",
+     "Bett",
+     "kommen"
+    ],
+    "answer": "Tag",
+    "explain": {
+     "ar": "حرف ساكن واحد بعد a = طويل.",
+     "en": "One consonant after a = long."
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "كيف يُنطق الحرف z في zehn؟",
+     "en": "How is \"z\" in \"zehn\" pronounced?"
+    },
+    "options": [
+     "ts",
+     "z",
+     "s",
+     "dz"
+    ],
+    "answer": "ts"
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "كيف تُنطق w في Wasser؟",
+     "en": "How is \"w\" in \"Wasser\" pronounced?"
+    },
+    "options": [
+     {
+      "ar": "مثل v (ڤ)",
+      "en": "like v"
+     },
+     {
+      "ar": "مثل الواو",
+      "en": "like w in \"water\""
+     },
+     {
+      "ar": "مثل f",
+      "en": "like f"
+     },
+     {
+      "ar": "لا تُنطق",
+      "en": "silent"
+     }
+    ],
+    "answer": {
+     "ar": "مثل v (ڤ)",
+     "en": "like v"
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "ما الفرق بين Tier و Tür؟",
+     "en": "What is the difference between \"Tier\" and \"Tür\"?"
+    },
+    "options": [
+     {
+      "ar": "في Tür نستدير الشفتين (ü)",
+      "en": "in Tür the lips are rounded (ü)"
+     },
+     {
+      "ar": "لا فرق",
+      "en": "no difference"
+     },
+     {
+      "ar": "Tür أطول فقط",
+      "en": "Tür is just longer"
+     },
+     {
+      "ar": "Tier فيها خاء",
+      "en": "Tier has خ"
+     }
+    ],
+    "answer": {
+     "ar": "في Tür نستدير الشفتين (ü)",
+     "en": "in Tür the lips are rounded (ü)"
+    },
+    "explain": {
+     "ar": "Tier = حيوان، Tür = باب.",
+     "en": "Tier = animal, Tür = door."
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "كلمة mein تُنطق…",
+     "en": "\"mein\" is pronounced…"
+    },
+    "options": [
+     {
+      "ar": "ماين",
+      "en": "\"mine\""
+     },
+     {
+      "ar": "مين",
+      "en": "\"meen\""
+     },
+     {
+      "ar": "مَين",
+      "en": "\"mane\""
+     },
+     {
+      "ar": "مُن",
+      "en": "\"moon\""
+     }
+    ],
+    "answer": {
+     "ar": "ماين",
+     "en": "\"mine\""
+    },
+    "explain": {
+     "ar": "ei = آي.",
+     "en": "ei = \"eye\"."
+    }
+   }
+  ]
+ },
+ {
+  "id": "greetings",
+  "order": 2,
+  "level": "A1",
+  "title": {
+   "ar": "التحية والكلمات المهذبة",
+   "en": "Greetings and polite words"
+  },
+  "titleDe": "Hallo! Wie geht’s?",
+  "minutes": 20,
+  "summary": {
+   "ar": "قل مرحبًا ووداعًا في كل وقت، واسأل عن الحال، واستخدم شكرًا ومن فضلك، وافهم الفرق بين du و Sie.",
+   "en": "Say hello and goodbye at any time of day, ask how someone is, use please and thank you, and the du/Sie difference."
+  },
+  "resources": [
+   "nicosweg",
+   "easygerman"
+  ],
+  "videos": [
+   "ZzihdFwAqUU",
+   "aRlakaPVrEw",
+   "pTuQAnn_xlc"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "في الألمانية طريقتان لقول «أنت»: **du** (غير رسمي) و**Sie** (رسمي، دائمًا بحرف S كبير). استخدم **Sie** مع الموظفين والمدراء وكبار السن وفي **مقابلة العمل** وفي كل رسائل **Bewerbung**. واستخدم **du** مع الأصدقاء والعائلة والأطفال، وغالبًا مع الزملاء في Ausbildung بعد أن يعرضوا عليك ذلك.",
+     "en": "German has two words for \"you\": **du** (informal) and **Sie** (formal, always capital S). Use **Sie** with officials, managers, older people, in a **job interview** and in every **application**. Use **du** with friends, family, children, and usually colleagues once they offer it."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Hallo!",
+      "ar": "مرحبًا!",
+      "en": "Hello!",
+      "dar": "Salam!"
+     },
+     {
+      "de": "Guten Morgen!",
+      "ar": "صباح الخير!",
+      "en": "Good morning!",
+      "dar": "Sbah lkhir!"
+     },
+     {
+      "de": "Guten Tag!",
+      "ar": "نهارك سعيد! (تحية رسمية في النهار)",
+      "en": "Good day! (formal, daytime)"
+     },
+     {
+      "de": "Guten Abend!",
+      "ar": "مساء الخير!",
+      "en": "Good evening!",
+      "dar": "Msa lkhir!"
+     },
+     {
+      "de": "Wie geht es dir?",
+      "ar": "كيف حالك؟ (غير رسمي)",
+      "en": "How are you? (informal)",
+      "dar": "Labas 3lik? / Kidayr?"
+     },
+     {
+      "de": "Wie geht es Ihnen?",
+      "ar": "كيف حالك؟ (رسمي)",
+      "en": "How are you? (formal)"
+     },
+     {
+      "de": "Gut, danke. Und dir?",
+      "ar": "بخير، شكرًا. وأنت؟",
+      "en": "Good, thanks. And you?",
+      "dar": "Labas, l7amdulillah. W nta?"
+     },
+     {
+      "de": "Danke schön!",
+      "ar": "شكرًا جزيلًا!",
+      "en": "Thank you very much!",
+      "dar": "Choukran bzaf!"
+     },
+     {
+      "de": "Bitte schön!",
+      "ar": "عفوًا! / تفضّل!",
+      "en": "You're welcome! / Here you are!"
+     },
+     {
+      "de": "Entschuldigung!",
+      "ar": "عذرًا! / آسف!",
+      "en": "Excuse me! / Sorry!",
+      "dar": "Smeh lia!"
+     },
+     {
+      "de": "Auf Wiedersehen!",
+      "ar": "إلى اللقاء! (رسمي)",
+      "en": "Goodbye! (formal)",
+      "dar": "Bslama!"
+     },
+     {
+      "de": "Tschüss!",
+      "ar": "مع السلامة! (غير رسمي)",
+      "en": "Bye! (informal)",
+      "dar": "Bslama!"
+     },
+     {
+      "de": "Bis morgen!",
+      "ar": "إلى الغد!",
+      "en": "See you tomorrow!",
+      "dar": "Ntlaqaw ghedda!"
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "**Bitte** كلمة سحرية: تعني «من فضلك» و«عفوًا» (ردًّا على danke) و«تفضّل» عند إعطاء شيء، و**Bitte?** = «نعم؟ ماذا قلت؟». في ألمانيا تُقال كثيرًا، فاستخدمها دائمًا.",
+     "en": "**Bitte** is magic: \"please\", \"you're welcome\" (after danke), \"here you are\", and **Bitte?** = \"Sorry, what did you say?\". Germans use it constantly."
+    }
+   }
+  ],
+  "vocab": [
+   "Hallo",
+   "Guten-Morgen",
+   "Guten-Tag",
+   "Guten-Abend",
+   "Danke",
+   "Bitte",
+   "Entschuldigung",
+   "Tschüss",
+   "Auf-Wiedersehen",
+   "Bis-morgen"
+  ],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": {
+     "ar": "الساعة 8 صباحًا. ماذا تقول؟",
+     "en": "It's 8 am. What do you say?"
+    },
+    "options": [
+     "Guten Morgen!",
+     "Guten Abend!",
+     "Gute Nacht!",
+     "Tschüss!"
+    ],
+    "answer": "Guten Morgen!"
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أنت في مقابلة عمل. كيف تسأل عن الحال؟",
+     "en": "You are in a job interview. How do you ask how someone is?"
+    },
+    "options": [
+     "Wie geht es Ihnen?",
+     "Wie geht es dir?",
+     "Na, alles gut?",
+     "Und dir?"
+    ],
+    "answer": "Wie geht es Ihnen?",
+    "explain": {
+     "ar": "في المقابلة نستعمل Sie → Ihnen.",
+     "en": "Interviews use Sie → Ihnen."
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "شخص يقول لك Danke! بماذا تجيب؟",
+     "en": "Someone says \"Danke!\". You answer…"
+    },
+    "options": [
+     "Bitte!",
+     "Danke!",
+     "Tschüss!",
+     "Hallo!"
+    ],
+    "answer": "Bitte!"
+   },
+   {
+    "type": "fill",
+    "q": "Gut, danke. ___ dir?",
+    "answers": [
+     "Und"
+    ],
+    "hint": {
+     "ar": "وأنت؟",
+     "en": "And you?"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Auf ___!",
+    "answers": [
+     "Wiedersehen"
+    ],
+    "hint": {
+     "ar": "إلى اللقاء (رسمي)",
+     "en": "Goodbye (formal)"
+    }
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "كيف حالك؟ (غير رسمي)",
+     "en": "How are you? (informal)"
+    },
+    "words": [
+     "Wie",
+     "geht",
+     "es",
+     "dir",
+     "?"
+    ],
+    "answers": [
+     "Wie geht es dir ?",
+     "Wie geht es dir?"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي تحية رسمية تصلح طوال النهار؟",
+     "en": "Which formal greeting works all day?"
+    },
+    "options": [
+     "Guten Tag!",
+     "Hallo!",
+     "Tschüss!",
+     "Gute Nacht!"
+    ],
+    "answer": "Guten Tag!"
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "شكرًا جزيلًا!",
+     "en": "Thank you very much!"
+    },
+    "answers": [
+     "Danke schön!",
+     "Vielen Dank!",
+     "Danke schön",
+     "Vielen Dank",
+     "Danke sehr!"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "introduce",
+  "order": 3,
+  "level": "A1",
+  "title": {
+   "ar": "قدّم نفسك",
+   "en": "Introduce yourself"
+  },
+  "titleDe": "Sich vorstellen",
+  "minutes": 25,
+  "summary": {
+   "ar": "الاسم، البلد، المدينة، اللغات، المهنة: أول حديث لك بالألمانية، وهو أيضًا الجزء الأول من امتحان Goethe A1.",
+   "en": "Name, country, city, languages, job: your first German conversation, also part 1 of the Goethe A1 exam."
+  },
+  "resources": [
+   "nicosweg",
+   "shehata"
+  ],
+  "videos": [
+   "GwiwHZT0s-g",
+   "PdcTJh0FpYA",
+   "MgenU0GTz4g",
+   "WZYPvOpmZa8"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "هذه الجمل الخمس ستستعملها مئات المرات: في الدرس، في امتحان Goethe A1 (Sprechen Teil 1)، وفي أول دقيقة من مقابلة Ausbildung. لاحظ أن الفعل يأتي دائمًا **في المكان الثاني**.",
+     "en": "You will use these five sentences hundreds of times: in class, in Goethe A1 Speaking part 1, and in the first minute of an Ausbildung interview. Notice the verb is always **in second position**."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich heiße Mohamed.",
+      "ar": "اسمي محمد.",
+      "en": "My name is Mohamed.",
+      "dar": "Smiti Mohamed."
+     },
+     {
+      "de": "Ich komme aus Marokko.",
+      "ar": "أنا من المغرب.",
+      "en": "I come from Morocco.",
+      "dar": "Ana mn lmghrib."
+     },
+     {
+      "de": "Ich wohne in Casablanca.",
+      "ar": "أسكن في الدار البيضاء.",
+      "en": "I live in Casablanca.",
+      "dar": "Kansken f Casa."
+     },
+     {
+      "de": "Ich bin 22 Jahre alt.",
+      "ar": "عمري 22 سنة.",
+      "en": "I am 22 years old.",
+      "dar": "3ndi 22 3am."
+     },
+     {
+      "de": "Ich spreche Arabisch, Englisch und ein bisschen Französisch.",
+      "ar": "أتكلم العربية والإنجليزية وقليلًا من الفرنسية.",
+      "en": "I speak Arabic, English and a little French."
+     },
+     {
+      "de": "Ich bin Entwickler von Beruf.",
+      "ar": "أنا مطوّر برامج بالمهنة.",
+      "en": "I am a developer by profession."
+     },
+     {
+      "de": "Ich lerne Deutsch.",
+      "ar": "أنا أتعلم الألمانية.",
+      "en": "I am learning German.",
+      "dar": "Kant3llem l2almaniya."
+     },
+     {
+      "de": "Wie heißen Sie?",
+      "ar": "ما اسمك؟ (رسمي)",
+      "en": "What is your name? (formal)"
+     },
+     {
+      "de": "Woher kommst du?",
+      "ar": "من أين أنت؟ (غير رسمي)",
+      "en": "Where are you from? (informal)",
+      "dar": "Mnin nta?"
+     }
+    ]
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "السؤال",
+      "en": "Question"
+     },
+     {
+      "ar": "الجواب",
+      "en": "Answer"
+     }
+    ],
+    "rows": [
+     [
+      "Wie heißt du? / Wie heißen Sie?",
+      "Ich heiße …"
+     ],
+     [
+      "Woher kommst du? / Woher kommen Sie?",
+      "Ich komme aus …"
+     ],
+     [
+      "Wo wohnst du? / Wo wohnen Sie?",
+      "Ich wohne in …"
+     ],
+     [
+      "Wie alt bist du? / Wie alt sind Sie?",
+      "Ich bin … Jahre alt."
+     ],
+     [
+      "Welche Sprachen sprichst du?",
+      "Ich spreche …"
+     ],
+     [
+      "Was bist du von Beruf?",
+      "Ich bin … (von Beruf)."
+     ]
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "المهنة **بدون أداة**: Ich bin Entwickler (وليس ein Entwickler). وأسماء معظم الدول بدون أداة: aus Marokko، aus Deutschland. لكن: **aus der Türkei**، **aus der Schweiz**، **aus dem Irak**.",
+     "en": "Jobs take **no article**: Ich bin Entwickler (not ein Entwickler). Most countries too: aus Marokko. But: **aus der Türkei**, **aus der Schweiz**, **aus dem Irak**."
+    }
+   }
+  ],
+  "vocab": [
+   "Marokko",
+   "Deutschland",
+   "Arabisch",
+   "Deutsch",
+   "der-Name",
+   "das-Land",
+   "die-Stadt",
+   "die-Sprache"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Ich ___ Mohamed.",
+    "answers": [
+     "heiße",
+     "bin"
+    ],
+    "hint": {
+     "ar": "اسمي محمد.",
+     "en": "My name is Mohamed."
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Ich komme ___ Marokko.",
+    "answers": [
+     "aus"
+    ],
+    "hint": {
+     "ar": "من (البلد)",
+     "en": "from (country)"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Ich wohne ___ Casablanca.",
+    "answers": [
+     "in"
+    ],
+    "hint": {
+     "ar": "في (المدينة)",
+     "en": "in (city)"
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "اختر الجملة الصحيحة.",
+     "en": "Choose the correct sentence."
+    },
+    "options": [
+     "Ich bin Entwickler.",
+     "Ich bin ein Entwickler von Beruf.",
+     "Ich Entwickler bin.",
+     "Ich habe Entwickler."
+    ],
+    "answer": "Ich bin Entwickler.",
+    "explain": {
+     "ar": "المهنة بدون أداة.",
+     "en": "No article with jobs."
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "السؤال الرسمي عن الاسم:",
+     "en": "Formal question for the name:"
+    },
+    "options": [
+     "Wie heißen Sie?",
+     "Wie heißt du?",
+     "Wer bist du?",
+     "Was heißt du?"
+    ],
+    "answer": "Wie heißen Sie?"
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "أنا من المغرب.",
+     "en": "I come from Morocco."
+    },
+    "words": [
+     "Ich",
+     "komme",
+     "aus",
+     "Marokko",
+     "."
+    ],
+    "answers": [
+     "Ich komme aus Marokko .",
+     "Ich komme aus Marokko."
+    ]
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "عمري 22 سنة.",
+     "en": "I am 22 years old."
+    },
+    "words": [
+     "Ich",
+     "bin",
+     "22",
+     "Jahre",
+     "alt",
+     "."
+    ],
+    "answers": [
+     "Ich bin 22 Jahre alt .",
+     "Ich bin 22 Jahre alt."
+    ]
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "أنا أتعلم الألمانية.",
+     "en": "I am learning German."
+    },
+    "answers": [
+     "Ich lerne Deutsch.",
+     "Ich lerne Deutsch"
+    ]
+   },
+   {
+    "type": "write",
+    "task": {
+     "prompt": {
+      "ar": "قدّم نفسك في 5 جمل: الاسم، البلد، المدينة، المهنة، اللغات.",
+      "en": "Introduce yourself in 5 sentences: name, country, city, job, languages."
+     },
+     "minWords": 20,
+     "checklist": [
+      {
+       "ar": "Ich heiße … + الاسم",
+       "en": "Ich heiße … + name"
+      },
+      {
+       "ar": "Ich komme aus …",
+       "en": "Ich komme aus …"
+      },
+      {
+       "ar": "Ich wohne in …",
+       "en": "Ich wohne in …"
+      },
+      {
+       "ar": "Ich bin … von Beruf (بدون أداة)",
+       "en": "Ich bin … von Beruf (no article)"
+      },
+      {
+       "ar": "Ich spreche … und ich lerne Deutsch.",
+       "en": "Ich spreche … und ich lerne Deutsch."
+      }
+     ],
+     "model": "Hallo, ich heiße Mohamed. Ich komme aus Marokko und wohne in Casablanca. Ich bin 22 Jahre alt. Ich bin Entwickler von Beruf. Ich spreche Arabisch, Englisch und ein bisschen Französisch. Jetzt lerne ich Deutsch."
+    }
+   }
+  ]
+ },
+ {
+  "id": "pronouns",
+  "order": 4,
+  "level": "A1",
+  "title": {
+   "ar": "الضمائر والفعلان sein و haben",
+   "en": "Pronouns, sein and haben"
+  },
+  "titleDe": "ich, du, er … sein und haben",
+  "minutes": 30,
+  "summary": {
+   "ar": "الضمائر الشخصية، وتصريف أهم فعلين في اللغة: sein (يكون) و haben (يملك).",
+   "en": "Subject pronouns and the two most important verbs: sein (to be) and haben (to have)."
+  },
+  "resources": [
+   "shehata",
+   "lingoni"
+  ],
+  "videos": [
+   "PCOqyv2UaMg",
+   "esrRKvkCXbY",
+   "wqw336j-F3E",
+   "tj_YhY2RMxs"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "في العربية نقول «أنا طالب» بلا فعل. في الألمانية **لا بد من فعل**: Ich **bin** Student. والفعل يتغير حسب الضمير، كما في العربية (أكتبُ، تكتبُ، يكتبُ).\n\nانتبه: **sie** لها معنيان: «هي» و«هم/هنّ». و**Sie** بحرف كبير = «حضرتك/حضرتكم» (رسمي). الفعل يوضّح المعنى: sie **ist** (هي) / sie **sind** (هم).",
+     "en": "In Arabic you can say \"I student\" with no verb. German **always needs a verb**: Ich **bin** Student. The verb changes with the pronoun, like Arabic.\n\nCareful: **sie** means both \"she\" and \"they\". **Sie** with a capital = formal \"you\". The verb tells you: sie **ist** (she) / sie **sind** (they)."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "الضمير",
+      "en": "Pronoun"
+     },
+     {
+      "ar": "المعنى",
+      "en": "Meaning"
+     },
+     "sein",
+     "haben"
+    ],
+    "rows": [
+     [
+      "ich",
+      {
+       "ar": "أنا",
+       "en": "I"
+      },
+      "bin",
+      "habe"
+     ],
+     [
+      "du",
+      {
+       "ar": "أنتَ / أنتِ",
+       "en": "you (informal)"
+      },
+      "bist",
+      "hast"
+     ],
+     [
+      "er / sie / es",
+      {
+       "ar": "هو / هي / (لغير العاقل)",
+       "en": "he / she / it"
+      },
+      "ist",
+      "hat"
+     ],
+     [
+      "wir",
+      {
+       "ar": "نحن",
+       "en": "we"
+      },
+      "sind",
+      "haben"
+     ],
+     [
+      "ihr",
+      {
+       "ar": "أنتم",
+       "en": "you (plural)"
+      },
+      "seid",
+      "habt"
+     ],
+     [
+      "sie / Sie",
+      {
+       "ar": "هم / حضرتك",
+       "en": "they / you (formal)"
+      },
+      "sind",
+      "haben"
+     ]
+    ]
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich bin müde.",
+      "ar": "أنا متعب.",
+      "en": "I am tired.",
+      "dar": "Ana 3iyan."
+     },
+     {
+      "de": "Du bist sehr nett.",
+      "ar": "أنت لطيف جدًا.",
+      "en": "You are very nice."
+     },
+     {
+      "de": "Er ist Lehrer.",
+      "ar": "هو معلم.",
+      "en": "He is a teacher."
+     },
+     {
+      "de": "Wir sind aus Marokko.",
+      "ar": "نحن من المغرب.",
+      "en": "We are from Morocco."
+     },
+     {
+      "de": "Ich habe einen Bruder.",
+      "ar": "عندي أخ.",
+      "en": "I have a brother.",
+      "dar": "3ndi khouya."
+     },
+     {
+      "de": "Hast du Zeit?",
+      "ar": "هل عندك وقت؟",
+      "en": "Do you have time?",
+      "dar": "Wach 3ndk lwaqt?"
+     },
+     {
+      "de": "Sie hat ein Auto.",
+      "ar": "عندها سيارة.",
+      "en": "She has a car."
+     },
+     {
+      "de": "Habt ihr Hunger?",
+      "ar": "هل أنتم جائعون؟",
+      "en": "Are you (all) hungry?"
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "في الألمانية نقول «عندي جوع» مثل الدارجة تمامًا: **Ich habe Hunger** (3ndi ljou3)، **Ich habe Durst**، **Ich habe Zeit**. وللعمر نستعمل sein: **Ich bin 22** (وليس Ich habe 22).",
+     "en": "German says \"I have hunger\", just like Darija: **Ich habe Hunger**, **Ich habe Durst**, **Ich habe Zeit**. But age uses sein: **Ich bin 22** (not \"habe\")."
+    }
+   }
+  ],
+  "vocab": [
+   "ich",
+   "du",
+   "er",
+   "sie",
+   "wir",
+   "ihr",
+   "sein",
+   "haben"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Ich ___ müde.",
+    "answers": [
+     "bin"
+    ],
+    "hint": {
+     "ar": "sein",
+     "en": "sein"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Du ___ sehr nett.",
+    "answers": [
+     "bist"
+    ],
+    "hint": {
+     "ar": "sein",
+     "en": "sein"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Wir ___ aus Marokko.",
+    "answers": [
+     "sind"
+    ],
+    "hint": {
+     "ar": "sein",
+     "en": "sein"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Er ___ einen Bruder.",
+    "answers": [
+     "hat"
+    ],
+    "hint": {
+     "ar": "haben",
+     "en": "haben"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "___ du Zeit?",
+    "answers": [
+     "Hast"
+    ],
+    "hint": {
+     "ar": "haben",
+     "en": "haben"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Ihr ___ Hunger.",
+    "answers": [
+     "habt"
+    ],
+    "hint": {
+     "ar": "haben",
+     "en": "haben"
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "«هم من ألمانيا» =",
+     "en": "\"They are from Germany\" ="
+    },
+    "options": [
+     "Sie sind aus Deutschland.",
+     "Sie ist aus Deutschland.",
+     "Sie seid aus Deutschland.",
+     "Sie bist aus Deutschland."
+    ],
+    "answer": "Sie sind aus Deutschland."
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "«عمري 20 سنة» =",
+     "en": "\"I am 20\" ="
+    },
+    "options": [
+     "Ich bin 20 Jahre alt.",
+     "Ich habe 20 Jahre.",
+     "Ich habe 20 Jahre alt.",
+     "Ich bin 20 Jahre."
+    ],
+    "answer": "Ich bin 20 Jahre alt."
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "عندي جوع.",
+     "en": "I am hungry."
+    },
+    "answers": [
+     "Ich habe Hunger.",
+     "Ich habe Hunger"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "numbers",
+  "order": 5,
+  "level": "A1",
+  "title": {
+   "ar": "الأرقام والأسعار والعمر",
+   "en": "Numbers, prices and age"
+  },
+  "titleDe": "Die Zahlen",
+  "minutes": 30,
+  "summary": {
+   "ar": "الأرقام من 0 إلى 1000. خبر سعيد: الألمانية تقول «واحد وعشرون» مثل العربية تمامًا!",
+   "en": "Numbers 0 to 1000. Good news: German says \"one-and-twenty\", exactly like Arabic!"
+  },
+  "resources": [
+   "shehata",
+   "easygerman"
+  ],
+  "videos": [
+   "_bLDjA5gPdk",
+   "QCGdeH4hYdo",
+   "wXBFj732YzM"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "من 21 إلى 99 تقول الألمانية **الآحاد أولًا ثم العشرات** مثل العربية: «واحد **و**عشرون» = **einundzwanzig**، «خمسة **و**ثلاثون» = **fünfunddreißig**. هذه ميزة كبيرة لك مقارنة بمتعلمي الإنجليزية والفرنسية.",
+     "en": "From 21 to 99 German says **units first, then tens**, like Arabic: \"one-and-twenty\" = **einundzwanzig**, \"five-and-thirty\" = **fünfunddreißig**. A big advantage for you."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "الرقم",
+      "en": "Number"
+     },
+     "Deutsch",
+     {
+      "ar": "ملاحظة",
+      "en": "Note"
+     }
+    ],
+    "rows": [
+     [
+      "1, 2, 3",
+      "eins, zwei, drei",
+      {
+       "ar": "zwei تُنطق «تسڤاي»",
+       "en": "zwei = \"tsvai\""
+      }
+     ],
+     [
+      "6, 7",
+      "sechs, sieben",
+      {
+       "ar": "sechs تُنطق «زِكس»",
+       "en": "sechs = \"zex\""
+      }
+     ],
+     [
+      "11, 12",
+      "elf, zwölf",
+      {
+       "ar": "للحفظ",
+       "en": "memorise"
+      }
+     ],
+     [
+      "13–19",
+      "dreizehn … neunzehn",
+      "16 = sechzehn, 17 = siebzehn"
+     ],
+     [
+      "20, 30",
+      "zwanzig, dreißig",
+      "30 = ß!"
+     ],
+     [
+      "21",
+      "einundzwanzig",
+      {
+       "ar": "واحد وعشرون",
+       "en": "one-and-twenty"
+      }
+     ],
+     [
+      "48",
+      "achtundvierzig",
+      {
+       "ar": "ثمانية وأربعون",
+       "en": "eight-and-forty"
+      }
+     ],
+     [
+      "100",
+      "hundert",
+      ""
+     ],
+     [
+      "365",
+      "dreihundertfünfundsechzig",
+      {
+       "ar": "ثلاثمائة وخمسة وستون",
+       "en": "three hundred five-and-sixty"
+      }
+     ]
+    ]
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Das kostet zwölf Euro.",
+      "ar": "هذا يكلّف اثني عشر يورو.",
+      "en": "That costs twelve euros.",
+      "dar": "Hadchi b 12 euro."
+     },
+     {
+      "de": "Ich bin dreiundzwanzig Jahre alt.",
+      "ar": "عمري ثلاثة وعشرون سنة.",
+      "en": "I am twenty-three years old."
+     },
+     {
+      "de": "Meine Telefonnummer ist null sechs eins zwei.",
+      "ar": "رقم هاتفي صفر ستة واحد اثنان.",
+      "en": "My phone number is zero six one two."
+     },
+     {
+      "de": "Wie viel kostet das?",
+      "ar": "بكم هذا؟",
+      "en": "How much does it cost?",
+      "dar": "Bch7al hadi?"
+     },
+     {
+      "de": "Der Kurs hat fünfzehn Teilnehmer.",
+      "ar": "في الدورة خمسة عشر مشاركًا.",
+      "en": "The course has fifteen participants."
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "في الهاتف يقول الألمان أحيانًا **zwo** بدل zwei حتى لا تختلط مع drei. وفي الأسعار: **2,50 €** = «zwei Euro fünfzig» (الفاصلة بدل النقطة).",
+     "en": "On the phone Germans sometimes say **zwo** instead of zwei so it is not confused with drei. Prices: **2,50 €** = \"zwei Euro fünfzig\" (comma, not dot)."
+    }
+   }
+  ],
+  "vocab": [
+   "eins",
+   "zwei",
+   "drei",
+   "zehn",
+   "zwölf",
+   "zwanzig",
+   "einundzwanzig",
+   "hundert"
+  ],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": "21 = ?",
+    "options": [
+     "einundzwanzig",
+     "zwanzigeins",
+     "zweiundeins",
+     "einzwanzig"
+    ],
+    "answer": "einundzwanzig",
+    "explain": {
+     "ar": "الآحاد ثم und ثم العشرات، مثل العربية.",
+     "en": "Units + und + tens, like Arabic."
+    }
+   },
+   {
+    "type": "mc",
+    "q": "35 = ?",
+    "options": [
+     "fünfunddreißig",
+     "dreißigfünf",
+     "fünfdreißig",
+     "dreiundfünfzig"
+    ],
+    "answer": "fünfunddreißig"
+   },
+   {
+    "type": "mc",
+    "q": "17 = ?",
+    "options": [
+     "siebzehn",
+     "siebenzehn",
+     "siebzig",
+     "zehnsieben"
+    ],
+    "answer": "siebzehn",
+    "explain": {
+     "ar": "انتبه: siebzehn وليس siebenzehn.",
+     "en": "Careful: siebzehn, not siebenzehn."
+    }
+   },
+   {
+    "type": "mc",
+    "q": "vierundachtzig = ?",
+    "options": [
+     "84",
+     "48",
+     "804",
+     "14"
+    ],
+    "answer": "84"
+   },
+   {
+    "type": "listen",
+    "text": "Das kostet neunzehn Euro.",
+    "mean": {
+     "ar": "هذا يكلف 19 يورو.",
+     "en": "That costs 19 euros."
+    },
+    "options": [
+     "19 €",
+     "90 €",
+     "9 €",
+     "29 €"
+    ],
+    "answer": "19 €",
+    "q": {
+     "ar": "كم السعر؟",
+     "en": "What is the price?"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Ich bin ___ Jahre alt. (22)",
+    "answers": [
+     "zweiundzwanzig"
+    ],
+    "hint": {
+     "ar": "اكتب الرقم بالحروف",
+     "en": "write the number in words"
+    }
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "بكم هذا؟",
+     "en": "How much does it cost?"
+    },
+    "answers": [
+     "Wie viel kostet das?",
+     "Was kostet das?",
+     "Wie viel kostet das",
+     "Was kostet das"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "articles",
+  "order": 6,
+  "level": "A1",
+  "title": {
+   "ar": "أدوات التعريف der / die / das",
+   "en": "Articles der / die / das"
+  },
+  "titleDe": "der, die, das – ein, eine",
+  "minutes": 35,
+  "summary": {
+   "ar": "لماذا لكل اسم «جنس»، والقواعد التي تساعدك، ولماذا تحفظ كل اسم مع أداته وجمعه.",
+   "en": "Why every noun has a gender, the rules that help, and why you learn every noun with its article and plural."
+  },
+  "resources": [
+   "anki",
+   "shehata"
+  ],
+  "videos": [
+   "M6BonMKI2gQ",
+   "DBS0WcjKsVU",
+   "9uFcMrgPrz4",
+   "cyRDSqopIyA"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "في العربية أداة تعريف واحدة: **الـ**، ومذكر ومؤنث. في الألمانية **ثلاثة** أجناس: **der** (مذكر)، **die** (مؤنث)، **das** (محايد). والجنس غالبًا **لا يطابق العربية**: الشمس مؤنثة في العربية والألمانية (die Sonne)، لكن **das Mädchen** (البنت) محايدة!\n\n**القاعدة الذهبية:** لا تحفظ «Tisch = طاولة» أبدًا. احفظ **der Tisch, die Tische**. التطبيق يلوّن: **der** أزرق، **die** أحمر، **das** أخضر.",
+     "en": "Arabic has one article, **al-**, and two genders. German has **three**: **der** (masculine), **die** (feminine), **das** (neuter). Gender often **does not match Arabic**: **das Mädchen** (girl) is neuter!\n\n**Golden rule:** never learn \"Tisch = table\". Learn **der Tisch, die Tische**. The app colours **der** blue, **die** red, **das** green."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "غالبًا der",
+      "en": "Usually DER"
+     },
+     {
+      "ar": "غالبًا die",
+      "en": "Usually DIE"
+     },
+     {
+      "ar": "غالبًا das",
+      "en": "Usually DAS"
+     }
+    ],
+    "rows": [
+     [
+      "Männer: der Vater, der Lehrer",
+      "-ung, -heit, -keit: die Wohnung",
+      "-chen, -lein: das Mädchen"
+     ],
+     [
+      "Tage, Monate: der Montag, der Mai",
+      "-ion, -tät: die Information",
+      "Infinitiv als Nomen: das Essen"
+     ],
+     [
+      "-er (Personen/Geräte): der Computer",
+      "Frauen: die Mutter, die Lehrerin",
+      "meist -um, -ment: das Museum"
+     ],
+     [
+      "-ismus, -ling: der Frühling",
+      "die meisten auf -e: die Sprache",
+      "Ge-: das Gebäude"
+     ]
+    ]
+   },
+   {
+    "type": "text",
+    "md": {
+     "ar": "أداة النكرة: **ein** (مع der و das) و**eine** (مع die). وللجمع: **die** دائمًا، ولا توجد أداة نكرة في الجمع.\n\n- der Tisch → **ein** Tisch\n- die Lampe → **eine** Lampe\n- das Buch → **ein** Buch\n- die Bücher → Bücher",
+     "en": "Indefinite article: **ein** (der and das words) and **eine** (die words). Plural always takes **die**, with no indefinite plural.\n\n- der Tisch → **ein** Tisch\n- die Lampe → **eine** Lampe\n- das Buch → **ein** Buch\n- die Bücher → Bücher"
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Der Computer ist neu.",
+      "ar": "الحاسوب جديد.",
+      "en": "The computer is new."
+     },
+     {
+      "de": "Die Wohnung ist klein.",
+      "ar": "الشقة صغيرة.",
+      "en": "The flat is small."
+     },
+     {
+      "de": "Das Mädchen heißt Sara.",
+      "ar": "اسم البنت سارة.",
+      "en": "The girl is called Sara."
+     },
+     {
+      "de": "Das ist ein Tisch.",
+      "ar": "هذه طاولة.",
+      "en": "That is a table."
+     },
+     {
+      "de": "Das ist eine Lampe.",
+      "ar": "هذا مصباح.",
+      "en": "That is a lamp."
+     },
+     {
+      "de": "Die Bücher sind teuer.",
+      "ar": "الكتب غالية.",
+      "en": "The books are expensive."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "der-Tisch",
+   "die-Lampe",
+   "das-Buch",
+   "die-Wohnung",
+   "das-Mädchen",
+   "der-Computer"
+  ],
+  "exercises": [
+   {
+    "type": "article",
+    "word": "Wohnung",
+    "article": "die",
+    "mean": {
+     "ar": "شقة",
+     "en": "flat"
+    },
+    "explain": {
+     "ar": "die Wohnung = شقة",
+     "en": "die Wohnung = flat"
+    }
+   },
+   {
+    "type": "article",
+    "word": "Mädchen",
+    "article": "das",
+    "mean": {
+     "ar": "بنت",
+     "en": "girl"
+    },
+    "explain": {
+     "ar": "das Mädchen = بنت",
+     "en": "das Mädchen = girl"
+    }
+   },
+   {
+    "type": "article",
+    "word": "Computer",
+    "article": "der",
+    "mean": {
+     "ar": "حاسوب",
+     "en": "computer"
+    },
+    "explain": {
+     "ar": "der Computer = حاسوب",
+     "en": "der Computer = computer"
+    }
+   },
+   {
+    "type": "article",
+    "word": "Zeitung",
+    "article": "die",
+    "mean": {
+     "ar": "جريدة",
+     "en": "newspaper"
+    },
+    "explain": {
+     "ar": "die Zeitung = جريدة",
+     "en": "die Zeitung = newspaper"
+    }
+   },
+   {
+    "type": "article",
+    "word": "Montag",
+    "article": "der",
+    "mean": {
+     "ar": "الاثنين",
+     "en": "Monday"
+    },
+    "explain": {
+     "ar": "der Montag = الاثنين",
+     "en": "der Montag = Monday"
+    }
+   },
+   {
+    "type": "article",
+    "word": "Essen",
+    "article": "das",
+    "mean": {
+     "ar": "الطعام",
+     "en": "food"
+    },
+    "explain": {
+     "ar": "das Essen = الطعام",
+     "en": "das Essen = food"
+    }
+   },
+   {
+    "type": "article",
+    "word": "Information",
+    "article": "die",
+    "mean": {
+     "ar": "معلومة",
+     "en": "information"
+    },
+    "explain": {
+     "ar": "die Information = معلومة",
+     "en": "die Information = information"
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "«هذا كتاب» =",
+     "en": "\"That is a book\" ="
+    },
+    "options": [
+     "Das ist ein Buch.",
+     "Das ist eine Buch.",
+     "Das ist der Buch.",
+     "Das ist ein Bücher."
+    ],
+    "answer": "Das ist ein Buch."
+   },
+   {
+    "type": "fill",
+    "q": "Das ist ___ Lampe.",
+    "answers": [
+     "eine"
+    ],
+    "hint": {
+     "ar": "أداة نكرة لـ die",
+     "en": "indefinite article for die"
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "ما أداة التعريف لكل الأسماء في الجمع؟",
+     "en": "Which article do all plural nouns take?"
+    },
+    "options": [
+     "die",
+     "der",
+     "das",
+     "den"
+    ],
+    "answer": "die"
+   }
+  ]
+ },
+ {
+  "id": "present",
+  "order": 7,
+  "level": "A1",
+  "title": {
+   "ar": "المضارع: تصريف الأفعال",
+   "en": "Present tense: conjugating verbs"
+  },
+  "titleDe": "Das Präsens",
+  "minutes": 35,
+  "summary": {
+   "ar": "النهايات -e, -st, -t, -en، والأفعال التي يتغير حرفها المتحرك (fahren → du fährst).",
+   "en": "The endings -e, -st, -t, -en and stem-changing verbs (fahren → du fährst)."
+  },
+  "resources": [
+   "shehata",
+   "lingoni",
+   "verbformen"
+  ],
+  "videos": [
+   "CxPWSjxfpBE",
+   "5lykk9bxRDQ",
+   "GDLwaO3WfjM",
+   "fVr8sZ9Q5nQ"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "كل فعل ألماني له **مصدر** ينتهي غالبًا بـ **-en**: **lernen** (يتعلم). احذف **-en** فيبقى **الجذر** (lern-)، ثم أضف النهاية حسب الضمير. المضارع الألماني يعني «الآن» و«عادةً» و«في المستقبل القريب»: Ich lerne morgen = سأتعلم غدًا.",
+     "en": "Every German verb has an **infinitive**, usually ending in **-en**: **lernen**. Remove **-en** to get the **stem** (lern-) and add the ending for the pronoun. The present covers \"now\", \"usually\" and \"soon\": Ich lerne morgen = I will study tomorrow."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "الضمير",
+      "en": "Pronoun"
+     },
+     {
+      "ar": "النهاية",
+      "en": "Ending"
+     },
+     "lernen",
+     "arbeiten",
+     "fahren*"
+    ],
+    "rows": [
+     [
+      "ich",
+      "-e",
+      "lerne",
+      "arbeite",
+      "fahre"
+     ],
+     [
+      "du",
+      "-st",
+      "lernst",
+      "arbeitest",
+      "fährst"
+     ],
+     [
+      "er / sie / es",
+      "-t",
+      "lernt",
+      "arbeitet",
+      "fährt"
+     ],
+     [
+      "wir",
+      "-en",
+      "lernen",
+      "arbeiten",
+      "fahren"
+     ],
+     [
+      "ihr",
+      "-t",
+      "lernt",
+      "arbeitet",
+      "fahrt"
+     ],
+     [
+      "sie / Sie",
+      "-en",
+      "lernen",
+      "arbeiten",
+      "fahren"
+     ]
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "* بعض الأفعال الشائعة تغيّر حرفها المتحرك **فقط مع du و er/sie/es**: fahren → du **fä**hrst، sprechen → du spr**i**chst، lesen → du l**ie**st، essen → du **i**sst، nehmen → du n**imm**st، sehen → du s**ie**hst. وإذا انتهى الجذر بـ **t** أو **d** نضيف **e**: du arbeit**e**st.",
+     "en": "* Some common verbs change their vowel **only with du and er/sie/es**: fahren → du **fä**hrst, sprechen → du spr**i**chst, lesen → du l**ie**st, essen → du **i**sst, nehmen → du n**imm**st, sehen → du s**ie**hst. If the stem ends in **t** or **d**, add **e**: du arbeit**e**st."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich lerne jeden Tag Deutsch.",
+      "ar": "أتعلم الألمانية كل يوم.",
+      "en": "I learn German every day.",
+      "dar": "Kant3llem l2almaniya kol nhar."
+     },
+     {
+      "de": "Du sprichst gut Deutsch.",
+      "ar": "أنت تتكلم الألمانية جيدًا.",
+      "en": "You speak German well."
+     },
+     {
+      "de": "Er arbeitet in Berlin.",
+      "ar": "هو يعمل في برلين.",
+      "en": "He works in Berlin."
+     },
+     {
+      "de": "Wir wohnen in Rabat.",
+      "ar": "نحن نسكن في الرباط.",
+      "en": "We live in Rabat."
+     },
+     {
+      "de": "Sie fährt mit dem Bus.",
+      "ar": "هي تركب الحافلة.",
+      "en": "She goes by bus."
+     },
+     {
+      "de": "Liest du gern?",
+      "ar": "هل تحب القراءة؟",
+      "en": "Do you like reading?"
+     },
+     {
+      "de": "Was machst du heute?",
+      "ar": "ماذا تفعل اليوم؟",
+      "en": "What are you doing today?",
+      "dar": "Achnu ghadi dir lyoum?"
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "lernen",
+   "arbeiten",
+   "wohnen",
+   "machen",
+   "sprechen",
+   "fahren",
+   "lesen",
+   "essen"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Ich ___ Deutsch. (lernen)",
+    "answers": [
+     "lerne"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Du ___ in Berlin. (wohnen)",
+    "answers": [
+     "wohnst"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Er ___ viel. (arbeiten)",
+    "answers": [
+     "arbeitet"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Du ___ gut Deutsch. (sprechen)",
+    "answers": [
+     "sprichst"
+    ],
+    "hint": {
+     "ar": "فعل يتغير حرفه: e → i",
+     "en": "stem change e → i"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Sie ___ nach Hamburg. (fahren)",
+    "answers": [
+     "fährt"
+    ],
+    "hint": {
+     "ar": "a → ä",
+     "en": "a → ä"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Wir ___ Pizza. (essen)",
+    "answers": [
+     "essen"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "اختر التصريف الصحيح: du + lesen",
+     "en": "Pick the correct form: du + lesen"
+    },
+    "options": [
+     "liest",
+     "lest",
+     "lesst",
+     "lesen"
+    ],
+    "answer": "liest"
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "ماذا تفعل اليوم؟",
+     "en": "What are you doing today?"
+    },
+    "words": [
+     "Was",
+     "machst",
+     "du",
+     "heute",
+     "?"
+    ],
+    "answers": [
+     "Was machst du heute ?",
+     "Was machst du heute?"
+    ]
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "هو يعمل في برلين.",
+     "en": "He works in Berlin."
+    },
+    "answers": [
+     "Er arbeitet in Berlin.",
+     "Er arbeitet in Berlin"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wordorder",
+  "order": 8,
+  "level": "A1",
+  "title": {
+   "ar": "ترتيب الجملة وأسئلة W",
+   "en": "Word order and W-questions"
+  },
+  "titleDe": "Verb auf Position 2 · W-Fragen",
+  "minutes": 35,
+  "summary": {
+   "ar": "القاعدة الأهم في الألمانية: الفعل في المكان الثاني. وكلمات السؤال wer, was, wo, woher, wann, wie, warum.",
+   "en": "The most important rule in German: the verb is in position 2. Plus the question words wer, was, wo, woher, wann, wie, warum."
+  },
+  "resources": [
+   "shehata",
+   "lingoni"
+  ],
+  "videos": [
+   "RqpdgksdR74",
+   "XlW6dFxJUvQ",
+   "pqnYBp5dmYo",
+   "cCEnhEDLmIk"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "في الجملة الخبرية الألمانية **الفعل المُصرَّف دائمًا في الموضع الثاني**. إذا بدأت الجملة بكلمة غير الفاعل (مثل الوقت **heute**)، ينتقل الفاعل إلى ما بعد الفعل:\n\n- **Ich** lerne heute Deutsch.\n- **Heute** lerne ich Deutsch.\n- **In Berlin** wohnt mein Bruder.\n\nالعربية تسمح بـ «اليوم أنا أتعلم»، أما الألمانية فلا: ~~Heute ich lerne~~ خطأ.",
+     "en": "In a German statement **the conjugated verb is always in position 2**. If the sentence starts with something other than the subject (like **heute**), the subject moves after the verb:\n\n- **Ich** lerne heute Deutsch.\n- **Heute** lerne ich Deutsch.\n- **In Berlin** wohnt mein Bruder.\n\n~~Heute ich lerne~~ is wrong."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "كلمة السؤال",
+      "en": "Question word"
+     },
+     {
+      "ar": "المعنى",
+      "en": "Meaning"
+     },
+     {
+      "ar": "مثال",
+      "en": "Example"
+     }
+    ],
+    "rows": [
+     [
+      "wer",
+      {
+       "ar": "مَن",
+       "en": "who"
+      },
+      "Wer ist das?"
+     ],
+     [
+      "was",
+      {
+       "ar": "ماذا / ما",
+       "en": "what"
+      },
+      "Was machst du?"
+     ],
+     [
+      "wo",
+      {
+       "ar": "أين",
+       "en": "where"
+      },
+      "Wo wohnst du?"
+     ],
+     [
+      "woher",
+      {
+       "ar": "من أين",
+       "en": "where from"
+      },
+      "Woher kommst du?"
+     ],
+     [
+      "wohin",
+      {
+       "ar": "إلى أين",
+       "en": "where to"
+      },
+      "Wohin fährst du?"
+     ],
+     [
+      "wann",
+      {
+       "ar": "متى",
+       "en": "when"
+      },
+      "Wann beginnt der Kurs?"
+     ],
+     [
+      "wie",
+      {
+       "ar": "كيف",
+       "en": "how"
+      },
+      "Wie heißt du?"
+     ],
+     [
+      "warum",
+      {
+       "ar": "لماذا",
+       "en": "why"
+      },
+      "Warum lernst du Deutsch?"
+     ],
+     [
+      "wie viel",
+      {
+       "ar": "كم",
+       "en": "how much"
+      },
+      "Wie viel kostet das?"
+     ]
+    ]
+   },
+   {
+    "type": "text",
+    "md": {
+     "ar": "في سؤال W يأتي الفعل أيضًا **ثانيًا**: **Wo wohnst du?** وفي سؤال نعم/لا يأتي الفعل **أولًا**: **Wohnst du in Rabat?** → Ja / Nein.",
+     "en": "In a W-question the verb is also **second**: **Wo wohnst du?** In a yes/no question the verb comes **first**: **Wohnst du in Rabat?** → Ja / Nein."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Heute lerne ich Deutsch.",
+      "ar": "اليوم أتعلم الألمانية.",
+      "en": "Today I am learning German."
+     },
+     {
+      "de": "Am Montag arbeite ich.",
+      "ar": "يوم الاثنين أعمل.",
+      "en": "On Monday I work."
+     },
+     {
+      "de": "Warum lernst du Deutsch?",
+      "ar": "لماذا تتعلم الألمانية؟",
+      "en": "Why are you learning German?",
+      "dar": "3lach kat3llem l2almaniya?"
+     },
+     {
+      "de": "Ich möchte eine Ausbildung in Deutschland machen.",
+      "ar": "أريد أن أقوم بتكوين مهني في ألمانيا.",
+      "en": "I would like to do vocational training in Germany."
+     },
+     {
+      "de": "Wann beginnt der Kurs?",
+      "ar": "متى تبدأ الدورة؟",
+      "en": "When does the course start?"
+     },
+     {
+      "de": "Kommst du aus Marokko?",
+      "ar": "هل أنت من المغرب؟",
+      "en": "Are you from Morocco?"
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "wer",
+   "was",
+   "wo",
+   "woher",
+   "wann",
+   "wie",
+   "warum",
+   "heute"
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "mean": {
+     "ar": "اليوم أتعلم الألمانية.",
+     "en": "Today I am learning German."
+    },
+    "words": [
+     "Heute",
+     "lerne",
+     "ich",
+     "Deutsch",
+     "."
+    ],
+    "answers": [
+     "Heute lerne ich Deutsch .",
+     "Heute lerne ich Deutsch.",
+     "Ich lerne heute Deutsch .",
+     "Ich lerne heute Deutsch."
+    ]
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "في برلين يسكن أخي.",
+     "en": "My brother lives in Berlin."
+    },
+    "words": [
+     "In",
+     "Berlin",
+     "wohnt",
+     "mein",
+     "Bruder",
+     "."
+    ],
+    "answers": [
+     "In Berlin wohnt mein Bruder .",
+     "In Berlin wohnt mein Bruder.",
+     "Mein Bruder wohnt in Berlin .",
+     "Mein Bruder wohnt in Berlin."
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي جملة صحيحة؟",
+     "en": "Which sentence is correct?"
+    },
+    "options": [
+     "Morgen fahre ich nach Köln.",
+     "Morgen ich fahre nach Köln.",
+     "Morgen fahre nach Köln ich.",
+     "Ich morgen fahre nach Köln."
+    ],
+    "answer": "Morgen fahre ich nach Köln.",
+    "explain": {
+     "ar": "الفعل في الموضع الثاني.",
+     "en": "Verb in position 2."
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "تريد أن تعرف مدينة شخص. تسأل:",
+     "en": "You want to know where someone lives:"
+    },
+    "options": [
+     "Wo wohnst du?",
+     "Wer wohnst du?",
+     "Woher wohnst du?",
+     "Wann wohnst du?"
+    ],
+    "answer": "Wo wohnst du?"
+   },
+   {
+    "type": "fill",
+    "q": "___ kommst du? – Aus Marokko.",
+    "answers": [
+     "Woher"
+    ],
+    "hint": {
+     "ar": "من أين",
+     "en": "where from"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "___ lernst du Deutsch? – Für meine Ausbildung.",
+    "answers": [
+     "Warum"
+    ],
+    "hint": {
+     "ar": "لماذا",
+     "en": "why"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "___ kostet das? – 5 Euro.",
+    "answers": [
+     "Wie viel",
+     "Was"
+    ],
+    "hint": {
+     "ar": "كم",
+     "en": "how much"
+    }
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "متى تبدأ الدورة؟",
+     "en": "When does the course start?"
+    },
+    "answers": [
+     "Wann beginnt der Kurs?",
+     "Wann fängt der Kurs an?"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "negation",
+  "order": 9,
+  "level": "A1",
+  "title": {
+   "ar": "النفي: nicht و kein",
+   "en": "Negation: nicht and kein"
+  },
+  "titleDe": "nicht oder kein?",
+  "minutes": 25,
+  "summary": {
+   "ar": "متى تقول nicht ومتى تقول kein، وأين تضع nicht في الجملة.",
+   "en": "When to say nicht vs kein, and where nicht goes in the sentence."
+  },
+  "resources": [
+   "shehata",
+   "easygerman"
+  ],
+  "videos": [
+   "VGu5DZdD1oI",
+   "dsplri0EKiY",
+   "vC_7XBaqsc4"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "**kein** = «لا … أيّ»، ويُستعمل مع **الاسم النكرة** (مع ein أو بدون أداة). يتصرف مثل ein: **kein** Auto، **keine** Zeit، **kein** Problem.\n\n**nicht** = «لا / ليس»، ويُستعمل مع **الفعل والصفة والاسم المعرّف**: Ich arbeite **nicht**. Das ist **nicht** teuer. Das ist **nicht** mein Handy.",
+     "en": "**kein** = \"no / not a\", used with **indefinite nouns** (with ein or no article). It behaves like ein: **kein** Auto, **keine** Zeit, **kein** Problem.\n\n**nicht** = \"not\", used with **verbs, adjectives and definite nouns**: Ich arbeite **nicht**. Das ist **nicht** teuer. Das ist **nicht** mein Handy."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich habe keine Zeit.",
+      "ar": "ليس لدي وقت.",
+      "en": "I have no time.",
+      "dar": "Ma3ndich lwaqt."
+     },
+     {
+      "de": "Das ist kein Problem.",
+      "ar": "هذه ليست مشكلة.",
+      "en": "That is no problem.",
+      "dar": "Machi mochkil."
+     },
+     {
+      "de": "Ich habe kein Auto.",
+      "ar": "ليست عندي سيارة.",
+      "en": "I don't have a car."
+     },
+     {
+      "de": "Ich arbeite heute nicht.",
+      "ar": "لا أعمل اليوم.",
+      "en": "I'm not working today."
+     },
+     {
+      "de": "Das ist nicht teuer.",
+      "ar": "هذا ليس غاليًا.",
+      "en": "That isn't expensive.",
+      "dar": "Hadchi machi ghali."
+     },
+     {
+      "de": "Er kommt nicht aus Deutschland.",
+      "ar": "هو ليس من ألمانيا.",
+      "en": "He doesn't come from Germany."
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "اختبار سريع: هل يمكنك وضع **ein/eine** أمام الاسم أو لا أداة أصلًا؟ ← **kein**. في كل الحالات الأخرى ← **nicht**. والدارجة تساعدك: «ما عنديش» ≈ kein، «ماشي» ≈ nicht.",
+     "en": "Quick test: could the noun take **ein/eine** or no article? → **kein**. Everything else → **nicht**."
+    }
+   }
+  ],
+  "vocab": [
+   "nicht",
+   "kein",
+   "das-Problem",
+   "die-Zeit",
+   "das-Auto"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Ich habe ___ Zeit.",
+    "answers": [
+     "keine"
+    ],
+    "hint": {
+     "ar": "Zeit مؤنث (die)",
+     "en": "Zeit is feminine"
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Das ist ___ Problem.",
+    "answers": [
+     "kein"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich arbeite heute ___.",
+    "answers": [
+     "nicht"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Das Essen ist ___ teuer.",
+    "answers": [
+     "nicht"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "«ليس عندي أخ» =",
+     "en": "\"I have no brother\" ="
+    },
+    "options": [
+     "Ich habe keinen Bruder.",
+     "Ich habe nicht Bruder.",
+     "Ich habe nicht einen Bruder.",
+     "Ich nicht habe Bruder."
+    ],
+    "answer": "Ich habe keinen Bruder.",
+    "explain": {
+     "ar": "مفعول به مذكر → keinen (الأكوزاتيف).",
+     "en": "Masculine object → keinen (accusative)."
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أين nicht؟",
+     "en": "Where does nicht go?"
+    },
+    "options": [
+     "Ich komme heute nicht.",
+     "Ich nicht komme heute.",
+     "Nicht ich komme heute.",
+     "Ich komme nicht heute nicht."
+    ],
+    "answer": "Ich komme heute nicht."
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "هذا ليس غاليًا.",
+     "en": "That isn't expensive."
+    },
+    "answers": [
+     "Das ist nicht teuer.",
+     "Das ist nicht teuer"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "plural",
+  "order": 10,
+  "level": "A1",
+  "title": {
+   "ar": "جمع الأسماء",
+   "en": "Plural nouns"
+  },
+  "titleDe": "Der Plural",
+  "minutes": 30,
+  "summary": {
+   "ar": "أنماط الجمع الخمسة (-e، -er، -(e)n، -s، بلا نهاية + أومْلاوت) ولماذا تحفظ الجمع مع كل اسم.",
+   "en": "The five plural patterns (-e, -er, -(e)n, -s, none + umlaut) and why you learn each plural."
+  },
+  "resources": [
+   "anki",
+   "easygerman"
+  ],
+  "videos": [
+   "UwKUWIVmJHs",
+   "Q3eCDhwMRv8",
+   "BgZ--QmPAIw"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "مثل **جمع التكسير** في العربية (كتاب ← كُتُب)، الجمع الألماني **لا يتبع قاعدة واحدة**. لذلك احفظ دائمًا: **das Buch, die Bücher**. لكن هناك ميول تساعدك:",
+     "en": "Like Arabic broken plurals (kitab → kutub), German plurals **follow no single rule**. Always learn: **das Buch, die Bücher**. But there are tendencies:"
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "النمط",
+      "en": "Pattern"
+     },
+     {
+      "ar": "غالبًا مع",
+      "en": "Often with"
+     },
+     {
+      "ar": "أمثلة",
+      "en": "Examples"
+     }
+    ],
+    "rows": [
+     [
+      "-(e)n",
+      {
+       "ar": "معظم الأسماء المؤنثة",
+       "en": "most feminine nouns"
+      },
+      "die Frau → die Frauen, die Lampe → die Lampen"
+     ],
+     [
+      "-e (+ ¨)",
+      {
+       "ar": "كثير من المذكر",
+       "en": "many masculine nouns"
+      },
+      "der Tag → die Tage, der Stuhl → die Stühle"
+     ],
+     [
+      "-er (+ ¨)",
+      {
+       "ar": "كثير من المحايد",
+       "en": "many neuter nouns"
+      },
+      "das Kind → die Kinder, das Buch → die Bücher"
+     ],
+     [
+      "– (+ ¨)",
+      {
+       "ar": "المنتهية بـ -er, -el, -en",
+       "en": "nouns in -er, -el, -en"
+      },
+      "der Lehrer → die Lehrer, der Vater → die Väter"
+     ],
+     [
+      "-s",
+      {
+       "ar": "الكلمات الأجنبية",
+       "en": "foreign words"
+      },
+      "das Auto → die Autos, das Handy → die Handys"
+     ]
+    ]
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich habe zwei Kinder.",
+      "ar": "عندي طفلان.",
+      "en": "I have two children."
+     },
+     {
+      "de": "Die Bücher sind auf dem Tisch.",
+      "ar": "الكتب على الطاولة.",
+      "en": "The books are on the table."
+     },
+     {
+      "de": "Drei Tage, vier Wochen.",
+      "ar": "ثلاثة أيام، أربعة أسابيع.",
+      "en": "Three days, four weeks."
+     },
+     {
+      "de": "Die Lehrer sind nett.",
+      "ar": "المعلمون لطفاء.",
+      "en": "The teachers are nice."
+     },
+     {
+      "de": "Wir brauchen zwei Stühle.",
+      "ar": "نحتاج كرسيين.",
+      "en": "We need two chairs."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "das-Kind",
+   "das-Buch",
+   "der-Tag",
+   "die-Woche",
+   "der-Stuhl",
+   "die-Frau"
+  ],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": "das Kind → die …",
+    "options": [
+     "Kinder",
+     "Kinds",
+     "Kinde",
+     "Kindern"
+    ],
+    "answer": "Kinder"
+   },
+   {
+    "type": "mc",
+    "q": "die Frau → die …",
+    "options": [
+     "Frauen",
+     "Fraue",
+     "Fraus",
+     "Fräuer"
+    ],
+    "answer": "Frauen"
+   },
+   {
+    "type": "mc",
+    "q": "der Stuhl → die …",
+    "options": [
+     "Stühle",
+     "Stuhle",
+     "Stuhls",
+     "Stühler"
+    ],
+    "answer": "Stühle"
+   },
+   {
+    "type": "mc",
+    "q": "das Auto → die …",
+    "options": [
+     "Autos",
+     "Auten",
+     "Autoe",
+     "Äuto"
+    ],
+    "answer": "Autos"
+   },
+   {
+    "type": "mc",
+    "q": "der Lehrer → die …",
+    "options": [
+     "Lehrer",
+     "Lehrers",
+     "Lehreren",
+     "Lehrern"
+    ],
+    "answer": "Lehrer"
+   },
+   {
+    "type": "fill",
+    "q": "Ich habe zwei ___. (das Buch)",
+    "answers": [
+     "Bücher"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Eine Woche hat sieben ___. (der Tag)",
+    "answers": [
+     "Tage"
+    ]
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "عندي طفلان.",
+     "en": "I have two children."
+    },
+    "answers": [
+     "Ich habe zwei Kinder.",
+     "Ich habe zwei Kinder"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "akkusativ",
+  "order": 11,
+  "level": "A1",
+  "title": {
+   "ar": "المفعول به: الأكوزاتيف",
+   "en": "The accusative case"
+  },
+  "titleDe": "Der Akkusativ",
+  "minutes": 35,
+  "summary": {
+   "ar": "عندما يقع الفعل على اسم مذكر: der → den، ein → einen. مع haben و brauchen و möchten و kaufen.",
+   "en": "When a verb acts on a masculine noun: der → den, ein → einen. With haben, brauchen, möchten, kaufen."
+  },
+  "resources": [
+   "shehata",
+   "easygerman"
+  ],
+  "videos": [
+   "qDtqMf8LT5Q",
+   "A3kDyxMO2xI",
+   "fd_5Wjsf9xo"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "تعرف من العربية الإعراب: «رأيتُ الرجلَ» (منصوب). في الألمانية تتغير **الأداة** بدل الحركة. والخبر السعيد: في الأكوزاتيف **يتغير المذكر فقط**:\n\n- Das ist **der** Computer. → Ich kaufe **den** Computer.\n- Das ist **ein** Tisch. → Ich brauche **einen** Tisch.\n- die و das والجمع **لا تتغير**.",
+     "en": "You know case endings from Arabic (\"ra2aytu r-rajula\"). German changes the **article** instead. Good news: in the accusative **only masculine changes**:\n\n- Das ist **der** Computer. → Ich kaufe **den** Computer.\n- Das ist **ein** Tisch. → Ich brauche **einen** Tisch.\n- die, das and plural **stay the same**."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     "",
+     "der (m)",
+     "die (f)",
+     "das (n)",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "der / ein / kein",
+      "die / eine / keine",
+      "das / ein / kein",
+      "die / – / keine"
+     ],
+     [
+      "Akkusativ",
+      "den / einen / keinen",
+      "die / eine / keine",
+      "das / ein / kein",
+      "die / – / keine"
+     ]
+    ]
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich brauche einen Laptop.",
+      "ar": "أحتاج حاسوبًا محمولًا.",
+      "en": "I need a laptop."
+     },
+     {
+      "de": "Ich möchte einen Kaffee, bitte.",
+      "ar": "أريد قهوة من فضلك.",
+      "en": "I'd like a coffee, please.",
+      "dar": "Bghit wa7d lqahwa 3afak."
+     },
+     {
+      "de": "Hast du einen Bruder?",
+      "ar": "هل لديك أخ؟",
+      "en": "Do you have a brother?"
+     },
+     {
+      "de": "Wir suchen eine Wohnung.",
+      "ar": "نبحث عن شقة.",
+      "en": "We are looking for a flat."
+     },
+     {
+      "de": "Ich sehe den Bus.",
+      "ar": "أرى الحافلة.",
+      "en": "I see the bus."
+     },
+     {
+      "de": "Er kauft das Brot.",
+      "ar": "هو يشتري الخبز.",
+      "en": "He buys the bread."
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "أفعال شائعة مع الأكوزاتيف: **haben, brauchen, möchten, kaufen, suchen, sehen, essen, trinken, finden, besuchen, lernen**. وأيضًا **es gibt**: Es gibt **einen** Supermarkt hier.",
+     "en": "Common accusative verbs: **haben, brauchen, möchten, kaufen, suchen, sehen, essen, trinken, finden, besuchen, lernen**. Also **es gibt**: Es gibt **einen** Supermarkt hier."
+    }
+   }
+  ],
+  "vocab": [
+   "der-Kaffee",
+   "der-Bus",
+   "das-Brot",
+   "brauchen",
+   "kaufen",
+   "suchen"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Ich brauche ___ Laptop. (ein, m)",
+    "answers": [
+     "einen"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich sehe ___ Bus. (der)",
+    "answers": [
+     "den"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Wir suchen ___ Wohnung. (eine, f)",
+    "answers": [
+     "eine"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Er kauft ___ Brot. (das)",
+    "answers": [
+     "das"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich habe ___ Bruder. (kein, m)",
+    "answers": [
+     "keinen"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي جملة صحيحة؟",
+     "en": "Which sentence is correct?"
+    },
+    "options": [
+     "Ich möchte einen Kaffee.",
+     "Ich möchte ein Kaffee.",
+     "Ich möchte einem Kaffee.",
+     "Ich möchte der Kaffee."
+    ],
+    "answer": "Ich möchte einen Kaffee."
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "في الأكوزاتيف يتغير…",
+     "en": "In the accusative, what changes?"
+    },
+    "options": [
+     {
+      "ar": "المذكر فقط",
+      "en": "only masculine"
+     },
+     {
+      "ar": "المؤنث فقط",
+      "en": "only feminine"
+     },
+     {
+      "ar": "كل الأجناس",
+      "en": "all genders"
+     },
+     {
+      "ar": "الجمع فقط",
+      "en": "only plural"
+     }
+    ],
+    "answer": {
+     "ar": "المذكر فقط",
+     "en": "only masculine"
+    }
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "أحتاج حاسوبًا محمولًا.",
+     "en": "I need a laptop."
+    },
+    "answers": [
+     "Ich brauche einen Laptop.",
+     "Ich brauche einen Laptop"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "time",
+  "order": 12,
+  "level": "A1",
+  "title": {
+   "ar": "الساعة والأيام والمواعيد",
+   "en": "Time, days and appointments"
+  },
+  "titleDe": "Uhrzeit und Termine",
+  "minutes": 30,
+  "summary": {
+   "ar": "قراءة الساعة (halb acht!)، أيام الأسبوع، um / am / im، وحجز موعد.",
+   "en": "Telling time (halb acht!), weekdays, um / am / im, and making an appointment."
+  },
+  "resources": [
+   "shehata",
+   "lingoni"
+  ],
+  "videos": [
+   "FNA-TfeEcrk",
+   "8Ph3tbuhtsY",
+   "J0S37KBxqow",
+   "Xi3irLjbu7A"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "انتبه لكلمة **halb**: **halb acht** = **7:30** (نصف الطريق إلى الثامنة)، وليس 8:30! وفي الأخبار والمواعيد الرسمية يستعمل الألمان نظام 24 ساعة: **19:30 = neunzehn Uhr dreißig**.",
+     "en": "Careful with **halb**: **halb acht** = **7:30** (half way to eight), not 8:30! Officially Germans use 24-hour time: **19:30 = neunzehn Uhr dreißig**."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "الوقت",
+      "en": "Time"
+     },
+     {
+      "ar": "غير رسمي",
+      "en": "Informal"
+     },
+     {
+      "ar": "رسمي",
+      "en": "Official"
+     }
+    ],
+    "rows": [
+     [
+      "8:00",
+      "acht Uhr",
+      "acht Uhr"
+     ],
+     [
+      "8:15",
+      "Viertel nach acht",
+      "acht Uhr fünfzehn"
+     ],
+     [
+      "8:30",
+      "halb neun",
+      "acht Uhr dreißig"
+     ],
+     [
+      "8:45",
+      "Viertel vor neun",
+      "acht Uhr fünfundvierzig"
+     ],
+     [
+      "8:50",
+      "zehn vor neun",
+      "acht Uhr fünfzig"
+     ],
+     [
+      "20:00",
+      "acht Uhr (abends)",
+      "zwanzig Uhr"
+     ]
+    ]
+   },
+   {
+    "type": "text",
+    "md": {
+     "ar": "### um، am، im\n- **um** + ساعة: **um** 9 Uhr\n- **am** + يوم أو جزء من اليوم: **am** Montag، **am** Abend، **am** Wochenende\n- **im** + شهر أو فصل: **im** Mai، **im** Sommer\n\nأيام الأسبوع كلها مذكرة: der Montag، Dienstag، Mittwoch، Donnerstag، Freitag، Samstag، Sonntag.",
+     "en": "### um, am, im\n- **um** + clock time: **um** 9 Uhr\n- **am** + day or part of day: **am** Montag, **am** Abend, **am** Wochenende\n- **im** + month or season: **im** Mai, **im** Sommer\n\nAll weekdays are masculine: der Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Wie spät ist es?",
+      "ar": "كم الساعة؟",
+      "en": "What time is it?",
+      "dar": "Ch7al fssa3a?"
+     },
+     {
+      "de": "Es ist halb acht.",
+      "ar": "الساعة السابعة والنصف.",
+      "en": "It's half past seven."
+     },
+     {
+      "de": "Der Kurs beginnt um neun Uhr.",
+      "ar": "تبدأ الدورة في الساعة التاسعة.",
+      "en": "The course starts at nine."
+     },
+     {
+      "de": "Am Montag habe ich einen Termin.",
+      "ar": "يوم الاثنين عندي موعد.",
+      "en": "On Monday I have an appointment."
+     },
+     {
+      "de": "Haben Sie am Freitag Zeit?",
+      "ar": "هل لديك وقت يوم الجمعة؟",
+      "en": "Do you have time on Friday?"
+     },
+     {
+      "de": "Die Prüfung ist im Juni.",
+      "ar": "الامتحان في يونيو.",
+      "en": "The exam is in June."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "die-Uhr",
+   "der-Montag",
+   "der-Freitag",
+   "der-Termin",
+   "das-Wochenende",
+   "heute",
+   "morgen"
+  ],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": "halb acht = ?",
+    "options": [
+     "7:30",
+     "8:30",
+     "8:00",
+     "7:00"
+    ],
+    "answer": "7:30",
+    "explain": {
+     "ar": "halb + الساعة التالية.",
+     "en": "halb + the next hour."
+    }
+   },
+   {
+    "type": "mc",
+    "q": "Viertel vor neun = ?",
+    "options": [
+     "8:45",
+     "9:15",
+     "9:45",
+     "8:15"
+    ],
+    "answer": "8:45"
+   },
+   {
+    "type": "fill",
+    "q": "Der Kurs beginnt ___ 9 Uhr.",
+    "answers": [
+     "um"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "___ Montag habe ich frei.",
+    "answers": [
+     "Am"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Die Prüfung ist ___ Juni.",
+    "answers": [
+     "im"
+    ]
+   },
+   {
+    "type": "listen",
+    "text": "Der Termin ist am Dienstag um zehn Uhr.",
+    "mean": {
+     "ar": "الموعد يوم الثلاثاء في الساعة العاشرة.",
+     "en": "The appointment is on Tuesday at ten."
+    },
+    "options": [
+     "Dienstag, 10:00",
+     "Donnerstag, 10:00",
+     "Dienstag, 12:00",
+     "Montag, 10:00"
+    ],
+    "answer": "Dienstag, 10:00",
+    "q": {
+     "ar": "متى الموعد؟",
+     "en": "When is the appointment?"
+    }
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "كم الساعة؟",
+     "en": "What time is it?"
+    },
+    "answers": [
+     "Wie spät ist es?",
+     "Wie viel Uhr ist es?"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "family",
+  "order": 13,
+  "level": "A1",
+  "title": {
+   "ar": "العائلة وضمائر الملكية",
+   "en": "Family and possessives"
+  },
+  "titleDe": "Meine Familie",
+  "minutes": 30,
+  "summary": {
+   "ar": "أفراد العائلة، و mein / dein / sein / ihr / unser، وكيف تتحدث عن عائلتك.",
+   "en": "Family members, mein / dein / sein / ihr / unser, and talking about your family."
+  },
+  "resources": [
+   "shehata",
+   "easygerman"
+  ],
+  "videos": [
+   "4wvtNkoLyNY",
+   "xLayY7zy6yM",
+   "o-Zu-bUlPb4"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "ضمائر الملكية تأتي **قبل** الاسم (عكس العربية: كتابِي = **mein** Buch) وتأخذ نهاية **ein**: **mein** Vater، **meine** Mutter، **mein** Kind، **meine** Eltern.\n\nانتبه: **sein** = له (هو)، **ihr** = لها (هي) أو لهم: sein Bruder = أخوه، ihr Bruder = أخوها.",
+     "en": "Possessives come **before** the noun and take the **ein** endings: **mein** Vater, **meine** Mutter, **mein** Kind, **meine** Eltern.\n\nCareful: **sein** = his, **ihr** = her or their: sein Bruder = his brother, ihr Bruder = her brother."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "الضمير",
+      "en": "Pronoun"
+     },
+     {
+      "ar": "الملكية",
+      "en": "Possessive"
+     },
+     "der / das",
+     "die / Plural"
+    ],
+    "rows": [
+     [
+      "ich",
+      {
+       "ar": "ـي",
+       "en": "my"
+      },
+      "mein",
+      "meine"
+     ],
+     [
+      "du",
+      {
+       "ar": "ـكَ",
+       "en": "your"
+      },
+      "dein",
+      "deine"
+     ],
+     [
+      "er / es",
+      {
+       "ar": "ـه",
+       "en": "his / its"
+      },
+      "sein",
+      "seine"
+     ],
+     [
+      "sie",
+      {
+       "ar": "ـها",
+       "en": "her"
+      },
+      "ihr",
+      "ihre"
+     ],
+     [
+      "wir",
+      {
+       "ar": "ـنا",
+       "en": "our"
+      },
+      "unser",
+      "unsere"
+     ],
+     [
+      "ihr",
+      {
+       "ar": "ـكم",
+       "en": "your (pl.)"
+      },
+      "euer",
+      "eure"
+     ],
+     [
+      "sie / Sie",
+      {
+       "ar": "ـهم / حضرتك",
+       "en": "their / your (formal)"
+      },
+      "ihr / Ihr",
+      "ihre / Ihre"
+     ]
+    ]
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Das ist meine Familie.",
+      "ar": "هذه عائلتي.",
+      "en": "This is my family.",
+      "dar": "Hadi l3a2ila dyali."
+     },
+     {
+      "de": "Mein Vater heißt Ahmed.",
+      "ar": "اسم أبي أحمد.",
+      "en": "My father is called Ahmed."
+     },
+     {
+      "de": "Meine Mutter arbeitet als Lehrerin.",
+      "ar": "أمي تعمل معلمة.",
+      "en": "My mother works as a teacher."
+     },
+     {
+      "de": "Ich habe zwei Geschwister.",
+      "ar": "عندي أخ وأخت (إخوة).",
+      "en": "I have two siblings."
+     },
+     {
+      "de": "Mein Bruder ist älter als ich.",
+      "ar": "أخي أكبر مني.",
+      "en": "My brother is older than me."
+     },
+     {
+      "de": "Wie heißt deine Schwester?",
+      "ar": "ما اسم أختك؟",
+      "en": "What's your sister's name?"
+     },
+     {
+      "de": "Meine Eltern wohnen in Fès.",
+      "ar": "والداي يسكنان في فاس.",
+      "en": "My parents live in Fes."
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "**die Geschwister** = الإخوة والأخوات معًا (لا مفرد شائع). **die Eltern** = الوالدان (جمع فقط). وفي امتحان A1 Sprechen سيُطلب منك غالبًا الحديث عن عائلتك.",
+     "en": "**die Geschwister** = brothers and sisters together. **die Eltern** = parents (plural only). The A1 speaking exam often asks about your family."
+    }
+   }
+  ],
+  "vocab": [
+   "der-Vater",
+   "die-Mutter",
+   "der-Bruder",
+   "die-Schwester",
+   "die-Eltern",
+   "die-Familie"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Das ist ___ Mutter. (ich)",
+    "answers": [
+     "meine"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Wie heißt ___ Vater? (du)",
+    "answers": [
+     "dein"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Sara und ___ Bruder wohnen in Rabat. (sie, f.)",
+    "answers": [
+     "ihr"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ahmed und ___ Schwester lernen Deutsch. (er)",
+    "answers": [
+     "seine"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Das sind ___ Eltern. (wir)",
+    "answers": [
+     "unsere"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "«أخوها» =",
+     "en": "\"her brother\" ="
+    },
+    "options": [
+     "ihr Bruder",
+     "sein Bruder",
+     "ihre Bruder",
+     "seine Bruder"
+    ],
+    "answer": "ihr Bruder"
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "هذه عائلتي.",
+     "en": "This is my family."
+    },
+    "words": [
+     "Das",
+     "ist",
+     "meine",
+     "Familie",
+     "."
+    ],
+    "answers": [
+     "Das ist meine Familie .",
+     "Das ist meine Familie."
+    ]
+   },
+   {
+    "type": "write",
+    "task": {
+     "prompt": {
+      "ar": "اكتب 5 جمل عن عائلتك: الأسماء، الأعمار، المدن، المهن.",
+      "en": "Write 5 sentences about your family: names, ages, cities, jobs."
+     },
+     "minWords": 25,
+     "checklist": [
+      {
+       "ar": "mein / meine صحيحة حسب الجنس",
+       "en": "mein / meine matching the gender"
+      },
+      {
+       "ar": "رقم أو عمر (… ist … Jahre alt)",
+       "en": "an age (… ist … Jahre alt)"
+      },
+      {
+       "ar": "مدينة (wohnt in …)",
+       "en": "a city (wohnt in …)"
+      },
+      {
+       "ar": "مهنة بدون أداة",
+       "en": "a job without article"
+      },
+      {
+       "ar": "الفعل في الموضع الثاني دائمًا",
+       "en": "verb always in position 2"
+      }
+     ],
+     "model": "Meine Familie wohnt in Marokko. Mein Vater heißt Ahmed und ist 55 Jahre alt. Er ist Taxifahrer. Meine Mutter heißt Fatima, sie ist Lehrerin. Ich habe zwei Geschwister: Mein Bruder studiert in Rabat und meine Schwester geht noch zur Schule."
+    }
+   }
+  ]
+ },
+ {
+  "id": "food",
+  "order": 14,
+  "level": "A1",
+  "title": {
+   "ar": "الطعام والتسوق",
+   "en": "Food and shopping"
+  },
+  "titleDe": "Essen und Einkaufen",
+  "minutes": 30,
+  "summary": {
+   "ar": "اطلب في المقهى، اشترِ في السوبرماركت، وتحدث عمّا تحب: möchten، gern، es gibt.",
+   "en": "Order in a café, shop in a supermarket, say what you like: möchten, gern, es gibt."
+  },
+  "resources": [
+   "shehata",
+   "nicosweg"
+  ],
+  "videos": [
+   "Oxii0wFbhSo",
+   "aZTUJm8O2Ds"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "ثلاث أدوات بسيطة تكفي للمطعم والسوق:\n\n- **Ich möchte** + أكوزاتيف: Ich möchte **einen** Tee. (أريد بأدب)\n- **gern** = أحب: Ich esse **gern** Couscous. / Ich trinke **nicht gern** Bier.\n- **Es gibt** + أكوزاتيف = يوجد: Es gibt **einen** Markt hier.",
+     "en": "Three tools cover cafés and shops:\n\n- **Ich möchte** + accusative: Ich möchte **einen** Tee. (polite \"I would like\")\n- **gern** = like doing: Ich esse **gern** Couscous.\n- **Es gibt** + accusative = there is: Es gibt **einen** Markt hier."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich möchte einen Tee, bitte.",
+      "ar": "أريد شايًا من فضلك.",
+      "en": "I'd like a tea, please.",
+      "dar": "Bghit wa7d atay 3afak."
+     },
+     {
+      "de": "Was kostet ein Kilo Tomaten?",
+      "ar": "بكم كيلو الطماطم؟",
+      "en": "How much is a kilo of tomatoes?",
+      "dar": "Bch7al kilo dyal maticha?"
+     },
+     {
+      "de": "Ich esse gern Couscous.",
+      "ar": "أحب أكل الكسكس.",
+      "en": "I like eating couscous."
+     },
+     {
+      "de": "Ich esse kein Schweinefleisch.",
+      "ar": "لا آكل لحم الخنزير.",
+      "en": "I don't eat pork."
+     },
+     {
+      "de": "Haben Sie Brot ohne Ei?",
+      "ar": "هل عندكم خبز بدون بيض؟",
+      "en": "Do you have bread without egg?"
+     },
+     {
+      "de": "Die Rechnung, bitte.",
+      "ar": "الحساب من فضلك.",
+      "en": "The bill, please."
+     },
+     {
+      "de": "Zusammen oder getrennt?",
+      "ar": "معًا أم كل واحد وحده؟",
+      "en": "Together or separately?"
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "في ألمانيا يسألك النادل غالبًا **Zusammen oder getrennt?** (هل تدفعون معًا أم كلٌّ وحده؟). وإذا لم تأكل لحم الخنزير، ابحث عن **Schwein** في القائمة، و**halal** معروفة في المدن الكبيرة.",
+     "en": "In Germany waiters often ask **Zusammen oder getrennt?** (pay together or separately?). If you avoid pork, look for **Schwein** on the menu."
+    }
+   }
+  ],
+  "vocab": [
+   "das-Brot",
+   "der-Tee",
+   "das-Wasser",
+   "der-Apfel",
+   "das-Fleisch",
+   "die-Rechnung"
+  ],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": {
+     "ar": "في المقهى، بأدب:",
+     "en": "In a café, politely:"
+    },
+    "options": [
+     "Ich möchte einen Kaffee, bitte.",
+     "Ich will Kaffee!",
+     "Gib Kaffee.",
+     "Kaffee ich möchte."
+    ],
+    "answer": "Ich möchte einen Kaffee, bitte."
+   },
+   {
+    "type": "fill",
+    "q": "Ich esse ___ Pizza. (أحب)",
+    "answers": [
+     "gern",
+     "gerne"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Es ___ einen Supermarkt hier.",
+    "answers": [
+     "gibt"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Die ___, bitte! (الحساب)",
+    "answers": [
+     "Rechnung"
+    ]
+   },
+   {
+    "type": "listen",
+    "text": "Ein Kilo Äpfel kostet zwei Euro fünfzig.",
+    "mean": {
+     "ar": "كيلو التفاح بـ 2.50 يورو.",
+     "en": "A kilo of apples costs 2.50 euros."
+    },
+    "options": [
+     "2,50 €",
+     "2,15 €",
+     "5,20 €",
+     "12,50 €"
+    ],
+    "answer": "2,50 €",
+    "q": {
+     "ar": "كم سعر التفاح؟",
+     "en": "How much are the apples?"
+    }
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "هل عندكم خبز بدون بيض؟",
+     "en": "Do you have bread without egg?"
+    },
+    "words": [
+     "Haben",
+     "Sie",
+     "Brot",
+     "ohne",
+     "Ei",
+     "?"
+    ],
+    "answers": [
+     "Haben Sie Brot ohne Ei ?",
+     "Haben Sie Brot ohne Ei?"
+    ]
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "لا آكل لحم الخنزير.",
+     "en": "I don't eat pork."
+    },
+    "answers": [
+     "Ich esse kein Schweinefleisch.",
+     "Ich esse kein Schweinefleisch"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "city",
+  "order": 15,
+  "level": "A1",
+  "title": {
+   "ar": "في المدينة: الطريق والمواصلات",
+   "en": "In the city: directions and transport"
+  },
+  "titleDe": "In der Stadt",
+  "minutes": 35,
+  "summary": {
+   "ar": "اسأل عن الطريق، افهم links/rechts/geradeaus، وتنقّل بـ mit dem Bus / mit der U-Bahn (مدخل إلى الداتيف).",
+   "en": "Ask the way, understand links/rechts/geradeaus, and travel mit dem Bus / mit der U-Bahn (intro to the dative)."
+  },
+  "resources": [
+   "nicosweg",
+   "easygerman"
+  ],
+  "videos": [
+   "WGYZtuE3uu4",
+   "5mr-oFRZOhI",
+   "OV-YbBgwaj8",
+   "GT6ZDpB_7rA"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "بعد **mit** (بـ / مع) و**zu** (إلى) تأتي **حالة الداتيف**: der/das → **dem**، die → **der**. احفظها الآن كعبارات جاهزة:\n\n- mit **dem** Bus، mit **dem** Auto، mit **der** U-Bahn، mit **der** Bahn\n- zu**m** Bahnhof (= zu dem)، zu**r** Post (= zu der)\n- **zu Fuß** = مشيًا على الأقدام",
+     "en": "After **mit** (by / with) and **zu** (to) comes the **dative**: der/das → **dem**, die → **der**. Learn them as chunks now:\n\n- mit **dem** Bus, mit **dem** Auto, mit **der** U-Bahn, mit **der** Bahn\n- zu**m** Bahnhof (= zu dem), zu**r** Post (= zu der)\n- **zu Fuß** = on foot"
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Entschuldigung, wo ist der Bahnhof?",
+      "ar": "عذرًا، أين محطة القطار؟",
+      "en": "Excuse me, where is the train station?",
+      "dar": "Smeh lia, fin kayna lagar?"
+     },
+     {
+      "de": "Gehen Sie geradeaus und dann links.",
+      "ar": "امشِ مستقيمًا ثم يسارًا.",
+      "en": "Go straight on and then left.",
+      "dar": "Sir nichan w mn b3d 3la liser."
+     },
+     {
+      "de": "Die Apotheke ist neben der Bank.",
+      "ar": "الصيدلية بجانب البنك.",
+      "en": "The pharmacy is next to the bank."
+     },
+     {
+      "de": "Ich fahre mit dem Bus zur Arbeit.",
+      "ar": "أذهب إلى العمل بالحافلة.",
+      "en": "I take the bus to work."
+     },
+     {
+      "de": "Wie komme ich zum Rathaus?",
+      "ar": "كيف أصل إلى البلدية؟",
+      "en": "How do I get to the town hall?"
+     },
+     {
+      "de": "Ist das weit von hier?",
+      "ar": "هل هذا بعيد من هنا؟",
+      "en": "Is that far from here?",
+      "dar": "Wach b3id mn hna?"
+     },
+     {
+      "de": "Nehmen Sie die U-Bahn Linie zwei.",
+      "ar": "خذ خط المترو رقم اثنين.",
+      "en": "Take underground line two."
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "**rechts** = يمين، **links** = يسار، **geradeaus** = مستقيمًا، **die erste Straße rechts** = أول شارع على اليمين. وفي ألمانيا ستحتاج كثيرًا: **das Bürgeramt** (مكتب المواطنين) للتسجيل (**Anmeldung**).",
+     "en": "**rechts** = right, **links** = left, **geradeaus** = straight on, **die erste Straße rechts** = first street on the right. In Germany you will need **das Bürgeramt** for your registration (**Anmeldung**)."
+    }
+   }
+  ],
+  "vocab": [
+   "der-Bahnhof",
+   "die-Straße",
+   "die-Apotheke",
+   "die-Bank",
+   "die-U-Bahn",
+   "links",
+   "rechts"
+  ],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": {
+     "ar": "«امشِ مستقيمًا» =",
+     "en": "\"Go straight on\" ="
+    },
+    "options": [
+     "Gehen Sie geradeaus.",
+     "Gehen Sie links.",
+     "Gehen Sie zurück.",
+     "Gehen Sie rechts."
+    ],
+    "answer": "Gehen Sie geradeaus."
+   },
+   {
+    "type": "fill",
+    "q": "Ich fahre mit ___ Bus. (der)",
+    "answers": [
+     "dem"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich fahre mit ___ U-Bahn. (die)",
+    "answers": [
+     "der"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Wie komme ich ___ Bahnhof? (zu + dem)",
+    "answers": [
+     "zum"
+    ]
+   },
+   {
+    "type": "listen",
+    "text": "Gehen Sie die zweite Straße rechts.",
+    "mean": {
+     "ar": "خذ الشارع الثاني على اليمين.",
+     "en": "Take the second street on the right."
+    },
+    "options": [
+     "2. Straße rechts",
+     "2. Straße links",
+     "1. Straße rechts",
+     "geradeaus"
+    ],
+    "answer": "2. Straße rechts",
+    "q": {
+     "ar": "إلى أين؟",
+     "en": "Which way?"
+    }
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "عذرًا، أين محطة القطار؟",
+     "en": "Excuse me, where is the station?"
+    },
+    "words": [
+     "Entschuldigung",
+     ",",
+     "wo",
+     "ist",
+     "der",
+     "Bahnhof",
+     "?"
+    ],
+    "answers": [
+     "Entschuldigung , wo ist der Bahnhof ?",
+     "Entschuldigung, wo ist der Bahnhof?"
+    ]
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "هل هذا بعيد من هنا؟",
+     "en": "Is that far from here?"
+    },
+    "answers": [
+     "Ist das weit von hier?",
+     "Ist es weit von hier?"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "routine",
+  "order": 16,
+  "level": "A1",
+  "title": {
+   "ar": "يومي والأفعال المنفصلة",
+   "en": "My day and separable verbs"
+  },
+  "titleDe": "Mein Tag · trennbare Verben",
+  "minutes": 35,
+  "summary": {
+   "ar": "aufstehen, anfangen, einkaufen, fernsehen: البادئة تنفصل وتذهب إلى آخر الجملة.",
+   "en": "aufstehen, anfangen, einkaufen, fernsehen: the prefix splits off and goes to the end."
+  },
+  "resources": [
+   "shehata",
+   "easygerman"
+  ],
+  "videos": [
+   "cFAL6PhExPU",
+   "sLiDDoNPEX8",
+   "pCw0kXIZ1xI"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "بعض الأفعال لها **بادئة** (an, auf, aus, ein, mit, zu, fern …). في الجملة **تنفصل البادئة** وتذهب إلى **آخر الجملة**، والفعل يبقى في الموضع الثاني:\n\n- **auf**stehen → Ich **stehe** um 7 Uhr **auf**.\n- **ein**kaufen → Am Samstag **kaufe** ich **ein**.\n- **an**fangen → Der Kurs **fängt** um 9 Uhr **an**.\n\nتخيّل الجملة كـ **«قوس»**: الفعل يفتح والبادئة تغلق.",
+     "en": "Some verbs have a **prefix** (an, auf, aus, ein, mit, zu, fern …). In a sentence the **prefix splits off** and goes to the **end**, while the verb stays in position 2:\n\n- **auf**stehen → Ich **stehe** um 7 Uhr **auf**.\n- **ein**kaufen → Am Samstag **kaufe** ich **ein**.\n- **an**fangen → Der Kurs **fängt** um 9 Uhr **an**.\n\nThink of a **bracket**: the verb opens, the prefix closes."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich stehe um sechs Uhr auf.",
+      "ar": "أستيقظ في الساعة السادسة.",
+      "en": "I get up at six.",
+      "dar": "Kannod m3a 6."
+     },
+     {
+      "de": "Der Kurs fängt um neun Uhr an.",
+      "ar": "تبدأ الدورة في التاسعة.",
+      "en": "The course starts at nine."
+     },
+     {
+      "de": "Am Samstag kaufe ich ein.",
+      "ar": "يوم السبت أتسوّق.",
+      "en": "On Saturday I go shopping."
+     },
+     {
+      "de": "Am Abend sehe ich fern.",
+      "ar": "في المساء أشاهد التلفاز.",
+      "en": "In the evening I watch TV."
+     },
+     {
+      "de": "Ich rufe dich morgen an.",
+      "ar": "سأتصل بك غدًا.",
+      "en": "I'll call you tomorrow."
+     },
+     {
+      "de": "Kommst du mit?",
+      "ar": "هل تأتي معنا؟",
+      "en": "Are you coming along?",
+      "dar": "Wach ghadi tji m3ana?"
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "اكتب يومك كل مساء في 5 جمل بهذه الأفعال: aufstehen، frühstücken، anfangen، einkaufen، fernsehen، einschlafen. هذا تمرين الكتابة اليومي لهذا الأسبوع.",
+     "en": "Each evening write your day in 5 sentences with these verbs: aufstehen, frühstücken, anfangen, einkaufen, fernsehen, einschlafen. That is this week's daily writing drill."
+    }
+   }
+  ],
+  "vocab": [
+   "aufstehen",
+   "anfangen",
+   "einkaufen",
+   "fernsehen",
+   "anrufen",
+   "das-Frühstück"
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "mean": {
+     "ar": "أستيقظ في الساعة السابعة.",
+     "en": "I get up at seven."
+    },
+    "words": [
+     "Ich",
+     "stehe",
+     "um",
+     "sieben",
+     "Uhr",
+     "auf",
+     "."
+    ],
+    "answers": [
+     "Ich stehe um sieben Uhr auf .",
+     "Ich stehe um sieben Uhr auf.",
+     "Um sieben Uhr stehe ich auf .",
+     "Um sieben Uhr stehe ich auf."
+    ]
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "يوم السبت أتسوّق.",
+     "en": "On Saturday I go shopping."
+    },
+    "words": [
+     "Am",
+     "Samstag",
+     "kaufe",
+     "ich",
+     "ein",
+     "."
+    ],
+    "answers": [
+     "Am Samstag kaufe ich ein .",
+     "Am Samstag kaufe ich ein."
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Der Film ___ um 20 Uhr an. (anfangen)",
+    "answers": [
+     "fängt"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich rufe dich morgen ___. (anrufen)",
+    "answers": [
+     "an"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي جملة صحيحة؟",
+     "en": "Which sentence is correct?"
+    },
+    "options": [
+     "Am Abend sehe ich fern.",
+     "Am Abend fernsehe ich.",
+     "Am Abend ich sehe fern.",
+     "Am Abend sehe fern ich."
+    ],
+    "answer": "Am Abend sehe ich fern."
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "هل تأتي معنا؟",
+     "en": "Are you coming along?"
+    },
+    "answers": [
+     "Kommst du mit?",
+     "Kommst du mit"
+    ]
+   },
+   {
+    "type": "write",
+    "task": {
+     "prompt": {
+      "ar": "صف يومك العادي في 6 جمل باستعمال 3 أفعال منفصلة على الأقل.",
+      "en": "Describe your normal day in 6 sentences with at least 3 separable verbs."
+     },
+     "minWords": 35,
+     "checklist": [
+      {
+       "ar": "الوقت مع um",
+       "en": "times with um"
+      },
+      {
+       "ar": "3 أفعال منفصلة والبادئة في آخر الجملة",
+       "en": "3 separable verbs, prefix at the end"
+      },
+      {
+       "ar": "جملة تبدأ بالوقت (Dann / Am Abend …) والفعل ثانيًا",
+       "en": "a sentence starting with time, verb second"
+      },
+      {
+       "ar": "dann / danach للربط",
+       "en": "dann / danach to link"
+      }
+     ],
+     "model": "Ich stehe um sechs Uhr auf. Dann frühstücke ich und trinke einen Tee. Um acht Uhr fange ich mit der Arbeit an. Am Nachmittag kaufe ich ein. Am Abend lerne ich zwei Stunden Deutsch. Danach sehe ich ein bisschen fern und gehe um elf Uhr schlafen."
+    }
+   }
+  ]
+ },
+ {
+  "id": "modals",
+  "order": 17,
+  "level": "A1",
+  "title": {
+   "ar": "الأفعال الناقصة: können, müssen, wollen",
+   "en": "Modal verbs: können, müssen, wollen"
+  },
+  "titleDe": "Die Modalverben",
+  "minutes": 35,
+  "summary": {
+   "ar": "أستطيع، يجب، أريد، مسموح: الفعل الناقص ثانيًا والفعل الأساسي في آخر الجملة بالمصدر.",
+   "en": "Can, must, want, may: the modal is second and the main verb goes to the end as an infinitive."
+  },
+  "resources": [
+   "shehata",
+   "easygerman"
+  ],
+  "videos": [
+   "lGpQPC_qh3o",
+   "H_jAPCKbZ_4",
+   "6CiH-RP_MtQ",
+   "QBBlMrj0lTw"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "القوس مرة أخرى: **الفعل الناقص** في الموضع الثاني، و**المصدر** في آخر الجملة:\n\n- Ich **kann** gut Deutsch **sprechen**.\n- Ich **muss** heute **arbeiten**.\n- Ich **möchte** in Deutschland eine Ausbildung **machen**.\n\nلاحظ: مع ich و er/sie/es **نفس الشكل** وبدون نهاية: ich kann، er kann.",
+     "en": "The bracket again: the **modal** in position 2, the **infinitive** at the end:\n\n- Ich **kann** gut Deutsch **sprechen**.\n- Ich **muss** heute **arbeiten**.\n- Ich **möchte** in Deutschland eine Ausbildung **machen**.\n\nNote: ich and er/sie/es have **the same form** with no ending: ich kann, er kann."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     "",
+     "können",
+     "müssen",
+     "wollen",
+     "dürfen",
+     "möchten"
+    ],
+    "rows": [
+     [
+      "ich",
+      "kann",
+      "muss",
+      "will",
+      "darf",
+      "möchte"
+     ],
+     [
+      "du",
+      "kannst",
+      "musst",
+      "willst",
+      "darfst",
+      "möchtest"
+     ],
+     [
+      "er / sie / es",
+      "kann",
+      "muss",
+      "will",
+      "darf",
+      "möchte"
+     ],
+     [
+      "wir / sie / Sie",
+      "können",
+      "müssen",
+      "wollen",
+      "dürfen",
+      "möchten"
+     ],
+     [
+      "ihr",
+      "könnt",
+      "müsst",
+      "wollt",
+      "dürft",
+      "möchtet"
+     ]
+    ]
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich kann gut programmieren.",
+      "ar": "أستطيع البرمجة جيدًا.",
+      "en": "I can program well.",
+      "dar": "Kan9der nprogrammi mzyan."
+     },
+     {
+      "de": "Ich muss heute lernen.",
+      "ar": "يجب أن أدرس اليوم.",
+      "en": "I have to study today.",
+      "dar": "Khasni n9ra lyoum."
+     },
+     {
+      "de": "Ich will Fachinformatiker werden.",
+      "ar": "أريد أن أصبح أخصائي معلوماتية.",
+      "en": "I want to become an IT specialist."
+     },
+     {
+      "de": "Darf ich hier rauchen?",
+      "ar": "هل مسموح لي أن أدخن هنا؟",
+      "en": "May I smoke here?"
+     },
+     {
+      "de": "Kannst du mir helfen?",
+      "ar": "هل يمكنك مساعدتي؟",
+      "en": "Can you help me?",
+      "dar": "Wach t9der t3awnni?"
+     },
+     {
+      "de": "Wir müssen um acht Uhr da sein.",
+      "ar": "يجب أن نكون هناك في الثامنة.",
+      "en": "We have to be there at eight."
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "**wollen** = أريد (بقوة) و**möchten** = أودّ (بأدب). في رسائل الشركات ومقابلة العمل استعمل **möchten**: Ich **möchte** mich um einen Ausbildungsplatz bewerben.",
+     "en": "**wollen** = want (strong) and **möchten** = would like (polite). In applications and interviews use **möchten**: Ich **möchte** mich um einen Ausbildungsplatz bewerben."
+    }
+   }
+  ],
+  "vocab": [
+   "können",
+   "müssen",
+   "wollen",
+   "dürfen",
+   "helfen"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Ich ___ gut programmieren. (können)",
+    "answers": [
+     "kann"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Du ___ heute lernen. (müssen)",
+    "answers": [
+     "musst"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "___ ich hier parken? (dürfen)",
+    "answers": [
+     "Darf"
+    ]
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "أريد أن أعمل في ألمانيا.",
+     "en": "I want to work in Germany."
+    },
+    "words": [
+     "Ich",
+     "will",
+     "in",
+     "Deutschland",
+     "arbeiten",
+     "."
+    ],
+    "answers": [
+     "Ich will in Deutschland arbeiten .",
+     "Ich will in Deutschland arbeiten."
+    ]
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "هل يمكنك مساعدتي؟",
+     "en": "Can you help me?"
+    },
+    "words": [
+     "Kannst",
+     "du",
+     "mir",
+     "helfen",
+     "?"
+    ],
+    "answers": [
+     "Kannst du mir helfen ?",
+     "Kannst du mir helfen?"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي جملة صحيحة؟",
+     "en": "Which sentence is correct?"
+    },
+    "options": [
+     "Ich muss morgen arbeiten.",
+     "Ich muss arbeiten morgen.",
+     "Ich arbeiten muss morgen.",
+     "Ich muss morgen arbeite."
+    ],
+    "answer": "Ich muss morgen arbeiten."
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "يجب أن أدرس اليوم.",
+     "en": "I have to study today."
+    },
+    "answers": [
+     "Ich muss heute lernen.",
+     "Heute muss ich lernen.",
+     "Ich muss heute studieren."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "perfekt",
+  "order": 18,
+  "level": "A1",
+  "title": {
+   "ar": "الماضي التام: Perfekt",
+   "en": "Talking about the past: Perfekt"
+  },
+  "titleDe": "Das Perfekt",
+  "minutes": 40,
+  "summary": {
+   "ar": "haben/sein + التصريف الثالث (gemacht, gegangen): الطريقة التي يتكلم بها الألمان عن الماضي.",
+   "en": "haben/sein + past participle (gemacht, gegangen): how Germans talk about the past."
+  },
+  "resources": [
+   "shehata",
+   "easygerman"
+  ],
+  "videos": [
+   "e1O9HdP2CSU",
+   "T75R4aB4DTg",
+   "Ou5V8H_Yy14",
+   "hTvyNDDhG2M"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "في الكلام اليومي يستعمل الألمان **Perfekt** للماضي: **haben** أو **sein** في الموضع الثاني + **Partizip II** في آخر الجملة.\n\n- الأفعال المنتظمة: **ge** + الجذر + **t**: machen → **gemacht**، lernen → **gelernt**، arbeiten → **gearbeitet**\n- الأفعال الشاذة: **ge** + … + **en**، تُحفظ: sehen → **gesehen**، essen → **gegessen**، schreiben → **geschrieben**\n- الأفعال المنفصلة: ge في الوسط: einkaufen → ein**ge**kauft\n- الأفعال المنتهية بـ -ieren بدون ge: studieren → **studiert**",
+     "en": "In everyday speech Germans use the **Perfekt** for the past: **haben** or **sein** in position 2 + **Partizip II** at the end.\n\n- Regular verbs: **ge** + stem + **t**: machen → **gemacht**, lernen → **gelernt**, arbeiten → **gearbeitet**\n- Irregular verbs: **ge** + … + **en**, memorise: sehen → **gesehen**, essen → **gegessen**, schreiben → **geschrieben**\n- Separable verbs: ge in the middle: einkaufen → ein**ge**kauft\n- Verbs in -ieren have no ge: studieren → **studiert**"
+    }
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "**sein** بدل haben مع أفعال **الحركة من مكان إلى مكان** وتغيّر الحال: gehen → ich **bin** gegangen، fahren → ich **bin** gefahren، kommen → ich **bin** gekommen، fliegen، aufstehen → ich **bin** aufgestanden. وأيضًا: ich **bin** gewesen، es **ist** passiert.",
+     "en": "**sein** instead of haben with **movement from A to B** and change of state: gehen → ich **bin** gegangen, fahren → ich **bin** gefahren, kommen → ich **bin** gekommen, fliegen, aufstehen. Also: ich **bin** gewesen, es **ist** passiert."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich habe gestern Deutsch gelernt.",
+      "ar": "تعلمت الألمانية أمس.",
+      "en": "I studied German yesterday.",
+      "dar": "Lbare7 9rit l2almaniya."
+     },
+     {
+      "de": "Wir haben Couscous gegessen.",
+      "ar": "أكلنا الكسكس.",
+      "en": "We ate couscous."
+     },
+     {
+      "de": "Ich bin nach Rabat gefahren.",
+      "ar": "ذهبت (بالسيارة) إلى الرباط.",
+      "en": "I went to Rabat."
+     },
+     {
+      "de": "Hast du den Film gesehen?",
+      "ar": "هل شاهدت الفيلم؟",
+      "en": "Did you see the film?"
+     },
+     {
+      "de": "Am Wochenende habe ich eingekauft.",
+      "ar": "في عطلة الأسبوع تسوّقت.",
+      "en": "At the weekend I went shopping."
+     },
+     {
+      "de": "Ich habe zwei Jahre Informatik studiert.",
+      "ar": "درست المعلوميات سنتين.",
+      "en": "I studied computer science for two years."
+     },
+     {
+      "de": "Er ist um sieben Uhr aufgestanden.",
+      "ar": "استيقظ في السابعة.",
+      "en": "He got up at seven."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "gestern",
+   "machen",
+   "lernen",
+   "gehen",
+   "sehen",
+   "schreiben"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Ich habe gestern Deutsch ___. (lernen)",
+    "answers": [
+     "gelernt"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Wir ___ nach Berlin gefahren.",
+    "answers": [
+     "sind"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Hast du den Brief ___? (schreiben)",
+    "answers": [
+     "geschrieben"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Sie hat Informatik ___. (studieren)",
+    "answers": [
+     "studiert"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich ___ um 6 Uhr aufgestanden.",
+    "answers": [
+     "bin"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "اختر الجملة الصحيحة.",
+     "en": "Choose the correct sentence."
+    },
+    "options": [
+     "Ich bin nach Hause gegangen.",
+     "Ich habe nach Hause gegangen.",
+     "Ich bin nach Hause gegeht.",
+     "Ich gegangen nach Hause."
+    ],
+    "answer": "Ich bin nach Hause gegangen."
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "ماذا فعلت في عطلة الأسبوع؟",
+     "en": "What did you do at the weekend?"
+    },
+    "words": [
+     "Was",
+     "hast",
+     "du",
+     "am",
+     "Wochenende",
+     "gemacht",
+     "?"
+    ],
+    "answers": [
+     "Was hast du am Wochenende gemacht ?",
+     "Was hast du am Wochenende gemacht?"
+    ]
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "تعلمت الألمانية أمس.",
+     "en": "I studied German yesterday."
+    },
+    "answers": [
+     "Ich habe gestern Deutsch gelernt.",
+     "Gestern habe ich Deutsch gelernt."
+    ]
+   },
+   {
+    "type": "write",
+    "task": {
+     "prompt": {
+      "ar": "اكتب 6 جمل عن عطلة نهاية الأسبوع الماضية بالـ Perfekt (مع haben و sein).",
+      "en": "Write 6 sentences about last weekend in the Perfekt (with haben and sein)."
+     },
+     "minWords": 35,
+     "checklist": [
+      {
+       "ar": "3 أفعال مع haben",
+       "en": "3 verbs with haben"
+      },
+      {
+       "ar": "فعلان مع sein (حركة)",
+       "en": "2 verbs with sein (movement)"
+      },
+      {
+       "ar": "Partizip في آخر الجملة",
+       "en": "participle at the end"
+      },
+      {
+       "ar": "كلمات زمن: am Samstag, dann, danach",
+       "en": "time words: am Samstag, dann, danach"
+      }
+     ],
+     "model": "Am Samstag bin ich früh aufgestanden. Ich habe gefrühstückt und dann zwei Stunden Deutsch gelernt. Am Nachmittag bin ich mit meinem Bruder in die Stadt gefahren. Wir haben eingekauft und Tee getrunken. Am Sonntag habe ich meine Eltern besucht. Am Abend habe ich einen Film auf Deutsch gesehen."
+    }
+   }
+  ]
+ },
+ {
+  "id": "dativ",
+  "order": 19,
+  "level": "A2",
+  "title": {
+   "ar": "حالة الداتيف",
+   "en": "The dative case"
+  },
+  "titleDe": "Der Dativ",
+  "minutes": 40,
+  "summary": {
+   "ar": "dem / der / dem / den(+n): المفعول غير المباشر، وأفعال مثل helfen و gefallen، وحروف الجر mit, nach, bei, von, zu, aus, seit.",
+   "en": "dem / der / dem / den(+n): the indirect object, verbs like helfen and gefallen, and the prepositions mit, nach, bei, von, zu, aus, seit."
+  },
+  "resources": [
+   "shehata",
+   "lingoni"
+  ],
+  "videos": [
+   "2hkDcmSQZbs",
+   "wQwpOJQlpb0",
+   "yuYTleQIIxI",
+   "CDgG2K7Kbbs"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "الداتيف يجيب عن سؤال **wem?** (لِمَن؟). مثل العربية «أعطيتُ **للرجلِ** الكتابَ»: الشخص الذي يستقبل = داتيف، والشيء = أكوزاتيف.\n\n- Ich gebe **dem** Mann **das** Buch.\n- Ich helfe **meiner** Mutter.\n- Das Handy gehört **mir**.",
+     "en": "The dative answers **wem?** (to whom?). \"I give **the man** the book\": the receiver is dative, the thing is accusative.\n\n- Ich gebe **dem** Mann **das** Buch.\n- Ich helfe **meiner** Mutter.\n- Das Handy gehört **mir**."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     "",
+     "der (m)",
+     "die (f)",
+     "das (n)",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "der / ein",
+      "die / eine",
+      "das / ein",
+      "die"
+     ],
+     [
+      "Akkusativ",
+      "den / einen",
+      "die / eine",
+      "das / ein",
+      "die"
+     ],
+     [
+      "Dativ",
+      "dem / einem",
+      "der / einer",
+      "dem / einem",
+      "den + -n"
+     ]
+    ]
+   },
+   {
+    "type": "text",
+    "md": {
+     "ar": "### حروف جرّ تأخذ الداتيف دائمًا\n**aus, bei, mit, nach, seit, von, zu** (احفظها كأغنية). وأفعال مع الداتيف: **helfen, danken, gefallen, gehören, antworten, schmecken**.\n\nالضمائر: ich → **mir**، du → **dir**، er → **ihm**، sie → **ihr**، wir → **uns**، Sie → **Ihnen**.",
+     "en": "### Always-dative prepositions\n**aus, bei, mit, nach, seit, von, zu**. Dative verbs: **helfen, danken, gefallen, gehören, antworten, schmecken**.\n\nPronouns: ich → **mir**, du → **dir**, er → **ihm**, sie → **ihr**, wir → **uns**, Sie → **Ihnen**."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich wohne seit einem Jahr in Berlin.",
+      "ar": "أسكن في برلين منذ سنة.",
+      "en": "I have lived in Berlin for a year."
+     },
+     {
+      "de": "Kannst du mir helfen?",
+      "ar": "هل تستطيع مساعدتي؟",
+      "en": "Can you help me?"
+     },
+     {
+      "de": "Der Film gefällt mir sehr.",
+      "ar": "الفيلم يعجبني كثيرًا.",
+      "en": "I really like the film.",
+      "dar": "Lfilm 3jbni bzaf."
+     },
+     {
+      "de": "Ich arbeite bei einer IT-Firma.",
+      "ar": "أعمل في شركة معلوميات.",
+      "en": "I work at an IT company."
+     },
+     {
+      "de": "Nach dem Kurs gehe ich nach Hause.",
+      "ar": "بعد الدورة أذهب إلى البيت.",
+      "en": "After the course I go home."
+     },
+     {
+      "de": "Ich schenke meinem Vater ein Buch.",
+      "ar": "أهدي أبي كتابًا.",
+      "en": "I give my father a book."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "helfen",
+   "gefallen",
+   "gehören",
+   "die-Firma"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Ich fahre mit ___ Zug. (der)",
+    "answers": [
+     "dem"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich wohne bei ___ Tante. (meine)",
+    "answers": [
+     "meiner"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Der Film gefällt ___. (ich)",
+    "answers": [
+     "mir"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Kannst du ___ helfen? (er)",
+    "answers": [
+     "ihm"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich wohne seit ___ Jahr hier. (ein)",
+    "answers": [
+     "einem"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي جملة صحيحة؟",
+     "en": "Which sentence is correct?"
+    },
+    "options": [
+     "Ich helfe meinem Bruder.",
+     "Ich helfe meinen Bruder.",
+     "Ich helfe mein Bruder.",
+     "Ich helfe meiner Bruder."
+    ],
+    "answer": "Ich helfe meinem Bruder.",
+    "explain": {
+     "ar": "helfen + داتيف، مذكر → meinem.",
+     "en": "helfen + dative, masculine → meinem."
+    }
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "الفيلم يعجبني.",
+     "en": "I like the film."
+    },
+    "answers": [
+     "Der Film gefällt mir.",
+     "Der Film gefällt mir"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nebensatz",
+  "order": 20,
+  "level": "A2",
+  "title": {
+   "ar": "الجمل الفرعية: weil، dass، wenn",
+   "en": "Sub-clauses: weil, dass, wenn"
+  },
+  "titleDe": "Nebensätze",
+  "minutes": 40,
+  "summary": {
+   "ar": "بعد weil و dass و wenn يذهب الفعل إلى آخر الجملة. أساس امتحان B1 في الكتابة والمحادثة.",
+   "en": "After weil, dass and wenn the verb goes to the end. The core of B1 writing and speaking."
+  },
+  "resources": [
+   "shehata",
+   "lingoni"
+  ],
+  "videos": [
+   "cwy1aPeUnBQ",
+   "RMajceyqOGY",
+   "F8VRv9iQ5a8",
+   "WV4E71qaQaw",
+   "8Vmwekr6WN4"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "في الجملة الفرعية **يذهب الفعل المُصرَّف إلى النهاية**:\n\n- Ich lerne Deutsch, **weil** ich in Deutschland arbeiten **möchte**.\n- Ich glaube, **dass** der Kurs gut **ist**.\n- **Wenn** ich Zeit **habe**, lese ich.\n\nوإذا بدأت بالجملة الفرعية، يأتي فعل الجملة الرئيسية **مباشرة بعد الفاصلة**: Wenn ich Zeit habe, **lese** ich.",
+     "en": "In a sub-clause **the conjugated verb goes to the end**:\n\n- Ich lerne Deutsch, **weil** ich in Deutschland arbeiten **möchte**.\n- Ich glaube, **dass** der Kurs gut **ist**.\n- **Wenn** ich Zeit **habe**, lese ich.\n\nIf you start with the sub-clause, the main verb comes **right after the comma**: Wenn ich Zeit habe, **lese** ich."
+    }
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "**denn** يعني أيضًا «لأن»، لكن **لا يغيّر** ترتيب الجملة: Ich lerne Deutsch, **denn** ich **möchte** in Deutschland arbeiten. في الامتحان استعمل الاثنين لتُظهر التنوع.",
+     "en": "**denn** also means \"because\" but does **not** change word order: …, **denn** ich **möchte** in Deutschland arbeiten. Use both in the exam to show range."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich lerne Deutsch, weil ich eine Ausbildung machen möchte.",
+      "ar": "أتعلم الألمانية لأنني أريد القيام بتكوين مهني.",
+      "en": "I learn German because I want to do an apprenticeship."
+     },
+     {
+      "de": "Ich glaube, dass das eine gute Idee ist.",
+      "ar": "أعتقد أن هذه فكرة جيدة.",
+      "en": "I think that is a good idea."
+     },
+     {
+      "de": "Wenn ich Zeit habe, gehe ich ins Fitnessstudio.",
+      "ar": "عندما يكون لدي وقت أذهب إلى النادي.",
+      "en": "When I have time, I go to the gym."
+     },
+     {
+      "de": "Ich weiß nicht, ob er heute kommt.",
+      "ar": "لا أعرف إن كان سيأتي اليوم.",
+      "en": "I don't know if he is coming today."
+     },
+     {
+      "de": "Als ich ein Kind war, habe ich in Fès gewohnt.",
+      "ar": "عندما كنت طفلًا سكنت في فاس.",
+      "en": "When I was a child, I lived in Fes."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "weil",
+   "dass",
+   "wenn",
+   "denn"
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "mean": {
+     "ar": "أتعلم الألمانية لأنني أريد العمل في ألمانيا.",
+     "en": "I learn German because I want to work in Germany."
+    },
+    "words": [
+     "Ich",
+     "lerne",
+     "Deutsch",
+     ",",
+     "weil",
+     "ich",
+     "in",
+     "Deutschland",
+     "arbeiten",
+     "möchte",
+     "."
+    ],
+    "answers": [
+     "Ich lerne Deutsch , weil ich in Deutschland arbeiten möchte .",
+     "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte."
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي جملة صحيحة؟",
+     "en": "Which sentence is correct?"
+    },
+    "options": [
+     "Ich glaube, dass er krank ist.",
+     "Ich glaube, dass er ist krank.",
+     "Ich glaube, dass ist er krank.",
+     "Ich glaube, er dass krank ist."
+    ],
+    "answer": "Ich glaube, dass er krank ist."
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أكمل: Wenn ich Zeit habe, …",
+     "en": "Complete: Wenn ich Zeit habe, …"
+    },
+    "options": [
+     "lese ich ein Buch.",
+     "ich lese ein Buch.",
+     "ich ein Buch lese.",
+     "lese ein Buch ich."
+    ],
+    "answer": "lese ich ein Buch."
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "denn أم weil؟ «…, ___ ich habe keine Zeit.»",
+     "en": "denn or weil? \"…, ___ ich habe keine Zeit.\""
+    },
+    "options": [
+     "denn",
+     "weil",
+     "dass",
+     "wenn"
+    ],
+    "answer": "denn",
+    "explain": {
+     "ar": "الفعل في الموضع الثاني ← denn.",
+     "en": "Verb in position 2 → denn."
+    }
+   },
+   {
+    "type": "fill",
+    "q": "Ich bleibe zu Hause, weil ich krank ___.",
+    "answers": [
+     "bin"
+    ]
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "أعتقد أن هذه فكرة جيدة.",
+     "en": "I think that is a good idea."
+    },
+    "answers": [
+     "Ich glaube, dass das eine gute Idee ist.",
+     "Ich denke, dass das eine gute Idee ist."
+    ]
+   },
+   {
+    "type": "write",
+    "task": {
+     "prompt": {
+      "ar": "لماذا تتعلم الألمانية؟ اكتب 5 جمل باستعمال weil و dass و wenn.",
+      "en": "Why are you learning German? Write 5 sentences using weil, dass and wenn."
+     },
+     "minWords": 45,
+     "checklist": [
+      {
+       "ar": "جملة مع weil والفعل في النهاية",
+       "en": "a weil-clause with the verb at the end"
+      },
+      {
+       "ar": "جملة مع dass",
+       "en": "a dass-clause"
+      },
+      {
+       "ar": "جملة تبدأ بـ Wenn … ثم الفعل مباشرة",
+       "en": "a sentence starting with Wenn … then the verb"
+      },
+      {
+       "ar": "رأي: Ich finde / Ich glaube",
+       "en": "an opinion: Ich finde / Ich glaube"
+      }
+     ],
+     "model": "Ich lerne Deutsch, weil ich in Deutschland eine Ausbildung als Fachinformatiker machen möchte. Ich glaube, dass eine Ausbildung in Deutschland sehr praktisch ist. Wenn ich jeden Tag zwei Stunden lerne, kann ich im Juni die B1-Prüfung machen. Ich finde, dass Deutsch schwer, aber interessant ist. Wenn ich müde bin, höre ich einen Podcast."
+    }
+   }
+  ]
+ },
+ {
+  "id": "praeteritum",
+  "order": 21,
+  "level": "A2",
+  "title": {
+   "ar": "الماضي البسيط: war و hatte والأفعال الناقصة",
+   "en": "Simple past: war, hatte and modals"
+  },
+  "titleDe": "Präteritum: war, hatte, konnte",
+  "minutes": 30,
+  "summary": {
+   "ar": "مع sein و haben والأفعال الناقصة يستعمل الألمان Präteritum حتى في الكلام: ich war، ich hatte، ich musste.",
+   "en": "With sein, haben and modals Germans use the Präteritum even in speech: ich war, ich hatte, ich musste."
+  },
+  "resources": [
+   "shehata"
+  ],
+  "videos": [
+   "ncWlI6GlYJ8",
+   "bKf3llIO1rQ"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "القاعدة العملية: للحديث عن الماضي استعمل **Perfekt** لمعظم الأفعال، لكن مع **sein, haben** و**الأفعال الناقصة** استعمل **Präteritum**: «Ich **war** gestern krank» أطبع من «Ich bin krank gewesen».",
+     "en": "Rule of thumb: use the **Perfekt** for most verbs, but with **sein, haben** and **modals** use the **Präteritum**: \"Ich **war** gestern krank\" sounds more natural than \"Ich bin krank gewesen\"."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     "",
+     "sein",
+     "haben",
+     "können",
+     "müssen",
+     "wollen"
+    ],
+    "rows": [
+     [
+      "ich",
+      "war",
+      "hatte",
+      "konnte",
+      "musste",
+      "wollte"
+     ],
+     [
+      "du",
+      "warst",
+      "hattest",
+      "konntest",
+      "musstest",
+      "wolltest"
+     ],
+     [
+      "er / sie / es",
+      "war",
+      "hatte",
+      "konnte",
+      "musste",
+      "wollte"
+     ],
+     [
+      "wir / sie / Sie",
+      "waren",
+      "hatten",
+      "konnten",
+      "mussten",
+      "wollten"
+     ],
+     [
+      "ihr",
+      "wart",
+      "hattet",
+      "konntet",
+      "musstet",
+      "wolltet"
+     ]
+    ]
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Gestern war ich sehr müde.",
+      "ar": "أمس كنت متعبًا جدًا.",
+      "en": "Yesterday I was very tired."
+     },
+     {
+      "de": "Ich hatte keine Zeit.",
+      "ar": "لم يكن لدي وقت.",
+      "en": "I didn't have time.",
+      "dar": "Makanch 3ndi lwaqt."
+     },
+     {
+      "de": "Wir mussten lange warten.",
+      "ar": "اضطررنا للانتظار طويلًا.",
+      "en": "We had to wait a long time."
+     },
+     {
+      "de": "Als Kind wollte ich Pilot werden.",
+      "ar": "كطفل كنت أريد أن أصبح طيارًا.",
+      "en": "As a child I wanted to become a pilot."
+     },
+     {
+      "de": "Konntest du die Aufgabe lösen?",
+      "ar": "هل استطعت حل التمرين؟",
+      "en": "Were you able to solve the task?"
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "gestern",
+   "sein",
+   "haben",
+   "können",
+   "müssen"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Gestern ___ ich krank. (sein)",
+    "answers": [
+     "war"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Wir ___ keine Zeit. (haben)",
+    "answers": [
+     "hatten"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Er ___ lange arbeiten. (müssen)",
+    "answers": [
+     "musste"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "___ du gestern zu Hause? (sein)",
+    "answers": [
+     "Warst"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich ___ nicht kommen. (können)",
+    "answers": [
+     "konnte"
+    ]
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "لم يكن لدي وقت.",
+     "en": "I didn't have time."
+    },
+    "answers": [
+     "Ich hatte keine Zeit.",
+     "Ich hatte keine Zeit"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "adjektive",
+  "order": 22,
+  "level": "A2",
+  "title": {
+   "ar": "نهايات الصفات",
+   "en": "Adjective endings"
+  },
+  "titleDe": "Adjektivdeklination",
+  "minutes": 40,
+  "summary": {
+   "ar": "ein neuer Laptop، der neue Laptop، mit dem neuen Laptop: النمطان الأساسيان بطريقة بسيطة.",
+   "en": "ein neuer Laptop, der neue Laptop, mit dem neuen Laptop: the two main patterns, simplified."
+  },
+  "resources": [
+   "shehata",
+   "deutschbuch"
+  ],
+  "videos": [
+   "FRnhnazaBm8",
+   "yLr0ZHnt_nM",
+   "exwewlcw8UY"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "عندما تأتي الصفة **قبل** الاسم تأخذ نهاية. القاعدة المبسطة:\n\n1. بعد **der/die/das** (أداة تعريف): النهاية **-e** في المفرد (Nominativ وAkkusativ لـ die/das)، وفي كل الحالات الأخرى **-en**.\n2. بعد **ein/kein/mein**: الصفة «تُظهر» الجنس عندما لا تُظهره الأداة: ein neu**er** Laptop (der)، ein neu**es** Handy (das)، eine neu**e** Wohnung (die).\n3. في **الداتيف** و**الجمع** بعد أداة: دائمًا **-en**: mit dem neu**en** Laptop.",
+     "en": "An adjective **before** a noun takes an ending. Simplified:\n\n1. After **der/die/das**: **-e** in the singular nominative (and accusative of die/das), otherwise **-en**.\n2. After **ein/kein/mein**: the adjective \"shows\" the gender when the article cannot: ein neu**er** Laptop, ein neu**es** Handy, eine neu**e** Wohnung.\n3. In the **dative** and **plural** after an article: always **-en**: mit dem neu**en** Laptop."
+    }
+   },
+   {
+    "type": "table",
+    "columns": [
+     "",
+     "der",
+     "die",
+     "das",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "Nom. (der …)",
+      "der neue Laptop",
+      "die neue Wohnung",
+      "das neue Handy",
+      "die neuen Bücher"
+     ],
+     [
+      "Nom. (ein …)",
+      "ein neuer Laptop",
+      "eine neue Wohnung",
+      "ein neues Handy",
+      "meine neuen Bücher"
+     ],
+     [
+      "Akk. (ein …)",
+      "einen neuen Laptop",
+      "eine neue Wohnung",
+      "ein neues Handy",
+      "meine neuen Bücher"
+     ],
+     [
+      "Dat. (ein …)",
+      "einem neuen Laptop",
+      "einer neuen Wohnung",
+      "einem neuen Handy",
+      "meinen neuen Büchern"
+     ]
+    ]
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich habe einen neuen Laptop.",
+      "ar": "عندي حاسوب محمول جديد.",
+      "en": "I have a new laptop."
+     },
+     {
+      "de": "Die kleine Wohnung ist teuer.",
+      "ar": "الشقة الصغيرة غالية.",
+      "en": "The small flat is expensive."
+     },
+     {
+      "de": "Das ist ein interessantes Buch.",
+      "ar": "هذا كتاب مثير للاهتمام.",
+      "en": "That is an interesting book."
+     },
+     {
+      "de": "Ich suche eine günstige Wohnung.",
+      "ar": "أبحث عن شقة رخيصة.",
+      "en": "I'm looking for an affordable flat."
+     },
+     {
+      "de": "Er arbeitet mit einem großen Team.",
+      "ar": "يعمل مع فريق كبير.",
+      "en": "He works with a big team."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "neu",
+   "klein",
+   "groß",
+   "interessant"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Ich habe einen neu___ Laptop.",
+    "answers": [
+     "en"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Das ist ein interessant___ Buch.",
+    "answers": [
+     "es"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Die klein___ Wohnung ist teuer.",
+    "answers": [
+     "e"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich wohne in einer groß___ Stadt.",
+    "answers": [
+     "en"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Das ist ein gut___ Lehrer.",
+    "answers": [
+     "er"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي شكل صحيح؟",
+     "en": "Which form is correct?"
+    },
+    "options": [
+     "mit dem neuen Auto",
+     "mit dem neue Auto",
+     "mit dem neues Auto",
+     "mit dem neuer Auto"
+    ],
+    "answer": "mit dem neuen Auto"
+   }
+  ]
+ },
+ {
+  "id": "komparativ",
+  "order": 23,
+  "level": "A2",
+  "title": {
+   "ar": "المقارنة والتفضيل",
+   "en": "Comparative and superlative"
+  },
+  "titleDe": "Komparativ und Superlativ",
+  "minutes": 30,
+  "summary": {
+   "ar": "schnell → schneller → am schnellsten، و als / wie، والأشكال الشاذة gut → besser → am besten.",
+   "en": "schnell → schneller → am schnellsten, als / wie, and the irregular gut → besser → am besten."
+  },
+  "resources": [
+   "shehata",
+   "lingoni"
+  ],
+  "videos": [
+   "4aPVid4j_l4",
+   "dLYFZZqpE6c",
+   "8QTb4is_fKw"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "- **المقارنة:** الصفة + **-er** + **als**: Berlin ist größ**er als** Köln.\n- **المساواة:** **so** + صفة + **wie**: Rabat ist **so** schön **wie** Fès.\n- **التفضيل:** **am** + صفة + **-sten**: Der ICE ist **am** schnell**sten**.\n\nكثير من الصفات القصيرة تأخذ أومْلاوت: alt → **ä**lter، groß → gr**ö**ßer، jung → j**ü**nger. وشاذة: **gut → besser → am besten**، **viel → mehr → am meisten**، **gern → lieber → am liebsten**.",
+     "en": "- **Comparative:** adjective + **-er** + **als**: Berlin ist größ**er als** Köln.\n- **Equality:** **so** + adjective + **wie**: Rabat ist **so** schön **wie** Fès.\n- **Superlative:** **am** + adjective + **-sten**: Der ICE ist **am** schnell**sten**.\n\nMany short adjectives add an umlaut: alt → **ä**lter, groß → gr**ö**ßer, jung → j**ü**nger. Irregular: **gut → besser → am besten**, **viel → mehr → am meisten**, **gern → lieber → am liebsten**."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Mein Bruder ist älter als ich.",
+      "ar": "أخي أكبر مني.",
+      "en": "My brother is older than me."
+     },
+     {
+      "de": "Deutsch ist schwerer als Englisch.",
+      "ar": "الألمانية أصعب من الإنجليزية.",
+      "en": "German is harder than English."
+     },
+     {
+      "de": "Ich trinke lieber Tee als Kaffee.",
+      "ar": "أفضّل الشاي على القهوة.",
+      "en": "I prefer tea to coffee.",
+      "dar": "Kanfaddal atay 3la lqahwa."
+     },
+     {
+      "de": "Am liebsten programmiere ich mit Kotlin.",
+      "ar": "أكثر ما أحب هو البرمجة بـ Kotlin.",
+      "en": "Most of all I like programming in Kotlin."
+     },
+     {
+      "de": "Die Wohnung ist so groß wie meine.",
+      "ar": "الشقة بحجم شقتي.",
+      "en": "The flat is as big as mine."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   "groß",
+   "alt",
+   "gut",
+   "schnell"
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "q": "Berlin ist ___ als Köln. (groß)",
+    "answers": [
+     "größer"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich trinke ___ Tee als Kaffee. (gern)",
+    "answers": [
+     "lieber"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Mein Laptop ist ___ als deiner. (gut)",
+    "answers": [
+     "besser"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Der ICE ist am ___. (schnell)",
+    "answers": [
+     "schnellsten"
+    ]
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أكمل: Rabat ist so schön ___ Fès.",
+     "en": "Complete: Rabat ist so schön ___ Fès."
+    },
+    "options": [
+     "wie",
+     "als",
+     "dass",
+     "wenn"
+    ],
+    "answer": "wie"
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "الألمانية أصعب من الإنجليزية.",
+     "en": "German is harder than English."
+    },
+    "answers": [
+     "Deutsch ist schwerer als Englisch.",
+     "Deutsch ist schwieriger als Englisch."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "beruf",
+  "order": 24,
+  "level": "A2",
+  "title": {
+   "ar": "المهنة والتكوين المهني (Ausbildung)",
+   "en": "Jobs and the Ausbildung"
+  },
+  "titleDe": "Beruf und Ausbildung",
+  "minutes": 35,
+  "summary": {
+   "ar": "تحدث عن دراستك وخبرتك وهدفك: الكلمات الأساسية لـ Bewerbung و Vorstellungsgespräch.",
+   "en": "Talk about your studies, experience and goal: the core words for applications and interviews."
+  },
+  "resources": [
+   "ba",
+   "miig",
+   "shehata"
+  ],
+  "videos": [
+   "eIzltcP7SJQ",
+   "RVQGGvm5Q-8",
+   "I1y460_dViU",
+   "Dl5sJANIxF0"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "هدفك: **Ausbildung zum Fachinformatiker für Anwendungsentwicklung** (تكوين مهني مزدوج لمدة 3 سنوات: في الشركة **و**في المدرسة المهنية **Berufsschule**، مع راتب شهري **Ausbildungsvergütung**). هذه الجمل ستكررها في كل رسالة وكل مقابلة.",
+     "en": "Your goal: **Ausbildung zum Fachinformatiker für Anwendungsentwicklung** (3-year dual training: company **and** vocational school **Berufsschule**, with a monthly **Ausbildungsvergütung**). You will repeat these sentences in every letter and interview."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Ich habe zwei Jahre Informatik studiert.",
+      "ar": "درست المعلوميات لمدة سنتين.",
+      "en": "I studied computer science for two years."
+     },
+     {
+      "de": "Ich habe ein Diplom (Bac+2) in Informatik.",
+      "ar": "لدي دبلوم (باك+2) في المعلوميات.",
+      "en": "I have a diploma (two-year degree) in IT."
+     },
+     {
+      "de": "Ich habe fast ein Jahr als App-Entwickler gearbeitet.",
+      "ar": "عملت قرابة سنة كمطور تطبيقات.",
+      "en": "I worked as an app developer for almost a year."
+     },
+     {
+      "de": "Ich möchte eine Ausbildung als Fachinformatiker machen.",
+      "ar": "أريد القيام بتكوين مهني كأخصائي معلوميات.",
+      "en": "I would like to do an apprenticeship as an IT specialist."
+     },
+     {
+      "de": "Meine Stärken sind Teamarbeit und Geduld.",
+      "ar": "نقاط قوتي هي العمل الجماعي والصبر.",
+      "en": "My strengths are teamwork and patience."
+     },
+     {
+      "de": "Ich interessiere mich für App-Entwicklung.",
+      "ar": "أنا مهتم بتطوير التطبيقات.",
+      "en": "I'm interested in app development."
+     },
+     {
+      "de": "Wann kann ich anfangen?",
+      "ar": "متى يمكنني البدء؟",
+      "en": "When can I start?"
+     },
+     {
+      "de": "Ich freue mich auf Ihre Antwort.",
+      "ar": "أتطلع إلى ردكم.",
+      "en": "I look forward to your reply."
+     }
+    ]
+   },
+   {
+    "type": "table",
+    "columns": [
+     {
+      "ar": "الكلمة",
+      "en": "Word"
+     },
+     {
+      "ar": "المعنى",
+      "en": "Meaning"
+     }
+    ],
+    "rows": [
+     [
+      "die Bewerbung, -en",
+      {
+       "ar": "طلب التوظيف / ملف الترشيح",
+       "en": "application"
+      }
+     ],
+     [
+      "der Lebenslauf, -läufe",
+      {
+       "ar": "السيرة الذاتية",
+       "en": "CV"
+      }
+     ],
+     [
+      "das Anschreiben, -",
+      {
+       "ar": "رسالة التحفيز",
+       "en": "cover letter"
+      }
+     ],
+     [
+      "das Vorstellungsgespräch, -e",
+      {
+       "ar": "مقابلة العمل",
+       "en": "job interview"
+      }
+     ],
+     [
+      "der Ausbildungsplatz, -plätze",
+      {
+       "ar": "مقعد تكوين مهني",
+       "en": "apprenticeship place"
+      }
+     ],
+     [
+      "die Berufsschule, -n",
+      {
+       "ar": "المدرسة المهنية",
+       "en": "vocational school"
+      }
+     ],
+     [
+      "der Betrieb, -e",
+      {
+       "ar": "الشركة / المؤسسة",
+       "en": "company"
+      }
+     ],
+     [
+      "das Praktikum, Praktika",
+      {
+       "ar": "تدريب",
+       "en": "internship"
+      }
+     ],
+     [
+      "die Erfahrung, -en",
+      {
+       "ar": "خبرة",
+       "en": "experience"
+      }
+     ],
+     [
+      "die Stärke, -n / die Schwäche, -n",
+      {
+       "ar": "نقطة قوة / ضعف",
+       "en": "strength / weakness"
+      }
+     ]
+    ]
+   }
+  ],
+  "vocab": [
+   "die-Bewerbung",
+   "der-Lebenslauf",
+   "die-Ausbildung",
+   "die-Erfahrung",
+   "der-Entwickler"
+  ],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": {
+     "ar": "«مقابلة العمل» بالألمانية:",
+     "en": "\"Job interview\" in German:"
+    },
+    "options": [
+     "das Vorstellungsgespräch",
+     "der Lebenslauf",
+     "die Berufsschule",
+     "das Anschreiben"
+    ],
+    "answer": "das Vorstellungsgespräch"
+   },
+   {
+    "type": "fill",
+    "q": "Ich interessiere mich ___ App-Entwicklung.",
+    "answers": [
+     "für"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich freue mich ___ Ihre Antwort.",
+    "answers": [
+     "auf"
+    ]
+   },
+   {
+    "type": "fill",
+    "q": "Ich habe zwei Jahre Informatik ___. (studieren)",
+    "answers": [
+     "studiert"
+    ]
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "أريد القيام بتكوين مهني كأخصائي معلوميات.",
+     "en": "I want to do an IT apprenticeship."
+    },
+    "words": [
+     "Ich",
+     "möchte",
+     "eine",
+     "Ausbildung",
+     "als",
+     "Fachinformatiker",
+     "machen",
+     "."
+    ],
+    "answers": [
+     "Ich möchte eine Ausbildung als Fachinformatiker machen .",
+     "Ich möchte eine Ausbildung als Fachinformatiker machen."
+    ]
+   },
+   {
+    "type": "translate",
+    "src": {
+     "ar": "متى يمكنني البدء؟",
+     "en": "When can I start?"
+    },
+    "answers": [
+     "Wann kann ich anfangen?",
+     "Wann kann ich beginnen?"
+    ]
+   },
+   {
+    "type": "write",
+    "task": {
+     "prompt": {
+      "ar": "قدّم نفسك لشركة في 6 جمل: الدراسة، الخبرة، الهدف، نقاط القوة، لماذا ألمانيا.",
+      "en": "Introduce yourself to a company in 6 sentences: studies, experience, goal, strengths, why Germany."
+     },
+     "minWords": 50,
+     "checklist": [
+      {
+       "ar": "استعمال Sie (رسمي)",
+       "en": "formal Sie"
+      },
+      {
+       "ar": "Perfekt للدراسة والخبرة",
+       "en": "Perfekt for studies and experience"
+      },
+      {
+       "ar": "جملة مع weil",
+       "en": "a weil-clause"
+      },
+      {
+       "ar": "Ich möchte … machen",
+       "en": "Ich möchte … machen"
+      },
+      {
+       "ar": "خاتمة مهذبة",
+       "en": "a polite closing"
+      }
+     ],
+     "model": "Guten Tag, mein Name ist Mohamed Amakra. Ich komme aus Marokko und bin 22 Jahre alt. Ich habe zwei Jahre Informatik studiert und fast ein Jahr als App-Entwickler gearbeitet. Jetzt möchte ich eine Ausbildung als Fachinformatiker für Anwendungsentwicklung machen, weil ich in Deutschland professionell lernen und arbeiten möchte. Meine Stärken sind Teamarbeit, Geduld und logisches Denken. Ich freue mich auf ein Gespräch mit Ihnen."
+    }
+   }
+  ]
+ }
+]

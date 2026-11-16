@@ -1,0 +1,872 @@
+{
+ "phases": [
+  {
+   "key": "a1",
+   "label": "A1",
+   "start": "2026-11-11",
+   "end": "2027-01-17",
+   "hours": 150,
+   "weeks": [
+    1,
+    10
+   ],
+   "dates": {
+    "ar": "الأربعاء 11 نوفمبر 2026 → الأحد 17 يناير 2027 (10 أسابيع)",
+    "en": "Wed 11 Nov 2026 → Sun 17 Jan 2027 (10 weeks)"
+   },
+   "book": "Schritte international Neu 1 + 2",
+   "test": {
+    "ar": "Goethe A1 Modellsatz ≥ 60٪",
+    "en": "Goethe A1 Modellsatz ≥ 60%"
+   },
+   "can": [
+    {
+     "ar": "أقدّم نفسي وأسأل عن الاسم والبلد والعمل.",
+     "en": "I can introduce myself and ask about name, country, job."
+    },
+    {
+     "ar": "أفهم الأرقام والأوقات والأسعار.",
+     "en": "I understand numbers, times and prices."
+    },
+    {
+     "ar": "أطلب في مقهى، أسأل عن الطريق، آخذ موعدًا.",
+     "en": "I can order in a café, ask the way, make an appointment."
+    },
+    {
+     "ar": "أكتب رسالة قصيرة واستمارة.",
+     "en": "I can write a short message and fill in a form."
+    }
+   ],
+   "checks": [
+    {
+     "ar": "Nicos Weg A1 مكتمل",
+     "en": "Nicos Weg A1 finished"
+    },
+    {
+     "ar": "Schritte 1 + 2 مكتمل",
+     "en": "Schritte 1 + 2 finished"
+    },
+    {
+     "ar": "~1000 بطاقة Anki (أسماء مع الأداة والجمع)",
+     "en": "~1,000 Anki cards (nouns with article + plural)"
+    },
+    {
+     "ar": "Goethe A1 Modellsatz ≥ 60٪ + تقديم نفسك دقيقتين",
+     "en": "Goethe A1 Modellsatz ≥ 60% + 2-minute self-introduction"
+    }
+   ]
+  },
+  {
+   "key": "a2",
+   "label": "A2",
+   "start": "2027-01-18",
+   "end": "2027-03-28",
+   "hours": 150,
+   "weeks": [
+    11,
+    20
+   ],
+   "dates": {
+    "ar": "الاثنين 18 يناير → الأحد 28 مارس 2027 (10 أسابيع)",
+    "en": "Mon 18 Jan → Sun 28 Mar 2027 (10 weeks)"
+   },
+   "book": "Schritte international Neu 3 + 4",
+   "test": {
+    "ar": "Goethe A2 Modellsatz ≥ 60٪ في الأجزاء الأربعة",
+    "en": "Goethe A2 Modellsatz ≥ 60% in all four parts"
+   },
+   "can": [
+    {
+     "ar": "أحكي عن الماضي (Perfekt) وأبرّر (weil).",
+     "en": "I can talk about the past (Perfekt) and give reasons (weil)."
+    },
+    {
+     "ar": "أكتب إيميلًا رسميًا قصيرًا وشكوى.",
+     "en": "I can write a short formal email and a complaint."
+    },
+    {
+     "ar": "أفهم الإعلانات والحوارات اليومية.",
+     "en": "I understand announcements and everyday dialogues."
+    },
+    {
+     "ar": "Lebenslauf و Anschreiben جاهزان.",
+     "en": "My Lebenslauf and Anschreiben are ready."
+    }
+   ],
+   "checks": [
+    {
+     "ar": "Nicos Weg A2 + Schritte 3/4 مكتمل",
+     "en": "Nicos Weg A2 + Schritte 3/4 finished"
+    },
+    {
+     "ar": "~2000 بطاقة Anki",
+     "en": "~2,000 Anki cards"
+    },
+    {
+     "ar": "Goethe A2 Modellsatz ≥ 60٪",
+     "en": "Goethe A2 Modellsatz ≥ 60%"
+    },
+    {
+     "ar": "Lebenslauf + Anschreiben + أول 10 ترشيحات",
+     "en": "Lebenslauf + Anschreiben + first 10 applications"
+    }
+   ]
+  },
+  {
+   "key": "b1",
+   "label": "B1",
+   "start": "2027-03-29",
+   "end": "2027-06-06",
+   "hours": 160,
+   "weeks": [
+    21,
+    30
+   ],
+   "dates": {
+    "ar": "الاثنين 29 مارس → الأحد 6 يونيو 2027 (10 أسابيع)",
+    "en": "Mon 29 Mar → Sun 6 Jun 2027 (10 weeks)"
+   },
+   "book": "Schritte international Neu 5 + 6",
+   "test": {
+    "ar": "Goethe-Zertifikat B1 (الرباط / الدار البيضاء)، بداية يونيو 2027",
+    "en": "Goethe-Zertifikat B1 (Rabat / Casablanca), early June 2027"
+   },
+   "can": [
+    {
+     "ar": "أشارك في نقاش عن مواضيع مألوفة وأعطي رأيي.",
+     "en": "I can join a discussion on familiar topics and give my opinion."
+    },
+    {
+     "ar": "أكتب إيميلات ومشاركة منتدى من 80 كلمة.",
+     "en": "I can write emails and an 80-word forum post."
+    },
+    {
+     "ar": "أفهم النقاط الرئيسية في الراديو والتلفاز.",
+     "en": "I understand the main points on radio and TV."
+    },
+    {
+     "ar": "أنجح في مقابلة Ausbildung بالألمانية.",
+     "en": "I can pass an Ausbildung interview in German."
+    }
+   ],
+   "checks": [
+    {
+     "ar": "Modellsatz ≥ 60٪ في كل وحدة",
+     "en": "Modellsatz ≥ 60% in every module"
+    },
+    {
+     "ar": "توقيع Ausbildungsvertrag (هدف 31 مايو)",
+     "en": "Ausbildungsvertrag signed (target 31 May)"
+    },
+    {
+     "ar": "اجتياز Goethe-Zertifikat B1",
+     "en": "Goethe-Zertifikat B1 passed"
+    },
+    {
+     "ar": "طلب موعد التأشيرة (§16a AufenthG)",
+     "en": "Visa appointment requested (§16a AufenthG)"
+    }
+   ]
+  },
+  {
+   "key": "b2",
+   "label": "B2",
+   "start": "2027-06-07",
+   "end": "2027-08-29",
+   "hours": 200,
+   "weeks": [
+    31,
+    42
+   ],
+   "dates": {
+    "ar": "الاثنين 7 يونيو → الأحد 29 أغسطس 2027 (12 أسبوعًا، هدف إضافي)",
+    "en": "Mon 7 Jun → Sun 29 Aug 2027 (12 weeks, stretch)"
+   },
+   "book": "Goethe/telc B2 Modellsatz + DW Top-Thema + Deutsch mit Marija",
+   "test": {
+    "ar": "Goethe B2 Modellsatz (اختياري: Goethe-Zertifikat B2)",
+    "en": "Goethe B2 Modellsatz (optional: Goethe-Zertifikat B2)"
+   },
+   "can": [
+    {
+     "ar": "أتابع الأخبار والمحاضرات التقنية.",
+     "en": "I can follow the news and technical talks."
+    },
+    {
+     "ar": "أقدّم عرضًا وأدافع عن رأيي.",
+     "en": "I can give a presentation and defend my view."
+    },
+    {
+     "ar": "أكتب نصوصًا واضحة ومفصلة (150 كلمة).",
+     "en": "I can write clear, detailed texts (150 words)."
+    },
+    {
+     "ar": "أتواصل في Berufsschule وفي الشركة.",
+     "en": "I can communicate at Berufsschule and work."
+    }
+   ],
+   "checks": [
+    {
+     "ar": "Goethe B2 Modellsatz ≥ 60٪ لكل وحدة",
+     "en": "Goethe B2 Modellsatz ≥ 60% per module"
+    },
+    {
+     "ar": "محادثة 45 دقيقة بدون إنجليزية",
+     "en": "45-minute conversation without English"
+    },
+    {
+     "ar": "التأشيرة + السفر + السكن الأول",
+     "en": "Visa + flight + first accommodation"
+    },
+    {
+     "ar": "300 كلمة IT",
+     "en": "300 IT words"
+    }
+   ]
+  }
+ ],
+ "milestones": [
+  {
+   "id": "start",
+   "date": "2026-11-11",
+   "emoji": "🚀",
+   "title": {
+    "ar": "البداية A1",
+    "en": "Start A1"
+   },
+   "note": {
+    "ar": "اليوم الأول",
+    "en": "Day 1"
+   },
+   "city": "Casablanca"
+  },
+  {
+   "id": "a1",
+   "date": "2027-01-17",
+   "emoji": "🟢",
+   "title": {
+    "ar": "نهاية A1",
+    "en": "A1 done"
+   },
+   "note": {
+    "ar": "Goethe A1 Modellsatz",
+    "en": "Goethe A1 Modellsatz"
+   },
+   "city": "Rabat"
+  },
+  {
+   "id": "apply",
+   "date": "2027-03-01",
+   "emoji": "📨",
+   "title": {
+    "ar": "بداية الترشيحات",
+    "en": "Applications start"
+   },
+   "note": {
+    "ar": "Lebenslauf + Anschreiben",
+    "en": "Lebenslauf + Anschreiben"
+   },
+   "city": "Tanger"
+  },
+  {
+   "id": "a2",
+   "date": "2027-03-28",
+   "emoji": "🔵",
+   "title": {
+    "ar": "نهاية A2",
+    "en": "A2 done"
+   },
+   "note": {
+    "ar": "Goethe A2 Modellsatz",
+    "en": "Goethe A2 Modellsatz"
+   },
+   "city": "Madrid"
+  },
+  {
+   "id": "contract",
+   "date": "2027-05-31",
+   "emoji": "✍️",
+   "title": {
+    "ar": "توقيع العقد",
+    "en": "Contract signed"
+   },
+   "note": {
+    "ar": "Ausbildungsvertrag",
+    "en": "Ausbildungsvertrag"
+   },
+   "city": "Paris"
+  },
+  {
+   "id": "b1exam",
+   "date": "2027-06-04",
+   "emoji": "🎓",
+   "title": {
+    "ar": "امتحان Goethe B1",
+    "en": "Goethe B1 exam"
+   },
+   "note": {
+    "ar": "الرباط / الدار البيضاء",
+    "en": "Rabat / Casablanca"
+   },
+   "city": "Köln"
+  },
+  {
+   "id": "visa",
+   "date": "2027-08-15",
+   "emoji": "🛂",
+   "title": {
+    "ar": "التأشيرة (مايو–أغسطس)",
+    "en": "Visa (May–Aug)"
+   },
+   "note": {
+    "ar": "بعد العقد + B1",
+    "en": "after contract + B1"
+   },
+   "city": "Frankfurt"
+  },
+  {
+   "id": "b2",
+   "date": "2027-08-29",
+   "emoji": "🟠",
+   "title": {
+    "ar": "B2 (هدف إضافي)",
+    "en": "B2 (stretch)"
+   },
+   "note": {
+    "ar": "~3 ساعات يوميًا",
+    "en": "~3 h/day"
+   },
+   "city": "Leipzig"
+  },
+  {
+   "id": "ausbildung",
+   "date": "2027-09-01",
+   "emoji": "💻",
+   "title": {
+    "ar": "بداية Ausbildung",
+    "en": "Ausbildung starts"
+   },
+   "note": {
+    "ar": "Fachinformatiker AE",
+    "en": "Fachinformatiker AE"
+   },
+   "city": "Berlin"
+  },
+  {
+   "id": "backup",
+   "date": "2028-09-01",
+   "emoji": "🛟",
+   "title": {
+    "ar": "الخطة البديلة",
+    "en": "Backup start"
+   },
+   "note": {
+    "ar": "إذا تأخرت 2027",
+    "en": "if 2027 slips"
+   },
+   "city": ""
+  }
+ ],
+ "activities": [
+  {
+   "key": "book",
+   "label": {
+    "ar": "الكتاب / Nicos Weg",
+    "en": "Book / Nicos Weg"
+   },
+   "skill": "lesen"
+  },
+  {
+   "key": "anki",
+   "label": {
+    "ar": "البطاقات",
+    "en": "Flashcards"
+   },
+   "skill": "lesen"
+  },
+  {
+   "key": "listening",
+   "label": {
+    "ar": "الاستماع",
+    "en": "Listening"
+   },
+   "skill": "hoeren"
+  },
+  {
+   "key": "speaking",
+   "label": {
+    "ar": "المحادثة",
+    "en": "Speaking"
+   },
+   "skill": "sprechen"
+  },
+  {
+   "key": "writing",
+   "label": {
+    "ar": "الكتابة",
+    "en": "Writing"
+   },
+   "skill": "schreiben"
+  },
+  {
+   "key": "reading",
+   "label": {
+    "ar": "القراءة",
+    "en": "Reading"
+   },
+   "skill": "lesen"
+  },
+  {
+   "key": "tutor",
+   "label": {
+    "ar": "معلم / Tandem",
+    "en": "Tutor / Tandem"
+   },
+   "skill": "sprechen"
+  },
+  {
+   "key": "exam",
+   "label": {
+    "ar": "تدريب الامتحان",
+    "en": "Exam practice"
+   },
+   "skill": null
+  },
+  {
+   "key": "app",
+   "label": {
+    "ar": "هذا التطبيق",
+    "en": "This app"
+   },
+   "skill": null
+  }
+ ],
+ "daily": [
+  {
+   "id": "anki",
+   "time": "07:30",
+   "minutes": 20,
+   "activity": "anki",
+   "title": {
+    "ar": "البطاقات (Anki + التطبيق)",
+    "en": "Flashcards (Anki + app)"
+   },
+   "by": {
+    "a1": {
+     "ar": "20 جديدة + مراجعة، الأسماء مع der/die/das + الجمع",
+     "en": "20 new + reviews, nouns with der/die/das + plural"
+    },
+    "a2": {
+     "ar": "20 جديدة + مراجعة",
+     "en": "20 new + reviews"
+    },
+    "b1": {
+     "ar": "15 جديدة + بطاقات جمل",
+     "en": "15 new + sentence cards"
+    },
+    "b2": {
+     "ar": "مفردات IT + مراجعة",
+     "en": "IT vocab + reviews"
+    }
+   }
+  },
+  {
+   "id": "book",
+   "time": "19:00",
+   "minutes": 45,
+   "activity": "book",
+   "title": {
+    "ar": "درس Nicos Weg + الكتاب",
+    "en": "Nicos Weg lesson + book"
+   },
+   "by": {
+    "a1": {
+     "ar": "Nicos Weg A1 + Schritte 1/2",
+     "en": "Nicos Weg A1 + Schritte 1/2"
+    },
+    "a2": {
+     "ar": "Nicos Weg A2 + Schritte 3/4",
+     "en": "Nicos Weg A2 + Schritte 3/4"
+    },
+    "b1": {
+     "ar": "Nicos Weg B1 + Schritte 5/6",
+     "en": "Nicos Weg B1 + Schritte 5/6"
+    },
+    "b2": {
+     "ar": "تدريب بصيغة Goethe B2",
+     "en": "Goethe B2 format practice"
+    }
+   }
+  },
+  {
+   "id": "listening",
+   "time": "19:45",
+   "minutes": 25,
+   "activity": "listening",
+   "title": {
+    "ar": "الاستماع",
+    "en": "Listening"
+   },
+   "by": {
+    "a1": {
+     "ar": "lingoni A1 / Super Easy German",
+     "en": "lingoni A1 / Super Easy German"
+    },
+    "a2": {
+     "ar": "Easy German A2 + Slow German",
+     "en": "Easy German A2 + Slow German"
+    },
+    "b1": {
+     "ar": "Easy German B1 + Easy German Podcast",
+     "en": "Easy German B1 + Easy German Podcast"
+    },
+    "b2": {
+     "ar": "Langsam gesprochene Nachrichten + Marija",
+     "en": "Langsam gesprochene Nachrichten + Marija"
+    }
+   }
+  },
+  {
+   "id": "speaking",
+   "time": "20:10",
+   "minutes": 15,
+   "activity": "speaking",
+   "title": {
+    "ar": "تحدّث بصوت عالٍ (Shadowing + التسجيل)",
+    "en": "Speak aloud (shadowing + recording)"
+   },
+   "by": {
+    "a1": {
+     "ar": "كرّر جمل الدرس",
+     "en": "Repeat the lesson sentences"
+    },
+    "a2": {
+     "ar": "صف يومك وسجّل نفسك",
+     "en": "Describe your day, record yourself"
+    },
+    "b1": {
+     "ar": "مواضيع Goethe B1 Sprechen",
+     "en": "Goethe B1 Sprechen topics"
+    },
+    "b2": {
+     "ar": "أسئلة المقابلة والعرض",
+     "en": "Interview answers, presentation"
+    }
+   }
+  },
+  {
+   "id": "writing",
+   "time": "20:25",
+   "minutes": 15,
+   "activity": "writing",
+   "title": {
+    "ar": "اكتب (مع تصحيح)",
+    "en": "Write (with correction)"
+   },
+   "by": {
+    "a1": {
+     "ar": "5 جمل عن نفسك",
+     "en": "5 sentences about yourself"
+    },
+    "a2": {
+     "ar": "إيميل قصير",
+     "en": "Short email"
+    },
+    "b1": {
+     "ar": "إيميل / مشاركة منتدى B1",
+     "en": "B1 email / forum post"
+    },
+    "b2": {
+     "ar": "Anschreiben ونصوص رسمية",
+     "en": "Anschreiben, formal texts"
+    }
+   }
+  },
+  {
+   "id": "evening",
+   "time": "21:30",
+   "minutes": 60,
+   "activity": null,
+   "title": {
+    "ar": "+ ساعة إن استطعت (خطة 3 ساعات)",
+    "en": "+1 h if you can (3 h/day plan)"
+   },
+   "by": {
+    "a1": {
+     "ar": "درس Nicos Weg ثانٍ",
+     "en": "A second Nicos Weg lesson"
+    },
+    "a2": {
+     "ar": "معلم / Tandem أو الكتاب",
+     "en": "Tutor / Tandem or the book"
+    },
+    "b1": {
+     "ar": "وحدة Modellsatz",
+     "en": "A Modellsatz module"
+    },
+    "b2": {
+     "ar": "وحدة B2 + الترشيحات",
+     "en": "A B2 module + applications"
+    }
+   }
+  }
+ ],
+ "weekly": [
+  {
+   "day": {
+    "ar": "الاثنين → الجمعة",
+    "en": "Mon → Fri"
+   },
+   "time": {
+    "ar": "ساعتان مساءً (+ ساعة إن أمكن)",
+    "en": "2 h evening (+1 h if possible)"
+   },
+   "focus": {
+    "ar": "مادة جديدة: Nicos Weg + الكتاب، البطاقات، الاستماع، المحادثة",
+    "en": "New material: Nicos Weg + book, cards, listening, speaking"
+   }
+  },
+  {
+   "day": {
+    "ar": "السبت",
+    "en": "Saturday"
+   },
+   "time": {
+    "ar": "3 ساعات",
+    "en": "3 h"
+   },
+   "focus": {
+    "ar": "اختبار الأسبوع في التطبيق، مهمة الكتابة، حصة معلم أو Tandem (من A2)",
+    "en": "Weekly test in the app, writing task, a tutor or Tandem session (from A2)"
+   }
+  },
+  {
+   "day": {
+    "ar": "الأحد",
+    "en": "Sunday"
+   },
+   "time": {
+    "ar": "ساعتان",
+    "en": "2 h"
+   },
+   "focus": {
+    "ar": "مراجعة الأسبوع، دفتر الأخطاء، وحدة Modellsatz (من B1)، الترشيحات (من مارس)",
+    "en": "Weekly review, error log, a Modellsatz module (from B1), applications (from March)"
+   }
+  }
+ ],
+ "pitfalls": [
+  {
+   "pitfall": {
+    "ar": "حفظ الاسم بدون der/die/das",
+    "en": "Learning nouns without der/die/das"
+   },
+   "why": {
+    "ar": "العربية فيها أداة واحدة (ال)، والألمانية فيها ثلاث تتغير مع الإعراب. الأداة جزء من الكلمة.",
+    "en": "Arabic has one article (al-). German has three, and they change with case."
+   },
+   "fix": {
+    "ar": "كل بطاقة: die Wohnung, die Wohnungen. ألوان: der أزرق، die أحمر، das أخضر.",
+    "en": "Every card: die Wohnung, die Wohnungen. Colour code der/die/das."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "إهمال الجمع",
+    "en": "Ignoring the plural"
+   },
+   "why": {
+    "ar": "لا توجد قاعدة واحدة للجمع (-e، -er، -n، -s، Umlaut) – مثل جموع التكسير في العربية!",
+    "en": "No single plural rule (-e, -er, -n, -s, umlaut) – like Arabic broken plurals!"
+   },
+   "fix": {
+    "ar": "احفظ الجمع مع الاسم من اليوم الأول.",
+    "en": "Learn the plural with the noun from day one."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "الهروب من الإعراب (Kasus)",
+    "en": "Avoiding cases"
+   },
+   "why": {
+    "ar": "Akkusativ و Dativ يغيّران الأداة (der → den / dem). الفصحى فيها إعراب، لكن الدارجة لا تنطقه، فتنساه.",
+    "en": "Accusative and dative change the article. MSA has case endings, but Darija does not pronounce them."
+   },
+   "fix": {
+    "ar": "فكّر: مفعول به = Akkusativ؛ «لِـ / مع / عند» = غالبًا Dativ. تدرّب: Ich sehe den Mann / Ich helfe dem Mann.",
+    "en": "Think: object = accusative; \"to / with / at\" = often dative. Drill Ich sehe den Mann / Ich helfe dem Mann."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "موقع الفعل",
+    "en": "Verb position"
+   },
+   "why": {
+    "ar": "الجملة الرئيسية: الفعل ثانيًا. بعد weil / dass: الفعل في النهاية. مع Modal / Perfekt: الفعل الثاني في النهاية.",
+    "en": "Main clause: verb second. After weil/dass: verb last. Modal/Perfekt: second verb last."
+   },
+   "fix": {
+    "ar": "تمارين ترتيب الكلمات في التطبيق يوميًا.",
+    "en": "Do the word-order exercises in the app daily."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "ü و ö",
+    "en": "ü and ö"
+   },
+   "why": {
+    "ar": "غير موجودين في العربية ولا الدارجة. المغاربة يقولون «i» بدل ü و «e» بدل ö (Tür → Tir).",
+    "en": "Not in Arabic or Darija. Moroccans often say \"i\" for ü and \"e\" for ö."
+   },
+   "fix": {
+    "ar": "ü = «i» مع شفاه مستديرة (مثل tu في الفرنسية). ö = «e» مع شفاه مستديرة (peu).",
+    "en": "ü = \"i\" with rounded lips (French tu). ö = \"e\" with rounded lips (peu)."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "ch",
+    "en": "ch"
+   },
+   "why": {
+    "ar": "بعد a, o, u (Bach, Buch) = خ، وهذا سهل عليك. بعد e, i, ä, ö, ü (ich, Milch) = صوت ناعم، ليس خ وليس ش.",
+    "en": "After a, o, u it is خ. After e, i, ä, ö, ü it is a soft hiss, not خ and not ش."
+   },
+   "fix": {
+    "ar": "ich = «هـ» خفيفة في مقدمة الفم. تدرّب على أزواج ich / ach.",
+    "en": "ich = soft \"h\" at the front of the mouth. Practise ich / ach pairs."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "p و b، v و f",
+    "en": "p vs b, v vs f"
+   },
+   "why": {
+    "ar": "لا يوجد p في العربية. v الألمانية غالبًا = f (Vater).",
+    "en": "Arabic has no p. German v is usually f."
+   },
+   "fix": {
+    "ar": "p مع نفخة هواء: Paket, Papier. v = f: Vater, viel. w = v الفرنسية: Wasser.",
+    "en": "p with a puff of air. v = f. w = French v."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "الترجمة من الفرنسية",
+    "en": "Translating from French"
+   },
+   "why": {
+    "ar": "ترتيب الجملة الفرنسية والكلمات المخادعة.",
+    "en": "French word order and false friends."
+   },
+   "fix": {
+    "ar": "احفظ جملًا كاملة. انتبه: bekommen = يحصل على، وليس become.",
+    "en": "Learn whole sentences. bekommen = get, not become."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "du و Sie",
+    "en": "du vs Sie"
+   },
+   "why": {
+    "ar": "الخطأ في الترشيح أو المقابلة يبدو قلة احترام.",
+    "en": "The wrong form in an application or interview sounds rude."
+   },
+   "fix": {
+    "ar": "Sie للشركات والإدارات والمقابلات؛ du للأصدقاء وغالبًا بين الزملاء لاحقًا.",
+    "en": "Sie for companies, offices, interviews; du with friends."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "تأجيل الكلام",
+    "en": "Waiting with speaking"
+   },
+   "why": {
+    "ar": "كثيرون ينجحون في القراءة ويرسبون في Sprechen.",
+    "en": "Many pass reading but fail Sprechen."
+   },
+   "fix": {
+    "ar": "تكلّم بصوت عالٍ كل يوم من الأسبوع 1، ومعلم من A2.",
+    "en": "Speak aloud daily from week 1, tutor from A2."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "الدفع لوسطاء من أجل مقعد في الامتحان",
+    "en": "Paying agents for exam places"
+   },
+   "why": {
+    "ar": "Goethe Marokko يحذّر: لا يتعامل مع وسطاء ويراسل فقط من @goethe.de.",
+    "en": "Goethe Marokko warns it does not work with agents."
+   },
+   "fix": {
+    "ar": "سجّل فقط في متجر Goethe الرسمي.",
+    "en": "Register only in the official Goethe webshop."
+   }
+  },
+  {
+   "pitfall": {
+    "ar": "تأجيل الترشيحات إلى ما بعد B1",
+    "en": "Leaving applications for after B1"
+   },
+   "why": {
+    "ar": "الشركات تملأ مقاعد Ausbildung قبل 6–12 شهرًا.",
+    "en": "Companies fill places 6–12 months ahead."
+   },
+   "fix": {
+    "ar": "ابدأ الترشيح في A2 (مارس 2027) واذكر موعد امتحان B1.",
+    "en": "Start applying at A2 (March 2027) and mention your B1 date."
+   }
+  }
+ ],
+ "budget": [
+  {
+   "item": {
+    "ar": "Nicos Weg، Easy German، lingoni، شحاته، بدر، البودكاست، Anki (حاسوب/أندرويد)",
+    "en": "Nicos Weg, Easy German, lingoni, Shehata, Badr, podcasts, Anki (desktop/Android)"
+   },
+   "cost": "€0"
+  },
+  {
+   "item": {
+    "ar": "Schritte international Neu 1–6، Kursbuch + Arbeitsbuch (~23€ لكل كتاب عند Hueber)",
+    "en": "Schritte international Neu 1–6, Kursbuch + Arbeitsbuch (~€23 each at Hueber)"
+   },
+   "cost": "≈ €138 + shipping"
+  },
+  {
+   "item": {
+    "ar": "italki / معلم مرة أسبوعيًا من A2 (~30 حصة، السعر حسب المعلم)",
+    "en": "italki / tutor weekly from A2 (~30 lessons, price varies)"
+   },
+   "cost": "≈ €300–450"
+  },
+  {
+   "item": {
+    "ar": "Goethe-Zertifikat B1، مترشح خارجي، Goethe Marokko",
+    "en": "Goethe-Zertifikat B1, external candidate, Goethe Marokko"
+   },
+   "cost": "2,500 MAD"
+  },
+  {
+   "item": {
+    "ar": "اختياري: Goethe-Zertifikat B2",
+    "en": "Optional: Goethe-Zertifikat B2"
+   },
+   "cost": "2,800 MAD"
+  },
+  {
+   "item": {
+    "ar": "المجموع (مسار B1، بدون التأشيرة والسفر)",
+    "en": "Total (B1 path, without visa/moving)"
+   },
+   "cost": "≈ €450–600 + 2,500 MAD"
+  }
+ ]
+}
