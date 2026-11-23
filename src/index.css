@@ -472,3 +472,55 @@ body { @apply bg-paper text-ink antialiased; font-feature-settings: "kern"; -web
   .plan-options { grid-template-columns:1fr; }
   .access-panel { width:calc(100% - 24px); padding-inline:16px; }
 }
+
+/* Keep account flows usable on narrow phones, tablets, and short landscape screens. */
+@media(max-width:820px) {
+  .account-page {
+    box-sizing:border-box;
+    width:100%;
+    min-height:100vh;
+    min-height:100dvh;
+    margin:0;
+    grid-template-columns:minmax(0,1fr);
+    overflow:visible;
+    border:0;
+    border-radius:0;
+    box-shadow:none;
+  }
+  .account-aside { display:none; }
+  .account-main {
+    box-sizing:border-box;
+    width:100%;
+    min-width:0;
+    min-height:100vh;
+    min-height:100dvh;
+    padding:clamp(18px,5vh,32px) 18px calc(24px + env(safe-area-inset-bottom));
+    padding-inline:max(18px,env(safe-area-inset-left)) max(18px,env(safe-area-inset-right));
+    background:linear-gradient(180deg,#fff9e5 0,#fff 230px);
+  }
+  .back-home { display:none; }
+  .account-form-wrap,.account-form-wrap.signup-active {
+    box-sizing:border-box;
+    width:min(100%,520px);
+    min-width:0;
+    margin:auto;
+    padding-block:8px;
+  }
+  .account-mobile-brand { display:inline-block; margin-bottom:clamp(18px,4vh,30px); }
+  .account-form-wrap h2 { font-size:clamp(27px,7vw,32px); }
+  .account-intro { margin-bottom:22px; line-height:1.8; }
+  .account-form,.signup-fields,.signup-plan,.plan-options { width:100%; min-width:0; }
+  .signup-fields { grid-template-columns:minmax(0,1fr); gap:13px; }
+  .account-form label { min-width:0; }
+  .account-form input,.signup-form select { min-width:0; min-height:52px; font-size:16px; }
+  .plan-options { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .plan-option { min-width:0; }
+  .plan-option>span { min-width:0; }
+  .account-switch { line-height:1.8; }
+  .account-privacy { margin-top:28px; line-height:1.7; }
+}
+
+@media(max-width:380px) {
+  .account-main { padding-inline:16px; }
+  .plan-options { grid-template-columns:minmax(0,1fr); }
+}
