@@ -1,7 +1,7 @@
 import { useSyncExternalStore } from 'react'
 import type { Card } from '../lib/srs'
 import type { Activity } from '../content/data'
-import { B1_EXAM, AUSBILDUNG_START } from '../content/data'
+import { B1_EXAM, AUSBILDUNG_START } from '../content/constants'
 import type { Lang } from '../lib/i18n'
 
 export interface LogEntry { id: string; date: string; activity: Activity; minutes: number; note?: string; source?: string }
@@ -31,6 +31,7 @@ export interface AppState {
 }
 
 export const KEY = 'rihla:v1'
+let storageKey = KEY
 export const defaultState = (): AppState => ({
   v: 1,
   settings: { lang: 'ar', examDate: B1_EXAM, ausbildung: AUSBILDUNG_START, newPerDay: 20, rate: 0.9, reverse: false, dailyXp: 60, dailyMinutes: 120, hearts: false, sound: true, unlockAll: false, showDarija: true },
@@ -44,9 +45,9 @@ export function migrate(raw: unknown): AppState {
   return { ...base, ...r, settings: { ...base.settings, ...(r.settings ?? {}) } } as AppState
 }
 
-function load(): AppState {
+function load(key = storageKey): AppState {
   try {
-    const s = localStorage.getItem(KEY)
+    const s = localStorage.getItem(key)
     return s ? migrate(JSON.parse(s)) : defaultState()
   } catch {
     return defaultState()
@@ -57,13 +58,26 @@ let state: AppState = typeof localStorage !== 'undefined' ? load() : defaultStat
 const listeners = new Set<() => void>()
 
 export function getState() { return state }
+/** Swap in read-only local preview data without writing over the learner's saved state. */
+export function setTemporaryState(next: AppState) {
+  const previous = state
+  state = next
+  listeners.forEach((l) => l())
+  return () => { state = previous; listeners.forEach((l) => l()) }
+}
+export function setUserStorage(userId: string | null) {
+  storageKey = userId ? `${KEY}:${userId}` : KEY
+  state = userId ? load(storageKey) : defaultState()
+  listeners.forEach((l) => l())
+}
 export function setState(fn: (s: AppState) => AppState) {
   state = fn(state)
-  try { localStorage.setItem(KEY, JSON.stringify(state)) } catch { /* storage full or blocked */ }
+  try { localStorage.setItem(storageKey, JSON.stringify(state)) } catch { /* storage full or blocked */ }
   listeners.forEach((l) => l())
 }
 export function replaceState(next: AppState) { setState(() => next) }
 const subscribe = (l: () => void) => { listeners.add(l); return () => listeners.delete(l) }
+export const subscribeState = subscribe
 
 export function useStore<T>(sel: (s: AppState) => T): T {
   return useSyncExternalStore(subscribe, () => sel(state), () => sel(state))

@@ -1,17 +1,15 @@
 {
-  "name": "رحلة · Rihla — Deutsch A1 → B2",
-  "short_name": "Rihla",
-  "description": "الألمانية من الصفر إلى B2 بالعربية، من أجل Ausbildung كـ Fachinformatiker.",
+  "name": "RihlaDeutch — تعلّم الألمانية",
+  "short_name": "RihlaDeutch",
+  "description": "تعلّم الألمانية بالدارجة المغربية، من A1 حتى B2.",
   "lang": "ar",
   "dir": "rtl",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#F6F0E4",
-  "theme_color": "#0E1A3A",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFCE00",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "rihladeutch-lion.svg", "sizes": "any", "type": "image/svg+xml" }
   ]
 }

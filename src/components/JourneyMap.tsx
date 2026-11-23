@@ -28,33 +28,33 @@ export function JourneyMap({ today }: { today: string }) {
   const done = [...pts.slice(0, k + 1), pos].map((p, i) => `${i ? 'L' : 'M'}${p[0]},${p[1]}`).join(' ')
   const daysLeft = daysBetween(today, ms[ms.length - 1].date)
   return (
-    <div className="zellige-bg relative overflow-hidden rounded-3xl p-6 text-paper shadow-[0_20px_50px_-24px_rgba(14,26,58,.7)]">
+    <div className="relative overflow-hidden rounded-3xl border border-sand bg-white p-6 text-ink shadow-[0_14px_40px_-28px_rgba(20,20,20,.3)]">
       <div className="relative z-10 flex flex-wrap items-start justify-between gap-4">
         <div>
-          <div className="text-xs font-semibold uppercase tracking-[.18em] text-saffron">{t('خط رحلتك', 'Your line')}</div>
+          <div className="text-xs font-semibold uppercase tracking-[.16em] text-terra">{t('خط رحلتك', 'Your line')}</div>
           <h2 className="mt-1 text-2xl font-bold">{t('من الدار البيضاء إلى برلين', 'Casablanca to Berlin')}</h2>
-          <p className="mt-1 text-sm text-paper/60">{t('كل محطة هي هدف في خطتك. القطار يتحرك مع التاريخ، وأنت تملأ الطريق بالدراسة.', 'Every station is a goal in your plan. The train moves with the calendar; you fill the route with study.')}</p>
+          <p className="mt-1 text-sm text-mute">{t('كل محطة هي هدف في خطتك. القطار يتحرك مع التاريخ، وأنت تملأ الطريق بالدراسة.', 'Every station is a goal in your plan. The train moves with the calendar; you fill the route with study.')}</p>
         </div>
         <div className="flex gap-3 text-center">
-          <div className="rounded-2xl bg-white/5 px-4 py-2 ring-1 ring-white/10"><div className="text-2xl font-bold tabular-nums text-saffron">{Math.round(frac * 100)}%</div><div className="text-[11px] text-paper/60">{t('من الطريق', 'of the route')}</div></div>
-          <div className="rounded-2xl bg-white/5 px-4 py-2 ring-1 ring-white/10"><div className="text-2xl font-bold tabular-nums">{Math.max(0, daysLeft)}</div><div className="text-[11px] text-paper/60">{t('يومًا إلى برلين', 'days to Berlin')}</div></div>
+          <div className="rounded-2xl bg-paper px-4 py-2 ring-1 ring-sand"><div className="text-2xl font-bold tabular-nums text-terra">{Math.round(frac * 100)}%</div><div className="text-[11px] text-mute">{t('من الطريق', 'of the route')}</div></div>
+          <div className="rounded-2xl bg-paper px-4 py-2 ring-1 ring-sand"><div className="text-2xl font-bold tabular-nums">{Math.max(0, daysLeft)}</div><div className="text-[11px] text-mute">{t('يومًا إلى برلين', 'days to Berlin')}</div></div>
         </div>
       </div>
       <svg viewBox="0 0 1020 360" className="relative z-10 mt-2 w-full" role="img" aria-label={t('خريطة الرحلة', 'Journey map')}>
-        <path d={line} fill="none" stroke="#F6F0E4" strokeOpacity=".18" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
-        <path d={line} fill="none" stroke="#F6F0E4" strokeOpacity=".5" strokeWidth="2" strokeDasharray="2 10" strokeLinecap="round" />
-        <path d={done} fill="none" stroke="#E3A72F" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
+        <path d={line} fill="none" stroke="#e5e5e5" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round" />
+        <path d={line} fill="none" stroke="#a3a3a3" strokeOpacity=".65" strokeWidth="2" strokeDasharray="2 10" strokeLinecap="round" />
+        <path d={done} fill="none" stroke="#FFCE00" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
         {ms.map((m, i) => {
           const [x, y] = pts[i]
           const passed = today >= m.date
           const up = i % 2 === 0
           return (
             <g key={m.id}>
-              <circle cx={x} cy={y} r={passed ? 11 : 9} fill={passed ? '#E3A72F' : '#0E1A3A'} stroke={passed ? '#F6F0E4' : '#E3A72F'} strokeWidth="3" />
+              <circle cx={x} cy={y} r={passed ? 11 : 9} fill={passed ? '#FFCE00' : '#fff'} stroke={passed ? '#DD0000' : '#a3a3a3'} strokeWidth="3" />
               {m.id === 'b1exam' && <circle cx={x} cy={y} r="17" fill="none" stroke="#C8553D" strokeWidth="2" strokeDasharray="3 4" />}
-              <text x={x} y={up ? y - 44 : y + 34} textAnchor="middle" fill="#F6F0E4" fontSize="15" fontWeight="700">{lang === 'ar' ? CITY_AR[m.city] : m.city}</text>
-              <text x={x} y={up ? y - 26 : y + 52} textAnchor="middle" fill="#E3A72F" fontSize="12.5">{tx(m.title)}</text>
-              <text x={x} y={up ? y - 11 : y + 67} textAnchor="middle" fill="#F6F0E4" fillOpacity=".55" fontSize="11">{fmtDate(m.date, lang)}</text>
+              <text x={x} y={up ? y - 44 : y + 34} textAnchor="middle" fill="#171717" fontSize="15" fontWeight="700">{lang === 'ar' ? CITY_AR[m.city] : m.city}</text>
+              <text x={x} y={up ? y - 26 : y + 52} textAnchor="middle" fill="#947000" fontSize="12.5">{tx(m.title)}</text>
+              <text x={x} y={up ? y - 11 : y + 67} textAnchor="middle" fill="#686868" fontSize="11">{fmtDate(m.date, lang)}</text>
             </g>
           )
         })}

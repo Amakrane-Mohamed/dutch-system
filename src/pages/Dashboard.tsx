@@ -5,14 +5,16 @@ import { useT, fmtDate } from '../lib/i18n'
 import { currentNode, levelProgress, nodeHref, phaseFor, weekFor, weekProgress } from '../lib/path'
 import { playerLevel } from '../lib/game'
 import { setState, streak, toggleTask, totalXp, useStore, longestStreak } from '../state/store'
-import { JourneyMap } from '../components/JourneyMap'
+import { LionMark } from '../components/Brand'
 import { Heatmap } from '../components/Heatmap'
 import { Bar, Card, Check, Pill, Ring, Title, TxT } from '../components/ui'
 import { Icon } from '../components/Icon'
 import { skillShare } from './Progress'
+import { useAuth } from '../state/auth'
 
 export default function Dashboard() {
   const { t, tx, lang } = useT()
+  const { user } = useAuth()
   const today = todayISO()
   const s = useStore((x) => x)
   const wk = weekFor(today)
@@ -31,7 +33,8 @@ export default function Dashboard() {
     return { ...x, daily: { ...x.daily, [today]: cur.includes(id) ? cur.filter((b) => b !== id) : [...cur, id] } }
   })
   const [hour] = useState(() => new Date().getHours())
-  const greet = hour < 12 ? t('صباح الخير يا محمد', 'Good morning, Mohamed') : hour < 18 ? t('مساء الخير يا محمد', 'Good afternoon, Mohamed') : t('مساء النور يا محمد', 'Good evening, Mohamed')
+  const name = String(user?.user_metadata?.full_name ?? user?.email?.split('@')[0] ?? t('يا مسافر', 'there')).split(/[._-]/)[0]
+  const greet = hour < 12 ? t(`صباح الخير يا ${name}`, `Good morning, ${name}`) : hour < 18 ? t(`مساء الخير يا ${name}`, `Good afternoon, ${name}`) : t(`مساء النور يا ${name}`, `Good evening, ${name}`)
   const greetDe = hour < 12 ? 'Guten Morgen!' : hour < 18 ? 'Guten Tag!' : 'Guten Abend!'
   const nodeLesson = node?.kind === 'lesson' ? lessonById(node.ref) : undefined
   const shares = skillShare(s)
@@ -47,33 +50,42 @@ export default function Dashboard() {
             {t('الأسبوع', 'Week')} <b className="text-ink">{wk.n}</b> {t('من 42', 'of 42')} · {t('المستوى', 'Level')} <b style={{ color: LEVEL_COLOR[ph.key] }}>{ph.label}</b> · {tx(wk.dates)}
           </p>
         </div>
-        {node && (
-          <a href={`#${nodeHref(node)}`} className="group flex items-center gap-4 rounded-2xl bg-ink p-2 pe-6 text-paper shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl">
-            <span className="grid h-14 w-14 place-items-center rounded-xl bg-saffron text-ink"><Icon name="play" size={24} /></span>
-            <span>
-              <span className="block text-xs text-paper/60">{t('تابع من حيث توقفت', 'Continue where you left off')}</span>
-              <span className="block text-base font-bold">{tx(node.title)}</span>
-              {node.de && <span className="de block text-xs italic text-saffron">{node.de}{nodeLesson ? ` · ${nodeLesson.minutes} min` : ''}</span>}
-            </span>
-          </a>
-        )}
       </section>
 
-      <JourneyMap today={today} />
-
-      {/* Countdowns */}
-      <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-        <Countdown icon="exam" color="#C8553D" label={t('امتحان Goethe B1', 'Goethe B1 exam')} days={daysBetween(today, examDate)} date={fmtDate(examDate, lang, true)} />
-        <Countdown icon="train" color="#12756B" label={t('بداية Ausbildung', 'Ausbildung starts')} days={daysBetween(today, AUSBILDUNG_START)} date={fmtDate(AUSBILDUNG_START, lang, true)} />
-        <Countdown icon="khatam" color="#2F4BCE" label={`${t('المحطة القادمة', 'Next station')}: ${tx(next.title)}`} days={daysBetween(today, next.date)} date={fmtDate(next.date, lang, true)} />
-        <div className="card flex items-center gap-4 p-4">
-          <div className="relative grid h-14 w-14 place-items-center rounded-2xl bg-terra-soft text-terra"><Icon name="flame" size={30} className={st ? 'animate-flicker' : ''} /></div>
-          <div>
-            <div className="text-xs text-mute">{t('سلسلة الأيام', 'Streak')}</div>
-            <div className="text-2xl font-bold tabular-nums">{st} <span className="text-sm font-medium text-mute">{t('يوم', 'days')}</span></div>
-            <div className="text-xs text-mute">{t('الأطول', 'Longest')}: {best} · {t('الرتبة', 'Rank')} {lvl.level}</div>
-          </div>
+      {node && <section className="course-start-card animate-rise">
+        <div className="course-start-copy">
+          <span className="course-start-kicker">{t('كمّل رحلتك', 'Continue your path')} · {ph.label} · {t('الأسبوع', 'Week')} {wk.n}</span>
+          <h2>{tx(node.title)}</h2>
+          <p>{t('درس اليوم ديالك واجد. كل خطوة كتقرّبك من المستوى اللي باغي.', 'Your next lesson is ready. Each step moves you closer to your goal.')}</p>
+          <div className="course-start-progress"><Bar value={wp.done / Math.max(1, wp.total)} color="#171717" h={9} /><span>{wp.done}/{wp.total}</span></div>
+          <a href={`#${nodeHref(node)}`} className="course-start-button"><Icon name="play" size={18} />{t('بدا الدرس', 'Start lesson')}<Icon name="arrow" size={17} /></a>
         </div>
+        <div className="course-start-mascot"><LionMark size={104} /><span>{node.de ?? nodeLesson?.minutes + ' min'}</span></div>
+      </section>}
+
+      <section className="course-level-path card">
+        <div className="flex flex-wrap items-end justify-between gap-2">
+          <div><div className="text-xs font-bold uppercase tracking-[.12em] text-terra">{t('مسارك', 'Your course')}</div><h2 className="mt-1 text-lg font-bold">{t('من A1 حتى B2', 'A1 to B2')}</h2></div>
+          <a href="#/learn" className="text-sm font-bold text-terra hover:underline">{t('شوف الدروس', 'View lessons')} ←</a>
+        </div>
+        <div className="course-level-steps">
+          {PHASES.map((phase, index) => {
+            const progress = levelProgress(s, phase.key)
+            const current = phase.key === ph.key
+            return <div className={`course-level-step ${current ? 'is-current' : ''}`} key={phase.key}>
+              <div className="course-level-node" style={{ '--level-color': LEVEL_COLOR[phase.key] } as React.CSSProperties}>{progress >= 1 ? <Icon name="check" size={18} /> : phase.label}</div>
+              <div className="course-level-label">{phase.label}</div>
+              <div className="course-level-track"><i style={{ width: `${Math.round(progress * 100)}%`, backgroundColor: LEVEL_COLOR[phase.key] }} /></div>
+              {index < PHASES.length - 1 && <span className="course-level-connector" />}
+            </div>
+          })}
+        </div>
+      </section>
+
+      <section className="dashboard-quick-stats">
+        <div className="card flex items-center gap-3 p-4"><span className="quick-stat-icon quick-stat-fire"><Icon name="flame" size={22} /></span><div><div className="text-xs text-mute">{t('سلسلة الأيام', 'Streak')}</div><b className="text-xl tabular-nums">{st} <small>{t('يوم', 'days')}</small></b><div className="text-[11px] text-mute">{t('أطول سلسلة', 'Best')}: {best}</div></div></div>
+        <div className="card flex items-center gap-3 p-4"><span className="quick-stat-icon quick-stat-xp"><Icon name="bolt" size={22} /></span><div><div className="text-xs text-mute">XP</div><b className="text-xl tabular-nums">{xp.toLocaleString('en')}</b><div className="text-[11px] text-mute">{t('الرتبة', 'Rank')} {lvl.level}</div></div></div>
+        <div className="card flex items-center gap-3 p-4"><span className="quick-stat-icon quick-stat-week"><Icon name="check" size={22} /></span><div><div className="text-xs text-mute">{t('إنجاز الأسبوع', 'Weekly progress')}</div><b className="text-xl tabular-nums">{wp.done}/{wp.total}</b><div className="text-[11px] text-mute">{t('خطوة كملتيها', 'steps completed')}</div></div></div>
       </section>
 
       <section className="grid gap-6 xl:grid-cols-[1.35fr_1fr]">
@@ -116,8 +128,8 @@ export default function Dashboard() {
               const done = doneToday.includes(b.id)
               return (
                 <li key={b.id}>
-                  <button onClick={() => toggleBlock(b.id)} className={`flex w-full items-start gap-3 rounded-xl p-3 text-start ring-1 transition ${done ? 'bg-zellige-soft/60 ring-zellige/30' : 'bg-paper ring-sand hover:ring-sand-2'}`}>
-                    <span className={`grid h-9 w-9 shrink-0 place-items-center rounded-lg text-xs font-bold tabular-nums ${done ? 'bg-zellige text-paper' : 'bg-sand/70 text-ink'}`}>{done ? <Icon name="check" size={16} strokeWidth={2.5} /> : b.time}</span>
+                  <button onClick={() => toggleBlock(b.id)} className={`flex w-full items-start gap-3 rounded-xl p-3 text-start ring-1 transition ${done ? 'bg-saffron-soft ring-[#FFCE00]' : 'bg-paper ring-sand hover:ring-sand-2'}`}>
+                    <span className={`grid h-9 w-9 shrink-0 place-items-center rounded-lg text-xs font-bold tabular-nums ${done ? 'bg-saffron text-ink' : 'bg-sand/70 text-ink'}`}>{done ? <Icon name="check" size={16} strokeWidth={2.5} /> : b.time}</span>
                     <span className="min-w-0 flex-1">
                       <span className="flex items-center justify-between gap-2 text-sm font-semibold"><span>{tx(b.title)}</span><span className="shrink-0 text-xs font-medium text-mute">{b.minutes} {t('د', 'min')}</span></span>
                       <span className="mt-0.5 block text-xs text-mute"><TxT x={b.by[wk.phase]} /></span>
@@ -159,6 +171,12 @@ export default function Dashboard() {
             ))}
           </div>
         </Card>
+      </section>
+
+      <section className="grid gap-4 md:grid-cols-3">
+        <Countdown icon="exam" color="#DD0000" label={t('امتحان Goethe B1', 'Goethe B1 exam')} days={daysBetween(today, examDate)} date={fmtDate(examDate, lang, true)} />
+        <Countdown icon="train" color="#171717" label={t('بداية Ausbildung', 'Ausbildung starts')} days={daysBetween(today, AUSBILDUNG_START)} date={fmtDate(AUSBILDUNG_START, lang, true)} />
+        <Countdown icon="khatam" color="#947000" label={`${t('المحطة القادمة', 'Next station')}: ${tx(next.title)}`} days={daysBetween(today, next.date)} date={fmtDate(next.date, lang, true)} />
       </section>
     </div>
   )

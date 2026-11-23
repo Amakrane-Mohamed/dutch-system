@@ -328,7 +328,7 @@ function ExerciseView({ ex, verdict, onAnswer }: { ex: Exercise; verdict: Verdic
             className="de w-full rounded-2xl bg-paper-2 p-4 text-base leading-relaxed ring-1 ring-sand-2 outline-none focus:ring-2 focus:ring-saffron" />
           <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
             <span className={cx('tabular-nums', n >= ex.task.minWords ? 'text-zellige' : 'text-mute')}>{n} / {ex.task.minWords} {t('كلمة', 'words')}</span>
-            <a href="https://languagetool.org/de" target="_blank" rel="noreferrer" className="font-semibold text-majorelle hover:underline">{t('صحّح بـ LanguageTool', 'Check with LanguageTool')} ↗</a>
+            <a href="https://languagetool.org/de" target="_blank" rel="noopener noreferrer" className="font-semibold text-majorelle hover:underline">{t('صحّح بـ LanguageTool', 'Check with LanguageTool')} ↗</a>
           </div>
           {ex.task.checklist.length > 0 && (
             <ul className="mt-4 space-y-1.5 rounded-2xl bg-sand/40 p-4 text-sm">

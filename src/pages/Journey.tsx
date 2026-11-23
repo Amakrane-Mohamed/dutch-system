@@ -9,13 +9,15 @@ import { VideoCard } from '../components/VideoCard'
 import { Bar, Card, Check, De, LinkButton, PageHead, Pill, Tabs, Title, TxT } from '../components/ui'
 import { Icon } from '../components/Icon'
 import { taskKind } from './Dashboard'
+import { useAuth } from '../state/auth'
 
 export default function Journey({ route }: { route: string }) {
+  const { isAdmin } = useAuth()
   const n = Number(route.split('/')[2])
-  return n ? <WeekView n={n} /> : <WeekList />
+  return n ? <WeekView n={n} isAdmin={isAdmin} /> : <WeekList isAdmin={isAdmin} />
 }
 
-function WeekList() {
+function WeekList({ isAdmin }: { isAdmin: boolean }) {
   const { t, tx } = useT()
   const today = todayISO()
   const s = useStore((x) => x)
@@ -25,7 +27,7 @@ function WeekList() {
   return (
     <div>
       <PageHead kicker={t('11 نوفمبر 2026 ← 29 أغسطس 2027', '11 Nov 2026 → 29 Aug 2027')} title={t('الرحلة أسبوعًا بأسبوع', 'The journey, week by week')} de="42 Wochen bis zur Ausbildung"
-        sub={t('لكل أسبوع: أهداف المهارات الأربع، القواعد والمفردات، فصول Nicos Weg ودروس الكتاب، فيديوهات بالعربية، روتين يومي واختبار في نهاية الأسبوع.', 'Every week: goals for the four skills, grammar and vocab, Nicos Weg chapters and book units, Arabic videos, a daily routine and a weekly test.')}
+        sub={isAdmin ? t('لكل أسبوع: أهداف المهارات الأربع، القواعد والمفردات، فصول Nicos Weg ودروس الكتاب، فيديوهات بالعربية، روتين يومي واختبار في نهاية الأسبوع.', 'Every week: goals for the four skills, grammar and vocab, Nicos Weg chapters and book units, Arabic videos, a daily routine and a weekly test.') : t('لكل أسبوع: أهداف المهارات الأربع، القواعد والمفردات، فيديوهات بالعربية، روتين يومي واختبار في نهاية الأسبوع.', 'Every week: skill goals, grammar and vocabulary, Arabic videos, a daily routine and a weekly test.')}
         right={<LinkButton href={`#/journey/${cur.n}`} variant="gold"><Icon name="calendar" size={18} />{t('هذا الأسبوع', 'This week')} · {cur.n}</LinkButton>} />
       <Tabs className="mb-6" value={phase} onChange={setPhase} items={[{ key: 'all', label: t('الكل', 'All') }, ...PHASES.map((p) => ({ key: p.key, label: p.label }))]} />
       <div className="grid gap-4 md:grid-cols-2 2xl:grid-cols-3">
@@ -43,7 +45,7 @@ function WeekList() {
                   <div className="de truncate text-sm italic text-ink-3">{w.titleDe}</div>
                 </div>
               </div>
-              <div className="mt-3 line-clamp-1 text-xs text-mute"><span className="de">{w.nicos}</span></div>
+              {isAdmin && <div className="mt-3 line-clamp-1 text-xs text-mute"><span className="de">{w.nicos}</span></div>}
               <div className="mt-3 flex items-center gap-3"><Bar value={p.done / p.total} color={LEVEL_COLOR[w.phase]} h={6} /><span className="text-xs tabular-nums text-mute">{p.done}/{p.total}</span></div>
               {w.extra && <div className="mt-3 rounded-lg bg-saffron-soft px-3 py-1.5 text-xs"><TxT x={w.extra} /></div>}
             </a>
@@ -54,7 +56,7 @@ function WeekList() {
   )
 }
 
-function WeekView({ n }: { n: number }) {
+function WeekView({ n, isAdmin }: { n: number; isAdmin: boolean }) {
   const { t, tx } = useT()
   const today = todayISO()
   const s = useStore((x) => x)
@@ -113,15 +115,15 @@ function WeekView({ n }: { n: number }) {
           </section>
 
           <Card>
-            <Title kicker={t('المحتوى', 'Content')}>{t('القواعد والمفردات والمصادر', 'Grammar, vocabulary and sources')}</Title>
+            <Title kicker={t('المحتوى', 'Content')}>{isAdmin ? t('القواعد والمفردات والمصادر', 'Grammar, vocabulary and sources') : t('القواعد والمفردات', 'Grammar and vocabulary')}</Title>
             <div className="grid gap-4 md:grid-cols-2">
               <div><div className="mb-2 text-sm font-bold">{t('القواعد', 'Grammar')}</div><ul className="space-y-1.5 text-sm">{w.grammar.map((g, i) => <li key={i} className="flex gap-2"><span style={{ color }}>◆</span><TxT x={g} /></li>)}</ul></div>
               <div><div className="mb-2 text-sm font-bold">{t('المفردات', 'Vocabulary')}</div><ul className="space-y-1.5 text-sm">{w.vocab.map((g, i) => <li key={i} className="flex gap-2"><span style={{ color }}>◆</span><TxT x={g} /></li>)}</ul></div>
             </div>
-            <div className="mt-5 grid gap-3 md:grid-cols-2">
+            {isAdmin && <div className="mt-5 grid gap-3 md:grid-cols-2">
               <div className="rounded-xl bg-paper p-4 ring-1 ring-sand text-sm"><div className="mb-1 flex items-center gap-2 font-semibold"><Icon name="play" size={16} className="text-zellige" />Nicos Weg</div><span className="de">{w.nicos}</span></div>
               <div className="rounded-xl bg-paper p-4 ring-1 ring-sand text-sm"><div className="mb-1 flex items-center gap-2 font-semibold"><Icon name="library" size={16} className="text-saffron-deep" />{t('الكتاب', 'Book')}</div><span className="de">{w.book}</span></div>
-            </div>
+            </div>}
           </Card>
 
           <Card>

@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { EXAMS, PRACTICE, REDEMITTEL, SKILLS, resourceById, type Practice } from '../content/data'
+import { EXAMS, PRACTICE, REDEMITTEL, SKILLS, type Practice } from '../content/data'
 import { daysBetween, todayISO } from '../lib/dates'
 import { useT, fmtDate } from '../lib/i18n'
 import { practiceItems } from '../lib/path'
@@ -7,11 +7,14 @@ import { setState, uid, useStore } from '../state/store'
 import { logMinutes, pushTest } from '../state/progress'
 import { ExerciseRunner } from '../components/ExerciseRunner'
 import { VideoCard } from '../components/VideoCard'
-import { Button, Card, Ext, PageHead, Pill, Tabs, Title, TxT } from '../components/ui'
+import { Button, Card, PageHead, Pill, Tabs, Title, TxT } from '../components/ui'
 import { Icon } from '../components/Icon'
+import { useAuth } from '../state/auth'
+import { AdminResourceLink } from '../components/AdminResourceLink'
 
 export default function Exams() {
   const { t, tx, lang } = useT()
+  const { isAdmin } = useAuth()
   const today = todayISO()
   const examDate = useStore((s) => s.settings.examDate)
   const mocks = useStore((s) => s.mocks)
@@ -28,13 +31,13 @@ export default function Exams() {
   return (
     <div>
       <PageHead kicker={t('Goethe و telc · B1 و B2', 'Goethe & telc · B1 & B2')} title={t('الامتحانات', 'Exams')} de="Prüfungstraining"
-        sub={t('صيغة كل امتحان، استراتيجيات بالعربية، تدريب داخل التطبيق، والنماذج الرسمية المجانية.', 'Each exam\'s format, strategies in Arabic, in-app practice and the free official model tests.')}
+        sub={isAdmin ? t('صيغة كل امتحان، استراتيجيات بالعربية، تدريب داخل التطبيق، والنماذج الرسمية المجانية.', 'Exam formats, strategies in Arabic, in-app practice, and official model tests.') : t('صيغة كل امتحان، استراتيجيات بالدارجة، وتدريب تفاعلي داخل التطبيق.', 'Exam formats, Darija strategies, and interactive practice in the app.')}
         right={<div className="card flex items-center gap-3 px-5 py-3"><Icon name="exam" size={26} className="text-terra" /><div><div className="text-xs text-mute">{t('امتحان Goethe B1', 'Goethe B1 exam')} · {fmtDate(examDate, lang, true)}</div><div className="text-2xl font-bold tabular-nums">{Math.max(0, daysBetween(today, examDate))} {t('يومًا', 'days')}</div></div></div>} />
       <Tabs className="mb-6" value={id} onChange={setId} items={EXAMS.map((x) => ({ key: x.id, label: x.name.replace(' (Zertifikat Deutsch)', '') }))} />
       <div className="grid gap-6 xl:grid-cols-[1fr_380px]">
         <div className="space-y-6">
           <Card>
-            <Title kicker={e.level} right={<Ext href={resourceById(e.res)?.urls[0] ?? '#'}>{t('النموذج الرسمي', 'Official model test')}</Ext>}>{e.name}</Title>
+            <Title kicker={e.level} right={isAdmin ? <AdminResourceLink id={e.res} isAdmin={isAdmin}>{t('النموذج الرسمي', 'Official model test')}</AdminResourceLink> : undefined}>{e.name}</Title>
             <p className="mb-4 rounded-xl bg-saffron-soft/60 px-4 py-3 text-sm"><TxT x={e.pass} /></p>
             <div className="grid gap-4 md:grid-cols-2">
               {e.parts.map((p) => (
@@ -91,7 +94,7 @@ export default function Exams() {
           {e.videos.map((v, i) => <VideoCard key={v} id={v} featured={i === 0} />)}
           <Card>
             <p className="text-sm text-mute">{t('سجّل فقط في متجر Goethe الرسمي، وادفع فقط بعد إيميل من ‎@goethe.de. لا وسطاء.', 'Register only in the official Goethe webshop and pay only after an e-mail from @goethe.de. No agents.')}</p>
-            <div className="mt-2"><Ext href="https://www.goethe.de/ins/ma/de/spr/prf.html">Goethe-Institut Marokko</Ext></div>
+            {isAdmin && <div className="mt-2"><AdminResourceLink id="goethe-ma" isAdmin={isAdmin}>Goethe-Institut Marokko</AdminResourceLink></div>}
           </Card>
         </aside>
       </div>

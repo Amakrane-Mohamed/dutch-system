@@ -6,7 +6,6 @@ import journeyJson from './gen/journey.json'
 import tracksJson from './gen/tracks.json'
 import examsJson from './gen/exams.json'
 import planJson from './gen/plan.json'
-import resourcesJson from './gen/resources.json'
 
 export type PhaseKey = 'a1' | 'a2' | 'b1' | 'b2'
 export const PHASE_KEYS: PhaseKey[] = ['a1', 'a2', 'b1', 'b2']
@@ -91,28 +90,13 @@ export const WEEKLY = plan.weekly
 export const PITFALLS = plan.pitfalls
 export const BUDGET = plan.budget
 export const PLAN_START = '2026-11-11'
-export const B1_EXAM = '2027-06-04'
-export const AUSBILDUNG_START = '2027-09-01'
+export { B1_EXAM, AUSBILDUNG_START } from './constants'
 export const phaseByKey = (k: PhaseKey) => PHASES.find((p) => p.key === k)!
 
-// ---------- resources
-export type ResType = 'course' | 'books' | 'vocab' | 'arabic' | 'youtube' | 'podcasts' | 'reading' | 'speaking' | 'writing' | 'exam' | 'ausbildung'
-export interface Resource { id: string; name: string; type: ResType; level: string; phases: PhaseKey[]; cost: T; why: T; urls: string[]; primary?: boolean; arabic?: boolean; optional?: boolean }
-export const RESOURCES = resourcesJson as unknown as Resource[]
-export const resourceById = (id: string) => RESOURCES.find((r) => r.id === id)
-export const RES_TYPES: { key: ResType; label: T }[] = [
-  { key: 'course', label: { ar: 'الدورات', en: 'Courses' } }, { key: 'arabic', label: { ar: 'بالعربية والدارجة', en: 'In Arabic / Darija' } },
-  { key: 'books', label: { ar: 'الكتب', en: 'Books' } }, { key: 'vocab', label: { ar: 'المفردات', en: 'Vocabulary' } },
-  { key: 'youtube', label: { ar: 'يوتيوب', en: 'YouTube' } }, { key: 'podcasts', label: { ar: 'البودكاست', en: 'Podcasts' } },
-  { key: 'reading', label: { ar: 'القراءة', en: 'Reading' } }, { key: 'speaking', label: { ar: 'المحادثة', en: 'Speaking' } },
-  { key: 'writing', label: { ar: 'الكتابة', en: 'Writing' } }, { key: 'exam', label: { ar: 'الامتحانات', en: 'Exams' } },
-  { key: 'ausbildung', label: { ar: 'التكوين المهني والتأشيرة', en: 'Ausbildung & visa' } },
-]
-
 export const SKILLS: Record<SkillKey, { de: string; title: T; color: string; icon: string }> = {
-  sprechen: { de: 'Sprechen', title: { ar: 'المحادثة', en: 'Speaking' }, color: '#C8553D', icon: 'mic' },
-  schreiben: { de: 'Schreiben', title: { ar: 'الكتابة', en: 'Writing' }, color: '#E3A72F', icon: 'pen' },
-  hoeren: { de: 'Hören', title: { ar: 'الاستماع', en: 'Listening' }, color: '#12756B', icon: 'headphones' },
-  lesen: { de: 'Lesen', title: { ar: 'القراءة', en: 'Reading' }, color: '#2F4BCE', icon: 'book' },
+  sprechen: { de: 'Sprechen', title: { ar: 'المحادثة', en: 'Speaking' }, color: '#DD0000', icon: 'mic' },
+  schreiben: { de: 'Schreiben', title: { ar: 'الكتابة', en: 'Writing' }, color: '#947000', icon: 'pen' },
+  hoeren: { de: 'Hören', title: { ar: 'الاستماع', en: 'Listening' }, color: '#171717', icon: 'headphones' },
+  lesen: { de: 'Lesen', title: { ar: 'القراءة', en: 'Reading' }, color: '#686868', icon: 'book' },
 }
-export const LEVEL_COLOR: Record<PhaseKey, string> = { a1: '#12756B', a2: '#2F4BCE', b1: '#E3A72F', b2: '#C8553D' }
+export const LEVEL_COLOR: Record<PhaseKey, string> = { a1: '#171717', a2: '#DD0000', b1: '#947000', b2: '#171717' }

@@ -34,7 +34,7 @@ export function VideoCard({ id, featured = false, className }: { id: string; fea
         <div className={cx('line-clamp-2 font-semibold leading-snug', featured ? 'text-base' : 'text-sm')} dir="auto">{v.title}</div>
         <div className="mt-1 flex items-center justify-between gap-2 text-xs text-paper/60">
           <span dir="auto" className="truncate">{v.channel}</span>
-          <a href={watchUrl(v)} target="_blank" rel="noreferrer" className="inline-flex shrink-0 items-center gap-1 text-saffron hover:underline">YouTube <Icon name="external" size={12} /></a>
+          <a href={watchUrl(v)} target="_blank" rel="noopener noreferrer" className="inline-flex shrink-0 items-center gap-1 text-saffron hover:underline">YouTube <Icon name="external" size={12} /></a>
         </div>
       </figcaption>
     </figure>

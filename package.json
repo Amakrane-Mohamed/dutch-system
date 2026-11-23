@@ -16,6 +16,7 @@
     "smoke:app": "npm run build && electron scripts/smoke-electron.cjs write && electron scripts/smoke-electron.cjs read"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },
@@ -34,6 +35,6 @@
     "vitest": "^5.1.0"
   },
   "main": "electron/main.cjs",
-  "description": "Rihla · رحلة — German A1→B2 through Arabic, for an Ausbildung in Germany",
+  "description": "RihlaDeutch — German A1→B2 through Moroccan Darija",
   "author": "Mohamed"
 }

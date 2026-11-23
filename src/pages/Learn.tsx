@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { LEVEL_COLOR, PHASES, lessonById, phaseByKey, resourceById, weekByN, weeksOf, type Block, type Lesson, type PhaseKey } from '../content/data'
+import { LEVEL_COLOR, PHASES, lessonById, phaseByKey, weekByN, weeksOf, type Block, type Lesson, type PhaseKey } from '../content/data'
 import { WORDS, ARTICLE_COLOR, pluralOf } from '../content/vocab'
 import { todayISO } from '../lib/dates'
 import { useT } from '../lib/i18n'
@@ -13,8 +13,10 @@ import { addXp, useStore } from '../state/store'
 import { completeNode, logMinutes, pushTest } from '../state/progress'
 import { ExerciseRunner } from '../components/ExerciseRunner'
 import { VideoCard } from '../components/VideoCard'
-import { Bar, Button, Card, De, Ext, Md, PageHead, Pill, Ring, Speak, Title, TxT } from '../components/ui'
+import { Bar, Button, Card, De, Md, PageHead, Pill, Ring, Speak, Title, TxT } from '../components/ui'
 import { Icon } from '../components/Icon'
+import { useAuth } from '../state/auth'
+import { AdminResourceLink } from '../components/AdminResourceLink'
 
 export default function Learn({ route }: { route: string }) {
   const parts = route.split('/').filter(Boolean) // learn, kind, ref, run?
@@ -30,6 +32,7 @@ export default function Learn({ route }: { route: string }) {
 // ---------------------------------------------------------------- route map
 function RouteMap() {
   const { t, tx, lang } = useT()
+  const { isAdmin } = useAuth()
   const today = todayISO()
   const s = useStore((x) => x)
   const cur = weekFor(today).phase
@@ -111,7 +114,7 @@ function RouteMap() {
               <div>
                 <div className="text-sm text-mute">{t('تقدّم الخط', 'Line progress')}</div>
                 <div className="text-3xl font-bold tabular-nums">{Math.round(levelProgress(s, level) * 100)}%</div>
-                <div className="text-xs text-mute">~{ph.hours} {t('ساعة', 'hours')} · {ph.book}</div>
+                <div className="text-xs text-mute">~{ph.hours} {t('ساعة', 'hours')}{isAdmin ? ` · ${ph.book}` : ''}</div>
               </div>
             </div>
           </Card>
@@ -201,6 +204,7 @@ function BlockView({ b }: { b: Block }) {
 
 function LessonView({ id }: { id: string }) {
   const { t, tx } = useT()
+  const { isAdmin } = useAuth()
   const l = lessonById(id)
   const done = useStore((s) => s.nodes[`L:${id}`])
   if (!l) return <p>{t('الدرس غير موجود', 'Lesson not found')}</p>
@@ -243,10 +247,10 @@ function LessonView({ id }: { id: string }) {
               </ul>
             </Card>
           )}
-          {l.resources.length > 0 && (
+          {isAdmin && l.resources.length > 0 && (
             <Card>
               <Title kicker={t('موارد', 'Resources')}>{t('ادرس أيضًا', 'Also study')}</Title>
-              <ul className="space-y-2 text-sm">{l.resources.map((r) => { const x = resourceById(r); return x ? <li key={r}><Ext href={x.urls[0]}>{x.name}</Ext></li> : null })}</ul>
+              <ul className="space-y-2 text-sm">{l.resources.map((r) => <li key={r}><AdminResourceLink id={r} isAdmin={isAdmin} /></li>)}</ul>
             </Card>
           )}
         </aside>
@@ -276,6 +280,7 @@ function LessonRun({ id }: { id: string }) {
 // ---------------------------------------------------------------- study stop
 function StudyView({ n }: { n: number }) {
   const { t, tx } = useT()
+  const { isAdmin } = useAuth()
   const w = weekByN(n)
   const done = useStore((s) => !!s.nodes[`S:${n}`])
   if (!w) return null
@@ -292,10 +297,10 @@ function StudyView({ n }: { n: number }) {
               <div className="rounded-2xl bg-paper p-4 ring-1 ring-sand"><div className="mb-2 flex items-center gap-2 font-bold"><Icon name="book" size={18} className="text-majorelle" />{t('القواعد', 'Grammar')}</div><ul className="space-y-1.5 text-sm">{w.grammar.map((g, i) => <li key={i}>• <TxT x={g} /></li>)}</ul></div>
               <div className="rounded-2xl bg-paper p-4 ring-1 ring-sand"><div className="mb-2 flex items-center gap-2 font-bold"><Icon name="cards" size={18} className="text-terra" />{t('المفردات', 'Vocabulary')}</div><ul className="space-y-1.5 text-sm">{w.vocab.map((g, i) => <li key={i}>• <TxT x={g} /></li>)}</ul></div>
             </div>
-            <div className="mt-4 space-y-2 text-sm">
-              <div className="flex gap-2"><Icon name="play" size={16} className="mt-0.5 shrink-0 text-zellige" /><span><b>Nicos Weg:</b> <span className="de">{w.nicos}</span> · <Ext href="https://learngerman.dw.com/ar/nicos-weg/c-47993645">DW</Ext></span></div>
+            {isAdmin && <div className="mt-4 space-y-2 text-sm">
+              <div className="flex gap-2"><Icon name="play" size={16} className="mt-0.5 shrink-0 text-zellige" /><span><b>Nicos Weg:</b> <span className="de">{w.nicos}</span> · <AdminResourceLink id="nicosweg" isAdmin={isAdmin}>DW</AdminResourceLink></span></div>
               <div className="flex gap-2"><Icon name="library" size={16} className="mt-0.5 shrink-0 text-saffron-deep" /><span><b>{t('الكتاب', 'Book')}:</b> <span className="de">{w.book}</span></span></div>
-            </div>
+            </div>}
           </Card>
           <Card>
             <Title kicker={t('تدرّب الآن', 'Practise now')}>{t('قل واكتب', 'Say and write')}</Title>

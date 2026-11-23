@@ -1,19 +1,22 @@
 import { useState } from 'react'
-import { SKILLS, TRACKS, resourceById, type SkillKey } from '../content/data'
+import { SKILLS, TRACKS, type SkillKey } from '../content/data'
 import { useT } from '../lib/i18n'
 import { VideoCard } from '../components/VideoCard'
-import { Card, De, Ext, PageHead, Speak, Tabs, Title, TxT } from '../components/ui'
+import { Card, De, PageHead, Speak, Tabs, Title, TxT } from '../components/ui'
 import { Icon } from '../components/Icon'
+import { useAuth } from '../state/auth'
+import { AdminResourceLink } from '../components/AdminResourceLink'
 
 export default function Tracks() {
   const { t, tx } = useT()
+  const { isAdmin } = useAuth()
   const [k, setK] = useState<SkillKey>('sprechen')
   const tr = TRACKS.find((x) => x.key === k)!
   const meta = SKILLS[k]
   return (
     <div>
       <PageHead kicker={t('مسارات المهارات', 'Skill tracks')} title={t('المهارات الأربع: الطريقة', 'The four skills: the method')} de="Sprechen · Schreiben · Hören · Lesen"
-        sub={t('طرق مجرّبة يوصي بها متعلمون كثيرون (r/German ومجتمعات المتعلمين العرب)، مع سلّم موارد لكل مستوى.', 'Proven methods recommended by many learners (r/German and Arabic learner communities), with a resource ladder per level.')} />
+        sub={isAdmin ? t('طرق مجرّبة يوصي بها متعلمون كثيرون، مع سلّم موارد لكل مستوى.', 'Proven methods and a resource ladder for each level.') : t('خطوات واضحة باش تطوّر المحادثة والكتابة والاستماع والقراية.', 'Clear steps to build speaking, writing, listening, and reading skills.')} />
       <Tabs className="mb-6" value={k} onChange={setK} items={TRACKS.map((x) => ({ key: x.key, label: <span className="flex items-center gap-2"><Icon name={SKILLS[x.key].icon} size={16} />{tx(x.title)}</span> }))} />
       <div className="mb-6 rounded-3xl p-6 ring-1" style={{ background: meta.color + '10', boxShadow: `inset 0 0 0 1px ${meta.color}30` }}>
         <div className="flex items-center gap-3"><div className="grid h-12 w-12 place-items-center rounded-2xl text-paper" style={{ background: meta.color }}><Icon name={meta.icon} size={24} /></div><div><div className="text-xl font-bold">{tx(tr.title)}</div><div className="de display italic text-ink-3">{tr.de}</div></div></div>
@@ -26,7 +29,7 @@ export default function Tracks() {
               <div className="mb-3 flex items-center justify-between gap-2"><div className="font-bold">{tx(m.title)}</div><span className="rounded-md px-2 py-0.5 text-xs font-bold text-paper" style={{ background: meta.color }}>{m.minutes} {t('د', 'min')}</span></div>
               <ol className="space-y-2 text-sm">{m.steps.map((s, i) => <li key={i} className="flex gap-2"><span className="grid h-5 w-5 shrink-0 place-items-center rounded-full bg-ink text-[10px] font-bold text-paper">{i + 1}</span><TxT x={s} /></li>)}</ol>
               <p className="mt-3 rounded-xl bg-sand/40 p-3 text-xs text-ink/80"><b>{t('لماذا؟', 'Why?')}</b> <TxT x={m.why} /></p>
-              {m.res.length > 0 && <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">{m.res.map((r) => { const x = resourceById(r); return x ? <Ext key={r} href={x.urls[0]}>{x.name}</Ext> : null })}</div>}
+              {isAdmin && m.res.length > 0 && <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">{m.res.map((r) => <AdminResourceLink key={r} id={r} isAdmin={isAdmin} />)}</div>}
               {m.videos.length > 0 && <div className="mt-3 grid grid-cols-2 gap-2">{m.videos.slice(0, 2).map((v) => <VideoCard key={v} id={v} />)}</div>}
             </Card>
           ))}

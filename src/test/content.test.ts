@@ -1,4 +1,5 @@
-import { EXAMS, LESSONS, PHASES, PRACTICE, RESOURCES, TRACKS, WEEKS, lessonById, resourceById } from '../content/data'
+import { EXAMS, LESSONS, PHASES, PRACTICE, TRACKS, WEEKS, lessonById } from '../content/data'
+import { RESOURCES, resourceById } from '../content/resources'
 import { VIDEOS } from '../content/videos'
 import { WORDS } from '../content/vocab'
 

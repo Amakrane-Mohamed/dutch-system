@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { BUDGET, PITFALLS, RESOURCES, RES_TYPES, type ResType } from '../content/data'
+import { RESOURCES, RES_TYPES, type ResType } from '../content/resources'
+import { BUDGET, PITFALLS } from '../content/data'
 import { useT } from '../lib/i18n'
 import { cx } from '../lib/cx'
 import { Card, Ext, PageHead, Pill, Title, TxT } from '../components/ui'

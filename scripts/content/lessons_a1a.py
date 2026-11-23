@@ -225,3 +225,50 @@ L.append(dict(id='articles', order=6, level='A1', title=T('أدوات التعر
     fill('Das ist ___ Lampe.', ['eine'], T('أداة نكرة لـ die', 'indefinite article for die')),
     mc(T('ما أداة التعريف لكل الأسماء في الجمع؟', 'Which article do all plural nouns take?'), ['die', 'der', 'das', 'den'], 'die'),
   ]))
+
+# Short, original exam-style reading practice based on the Goethe A1 task format.
+L.append(dict(id='short-notices', order=6.1, level='A1', title=T('اقرأ إعلانًا أو رسالة قصيرة', 'Read a short notice or message'), titleDe='Kurze Mitteilungen lesen', minutes=18,
+  summary=T('تدرّب على استخراج المعلومة المطلوبة من إعلان أو رسالة قصيرة، كما في مهام القراءة اليومية بمستوى A1.',
+            'Practise finding a requested detail in an original short notice or message, using an A1 reading task format.'),
+  resources=['goethe-a1'], videos=['tuXoxZOU12A'],
+  blocks=[
+    text('في قراءة A1 لا تحتاج ترجمة كل كلمة. حدّد أولًا ما الذي يسأل عنه السؤال: **الوقت، المكان، السعر، أو المطلوب**. ثم ابحث عن الكلمة التي تشير إليه في النص؛ الأرقام وأيام الأسبوع وأسماء الأماكن غالبًا تكفي للوصول إلى الجواب.',
+         'In A1 reading, you do not need to translate every word. First identify what the question asks for: **time, place, price, or an action**. Then scan for the matching detail; numbers, weekdays and place names often lead you to the answer.'),
+    text('### مثال: موعد عند الطبيب\n**Praxis Dr. Weber**\nAm Dienstag ist die Praxis geschlossen. Termine am Mittwoch: 9–12 Uhr. Bitte rufen Sie uns an: 030 418 22.\n\nالعيادة مغلقة الثلاثاء. المواعيد يوم الأربعاء من التاسعة حتى الثانية عشرة، والاتصال على الرقم المكتوب.',
+         '### Example: a doctor’s office\n**Praxis Dr. Weber**\nAm Dienstag ist die Praxis geschlossen. Termine am Mittwoch: 9–12 Uhr. Bitte rufen Sie uns an: 030 418 22.\n\nThe office is closed Tuesday. Appointments are available Wednesday, 9 to 12; call the number shown.'),
+    tip('ابدأ بالسؤال، لا بالنص الطويل. إذا كان السؤال «متى؟» ابحث عن يوم أو ساعة. وإذا قرأت كلمة جديدة، اتركها مؤقتًا ما دامت لا تغيّر المعلومة المطلوبة.',
+        'Start with the question, not the whole text. For “when?”, scan for a day or time. Leave an unfamiliar word aside if it does not change the detail you need.'),
+  ],
+  vocab=[],
+  exercises=[
+    mc(T('متى يمكن حجز موعد؟', 'When can you book an appointment?'), ['Am Mittwoch von 9 bis 12 Uhr.', 'Am Dienstag den ganzen Tag.', 'Nur am Donnerstagabend.', 'Jeden Tag ab 12 Uhr.'], 'Am Mittwoch von 9 bis 12 Uhr.', T('ابحث عن Termine am Mittwoch: 9–12 Uhr.', 'Look for “Termine am Mittwoch: 9–12 Uhr.”')),
+    mc(T('ماذا تفعل لحجز موعد؟', 'What should you do to book?'), ['اتصل بالعيادة.', 'اذهب يوم الثلاثاء.', 'أرسل رسالة إلى الطبيب.', 'ادفع عبر الموقع.'], 'اتصل بالعيادة.'),
+    mc(T('في أي يوم تكون العيادة مغلقة؟', 'On which day is the office closed?'), ['Am Dienstag.', 'Am Mittwoch.', 'Am Freitag.', 'Am Samstag.'], 'Am Dienstag.'),
+  ]))
+
+# An original guided writing task tied to the everyday message format.
+L.append(dict(id='short-message', order=6.2, level='A1', title=T('اكتب رسالة موعد بسيطة', 'Write a simple appointment message'), titleDe='Eine kurze Nachricht schreiben', minutes=20,
+  summary=T('اكتب رسالة قصيرة تسأل فيها عن موعد، واذكر يومًا ووقتًا ووسيلة للرد.',
+            'Write a short message asking for an appointment, with a day, time and way to reply.'),
+  resources=['goethe-a1'], videos=['tuXoxZOU12A'],
+  blocks=[
+    text('الرسالة القصيرة الجيدة تجيب عن ثلاثة أشياء في سطرين أو ثلاثة: **لماذا تكتب؟ متى يناسبك؟ وكيف يمكنهم الرد؟** استعمل جملًا بسيطة، واكتب التحية في البداية والاسم في النهاية.',
+         'A useful short message answers three things in two or three lines: **why are you writing, when are you available, and how can they reply?** Keep the sentences simple; add a greeting and your name.'),
+    examples(
+      ex('Guten Tag,', 'نهارك سعيد،', 'Hello,'),
+      ex('ich möchte einen Termin vereinbaren.', 'أريد تحديد موعد.', 'I would like to make an appointment.'),
+      ex('Haben Sie am Freitag Zeit?', 'هل لديكم وقت يوم الجمعة؟', 'Are you available on Friday?'),
+      ex('Bitte antworten Sie per E-Mail.', 'يرجى الرد عبر البريد الإلكتروني.', 'Please reply by email.'),
+      ex('Viele Grüße', 'مع أطيب التحيات،', 'Kind regards,')),
+    tip('اختبر الرسالة قبل تسليمها: هل ذكرت سبب الكتابة؟ وهل يستطيع القارئ أن يعرف اليوم الذي تقترحه؟ لا تحتاج جملًا معقّدة حتى تكون الرسالة مفهومة.',
+        'Before submitting, check two details: did you say why you are writing, and can the reader tell which day you suggest? Clear sentences matter more than complicated ones.'),
+  ],
+  vocab=[],
+  exercises=[
+    mc(T('أي افتتاحية تلائم رسالة رسمية قصيرة؟', 'Which opening suits a short formal message?'), ['Guten Tag,', 'Tschüss,', 'Na du!', 'Bis morgen!'], 'Guten Tag,'),
+    fill('Ich möchte einen Termin ___.', ['vereinbaren'], T('أريد تحديد موعد.', 'I would like to make an appointment.')),
+    order(T('هل لديكم وقت يوم الجمعة؟', 'Are you available on Friday?'), ['Haben', 'Sie', 'am', 'Freitag', 'Zeit', '?'], ['Haben Sie am Freitag Zeit ?', 'Haben Sie am Freitag Zeit?']),
+    write(T('اكتب رسالة من 3 جمل إلى عيادة: اطلب موعدًا يوم الجمعة، واذكر أنك تستطيع الحضور صباحًا، واطلب الرد عبر البريد الإلكتروني.', 'Write a 3-sentence message to a doctor’s office: ask for a Friday appointment, say you are available in the morning, and ask for an email reply.'), 18,
+      [T('بدأت بتحية مناسبة.', 'I used a suitable greeting.'), T('طلبت موعدًا وذكرت اليوم.', 'I asked for an appointment and named the day.'), T('ذكرت وقتًا مناسبًا وطريقة للرد.', 'I gave a suitable time and a way to reply.'), T('أنهيت الرسالة باسمك.', 'I ended with your name.')],
+      'Guten Tag,\nich möchte einen Termin am Freitag vereinbaren. Am Vormittag habe ich Zeit. Bitte antworten Sie per E-Mail.\nViele Grüße\nSamira'),
+  ]))

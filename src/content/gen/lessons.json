@@ -1731,6 +1731,242 @@
   ]
  },
  {
+  "id": "short-notices",
+  "order": 6.1,
+  "level": "A1",
+  "title": {
+   "ar": "اقرأ إعلانًا أو رسالة قصيرة",
+   "en": "Read a short notice or message"
+  },
+  "titleDe": "Kurze Mitteilungen lesen",
+  "minutes": 18,
+  "summary": {
+   "ar": "تدرّب على استخراج المعلومة المطلوبة من إعلان أو رسالة قصيرة، كما في مهام القراءة اليومية بمستوى A1.",
+   "en": "Practise finding a requested detail in an original short notice or message, using an A1 reading task format."
+  },
+  "resources": [
+   "goethe-a1"
+  ],
+  "videos": [
+   "tuXoxZOU12A"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "في قراءة A1 لا تحتاج ترجمة كل كلمة. حدّد أولًا ما الذي يسأل عنه السؤال: **الوقت، المكان، السعر، أو المطلوب**. ثم ابحث عن الكلمة التي تشير إليه في النص؛ الأرقام وأيام الأسبوع وأسماء الأماكن غالبًا تكفي للوصول إلى الجواب.",
+     "en": "In A1 reading, you do not need to translate every word. First identify what the question asks for: **time, place, price, or an action**. Then scan for the matching detail; numbers, weekdays and place names often lead you to the answer."
+    }
+   },
+   {
+    "type": "text",
+    "md": {
+     "ar": "### مثال: موعد عند الطبيب\n**Praxis Dr. Weber**\nAm Dienstag ist die Praxis geschlossen. Termine am Mittwoch: 9–12 Uhr. Bitte rufen Sie uns an: 030 418 22.\n\nالعيادة مغلقة الثلاثاء. المواعيد يوم الأربعاء من التاسعة حتى الثانية عشرة، والاتصال على الرقم المكتوب.",
+     "en": "### Example: a doctor’s office\n**Praxis Dr. Weber**\nAm Dienstag ist die Praxis geschlossen. Termine am Mittwoch: 9–12 Uhr. Bitte rufen Sie uns an: 030 418 22.\n\nThe office is closed Tuesday. Appointments are available Wednesday, 9 to 12; call the number shown."
+    }
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "ابدأ بالسؤال، لا بالنص الطويل. إذا كان السؤال «متى؟» ابحث عن يوم أو ساعة. وإذا قرأت كلمة جديدة، اتركها مؤقتًا ما دامت لا تغيّر المعلومة المطلوبة.",
+     "en": "Start with the question, not the whole text. For “when?”, scan for a day or time. Leave an unfamiliar word aside if it does not change the detail you need."
+    }
+   }
+  ],
+  "vocab": [],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": {
+     "ar": "متى يمكن حجز موعد؟",
+     "en": "When can you book an appointment?"
+    },
+    "options": [
+     "Am Mittwoch von 9 bis 12 Uhr.",
+     "Am Dienstag den ganzen Tag.",
+     "Nur am Donnerstagabend.",
+     "Jeden Tag ab 12 Uhr."
+    ],
+    "answer": "Am Mittwoch von 9 bis 12 Uhr.",
+    "explain": {
+     "ar": "ابحث عن Termine am Mittwoch: 9–12 Uhr.",
+     "en": "Look for “Termine am Mittwoch: 9–12 Uhr.”"
+    }
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "ماذا تفعل لحجز موعد؟",
+     "en": "What should you do to book?"
+    },
+    "options": [
+     "اتصل بالعيادة.",
+     "اذهب يوم الثلاثاء.",
+     "أرسل رسالة إلى الطبيب.",
+     "ادفع عبر الموقع."
+    ],
+    "answer": "اتصل بالعيادة."
+   },
+   {
+    "type": "mc",
+    "q": {
+     "ar": "في أي يوم تكون العيادة مغلقة؟",
+     "en": "On which day is the office closed?"
+    },
+    "options": [
+     "Am Dienstag.",
+     "Am Mittwoch.",
+     "Am Freitag.",
+     "Am Samstag."
+    ],
+    "answer": "Am Dienstag."
+   }
+  ]
+ },
+ {
+  "id": "short-message",
+  "order": 6.2,
+  "level": "A1",
+  "title": {
+   "ar": "اكتب رسالة موعد بسيطة",
+   "en": "Write a simple appointment message"
+  },
+  "titleDe": "Eine kurze Nachricht schreiben",
+  "minutes": 20,
+  "summary": {
+   "ar": "اكتب رسالة قصيرة تسأل فيها عن موعد، واذكر يومًا ووقتًا ووسيلة للرد.",
+   "en": "Write a short message asking for an appointment, with a day, time and way to reply."
+  },
+  "resources": [
+   "goethe-a1"
+  ],
+  "videos": [
+   "tuXoxZOU12A"
+  ],
+  "blocks": [
+   {
+    "type": "text",
+    "md": {
+     "ar": "الرسالة القصيرة الجيدة تجيب عن ثلاثة أشياء في سطرين أو ثلاثة: **لماذا تكتب؟ متى يناسبك؟ وكيف يمكنهم الرد؟** استعمل جملًا بسيطة، واكتب التحية في البداية والاسم في النهاية.",
+     "en": "A useful short message answers three things in two or three lines: **why are you writing, when are you available, and how can they reply?** Keep the sentences simple; add a greeting and your name."
+    }
+   },
+   {
+    "type": "examples",
+    "items": [
+     {
+      "de": "Guten Tag,",
+      "ar": "نهارك سعيد،",
+      "en": "Hello,"
+     },
+     {
+      "de": "ich möchte einen Termin vereinbaren.",
+      "ar": "أريد تحديد موعد.",
+      "en": "I would like to make an appointment."
+     },
+     {
+      "de": "Haben Sie am Freitag Zeit?",
+      "ar": "هل لديكم وقت يوم الجمعة؟",
+      "en": "Are you available on Friday?"
+     },
+     {
+      "de": "Bitte antworten Sie per E-Mail.",
+      "ar": "يرجى الرد عبر البريد الإلكتروني.",
+      "en": "Please reply by email."
+     },
+     {
+      "de": "Viele Grüße",
+      "ar": "مع أطيب التحيات،",
+      "en": "Kind regards,"
+     }
+    ]
+   },
+   {
+    "type": "tip",
+    "md": {
+     "ar": "اختبر الرسالة قبل تسليمها: هل ذكرت سبب الكتابة؟ وهل يستطيع القارئ أن يعرف اليوم الذي تقترحه؟ لا تحتاج جملًا معقّدة حتى تكون الرسالة مفهومة.",
+     "en": "Before submitting, check two details: did you say why you are writing, and can the reader tell which day you suggest? Clear sentences matter more than complicated ones."
+    }
+   }
+  ],
+  "vocab": [],
+  "exercises": [
+   {
+    "type": "mc",
+    "q": {
+     "ar": "أي افتتاحية تلائم رسالة رسمية قصيرة؟",
+     "en": "Which opening suits a short formal message?"
+    },
+    "options": [
+     "Guten Tag,",
+     "Tschüss,",
+     "Na du!",
+     "Bis morgen!"
+    ],
+    "answer": "Guten Tag,"
+   },
+   {
+    "type": "fill",
+    "q": "Ich möchte einen Termin ___.",
+    "answers": [
+     "vereinbaren"
+    ],
+    "hint": {
+     "ar": "أريد تحديد موعد.",
+     "en": "I would like to make an appointment."
+    }
+   },
+   {
+    "type": "order",
+    "mean": {
+     "ar": "هل لديكم وقت يوم الجمعة؟",
+     "en": "Are you available on Friday?"
+    },
+    "words": [
+     "Haben",
+     "Sie",
+     "am",
+     "Freitag",
+     "Zeit",
+     "?"
+    ],
+    "answers": [
+     "Haben Sie am Freitag Zeit ?",
+     "Haben Sie am Freitag Zeit?"
+    ]
+   },
+   {
+    "type": "write",
+    "task": {
+     "prompt": {
+      "ar": "اكتب رسالة من 3 جمل إلى عيادة: اطلب موعدًا يوم الجمعة، واذكر أنك تستطيع الحضور صباحًا، واطلب الرد عبر البريد الإلكتروني.",
+      "en": "Write a 3-sentence message to a doctor’s office: ask for a Friday appointment, say you are available in the morning, and ask for an email reply."
+     },
+     "minWords": 18,
+     "checklist": [
+      {
+       "ar": "بدأت بتحية مناسبة.",
+       "en": "I used a suitable greeting."
+      },
+      {
+       "ar": "طلبت موعدًا وذكرت اليوم.",
+       "en": "I asked for an appointment and named the day."
+      },
+      {
+       "ar": "ذكرت وقتًا مناسبًا وطريقة للرد.",
+       "en": "I gave a suitable time and a way to reply."
+      },
+      {
+       "ar": "أنهيت الرسالة باسمك.",
+       "en": "I ended with your name."
+      }
+     ],
+     "model": "Guten Tag,\nich möchte einen Termin am Freitag vereinbaren. Am Vormittag habe ich Zeit. Bitte antworten Sie per E-Mail.\nViele Grüße\nSamira"
+    }
+   }
+  ]
+ },
+ {
   "id": "present",
   "order": 7,
   "level": "A1",

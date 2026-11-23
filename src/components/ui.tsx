@@ -166,7 +166,7 @@ export function Check({ checked, onChange, children, className }: { checked: boo
 }
 
 export function Ext({ href, children, className }: { href: string; children: ReactNode; className?: string }) {
-  return <a href={href} target="_blank" rel="noreferrer" className={cx('inline-flex items-center gap-1 font-semibold text-majorelle hover:underline', className)}>{children}<Icon name="external" size={14} /></a>
+  return <a href={href} target="_blank" rel="noopener noreferrer" className={cx('inline-flex items-center gap-1 font-semibold text-majorelle hover:underline', className)}>{children}<Icon name="external" size={14} /></a>
 }
 
 export function Ring({ value, size = 64, stroke = 7, color = '#E3A72F', children }: { value: number; size?: number; stroke?: number; color?: string; children?: ReactNode }) {
