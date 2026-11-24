@@ -524,3 +524,15 @@ body { @apply bg-paper text-ink antialiased; font-feature-settings: "kern"; -web
   .account-main { padding-inline:16px; }
   .plan-options { grid-template-columns:minmax(0,1fr); }
 }
+
+.access-dialog-backdrop { position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:20px;background:#1017108c;backdrop-filter:blur(4px); }
+.access-dialog { position:relative;width:min(100%,460px);box-sizing:border-box;padding:34px 30px 27px;border:1px solid #e8e8e8;border-radius:20px;background:white;box-shadow:0 24px 90px #0004;text-align:center; }
+.access-dialog-close { position:absolute;top:12px;left:14px;width:34px;height:34px;border:0;border-radius:50%;background:#f4f4f4;color:#626962;font-size:25px;line-height:1;cursor:pointer; }
+.access-dialog-lock { width:52px;height:52px;display:grid;place-items:center;margin:0 auto 18px;border-radius:16px;background:#fff4d2;color:#826300; }
+.access-dialog h2 { margin:10px 0 9px;font-size:23px;line-height:1.6; }
+.access-dialog p { margin:0;color:#718075;font-size:13px;line-height:1.9; }
+.whatsapp-contact { min-height:52px;display:flex;align-items:center;justify-content:center;gap:10px;margin-top:23px;border-radius:11px;background:#25D366;color:white;font-size:14px;font-weight:800;text-decoration:none;transition:background .15s,transform .15s; }
+.whatsapp-contact:hover { transform:translateY(-1px);background:#1fbd5a; }
+.whatsapp-contact svg { width:24px;height:24px; }
+.access-dialog-later { margin-top:17px;padding:8px 12px;border:0;background:transparent;color:#667369;font:600 12px var(--font-sans);cursor:pointer; }
+@media(max-width:520px) { .access-dialog { padding:31px 21px 22px; }.access-dialog h2 { font-size:20px; }.access-dialog p { font-size:12px; }.whatsapp-contact { min-height:49px;font-size:13px; } }
