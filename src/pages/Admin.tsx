@@ -4,12 +4,13 @@ import { supabase } from '../lib/supabase'
 import { Wordmark } from '../components/Brand'
 import { Icon } from '../components/Icon'
 
-type ProfileRow = { id: string; email: string | null; first_name?: string | null; family_name?: string | null; full_name?: string | null; age?: number | null; city?: string | null; goal_level?: string | null; phone?: string | null; plan?: string | null }
+type ProfileRow = { id: string; email: string | null; first_name?: string | null; family_name?: string | null; full_name?: string | null; age?: number | null; city?: string | null; goal_level?: string | null; phone?: string | null; plan?: string | null; is_admin?: boolean }
 type RequestRow = { id: string; user_id: string; payment_method: string; payment_reference: string; plan?: string | null; status: string; created_at: string; profile?: ProfileRow }
 
 export default function AdminPage() {
   const { isAdmin, user, signOut } = useAuth()
   const [rows, setRows] = useState<RequestRow[]>([])
+  const [unapproved, setUnapproved] = useState<ProfileRow[]>([])
   const [filter, setFilter] = useState('pending')
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -28,18 +29,29 @@ export default function AdminPage() {
     }
     if (requestError) { setError(requestError.message); setLoading(false); return }
     const requests = requestData ?? []
-    if (!requests.length) { setRows([]); setLoading(false); return }
-    const profiles = await supabase.from('profiles').select('id,email,first_name,family_name,full_name,age,city,goal_level,phone,plan').in('id', [...new Set(requests.map((r) => r.user_id))])
+    const profiles = await supabase.from('profiles').select('id,email,first_name,family_name,full_name,age,city,goal_level,phone,plan,is_admin')
     let profileData = profiles.data as ProfileRow[] | null
     let profileError = profiles.error
     if (profiles.error?.code === '42703') {
-      const fallback = await supabase.from('profiles').select('id,email').in('id', [...new Set(requests.map((r) => r.user_id))])
+      const fallback = await supabase.from('profiles').select('id,email,is_admin')
       profileData = fallback.data as ProfileRow[] | null
       profileError = fallback.error
     }
     if (profileError) { setError(profileError.message); setLoading(false); return }
     const byId = new Map((profileData ?? []).map((p) => [p.id, p]))
+    const [entitlements, existingRequests] = await Promise.all([
+      supabase.from('entitlements').select('user_id').eq('active', true),
+      supabase.from('access_requests').select('user_id'),
+    ])
+    if (entitlements.error || existingRequests.error) {
+      setError(entitlements.error?.message ?? existingRequests.error?.message ?? 'تعذر تحميل الحسابات')
+      setLoading(false)
+      return
+    }
+    const activeIds = new Set((entitlements.data ?? []).map((entry) => entry.user_id))
+    const requestUserIds = new Set((existingRequests.data ?? []).map((entry) => entry.user_id))
     setRows(requests.map((r) => ({ ...r, plan: (r.plan ?? byId.get(r.user_id)?.plan) === 'yearly' ? 'yearly' : 'monthly', profile: byId.get(r.user_id) })))
+    setUnapproved((profileData ?? []).filter((profile) => !profile.is_admin && !activeIds.has(profile.id) && !requestUserIds.has(profile.id)))
     setLoading(false)
   }, [filter, isAdmin])
   useEffect(() => { void load() }, [load])
@@ -48,6 +60,15 @@ export default function AdminPage() {
     if (!supabase) return
     setBusyId(id); setError('')
     const result = await supabase.rpc('review_rihla_access_request', { request_id: id, decision })
+    setBusyId('')
+    if (result.error) setError(result.error.message)
+    else await load()
+  }
+
+  const activateAccount = async (id: string) => {
+    if (!supabase) return
+    setBusyId(`account:${id}`); setError('')
+    const result = await supabase.rpc('grant_rihla_access', { target_user: id })
     setBusyId('')
     if (result.error) setError(result.error.message)
     else await load()
@@ -70,5 +91,18 @@ export default function AdminPage() {
         {row.status === 'pending' && <div className="request-actions"><button className="approve-button" disabled={busyId===row.id} onClick={() => void review(row.id, 'approved')}><Icon name="check" size={16} /> قبل وفعّل</button><button className="reject-button" disabled={busyId===row.id} onClick={() => void review(row.id, 'rejected')}>رفض</button></div>}
       </article>
     })}</>}</section>
-    <div className="admin-note"><Icon name="lock" size={16} /><span>القبول كيفعّل الدخول ديال الحساب فالحين. راجع التحويل قبل ما تقبل الطلب.</span></div></main></div>
+    <section style={{ marginTop: 34 }}><div className="requests-heading"><div><h2>حسابات تسجلات ومازال ما تفعّلاتش</h2><p>هاد الحسابات ما صيفطوش طلب تحويل. تأكّد من الخلاص مع المتعلّم قبل التفعيل.</p></div><b style={{ minWidth: 34, height: 34, display: 'grid', placeItems: 'center', borderRadius: '50%', background: '#fff4d2', color: '#826300', fontSize: 13 }}>{unapproved.length}</b></div>{loading ? <div className="table-empty">كنحمّلو الحسابات…</div> : !unapproved.length ? <div className="table-empty">ما كاين حتى حساب آخر خاصّو التفعيل.</div> : <div className="request-table">{unapproved.map((profile) => {
+      const learnerName = profile.full_name || [profile.first_name, profile.family_name].filter(Boolean).join(' ') || profile.email || 'متعلّم جديد'
+      const phoneDigits = profile.phone?.replace(/\D/g, '')
+      const whatsappNumber = phoneDigits?.startsWith('0') ? `212${phoneDigits.slice(1)}` : phoneDigits
+      const planLabel = profile.plan === 'yearly' ? 'سنوي · 500 DH' : 'شهري · 100 DH'
+      const message = encodeURIComponent('سلام، كنأكدو وضعية التسجيل ديالك فـ RihlaDeutch.')
+      return <article className="request-row" key={profile.id}>
+        <div className="request-person"><span className="person-avatar">{learnerName[0]?.toUpperCase() || 'م'}</span><div><b>{learnerName}</b><small>{profile.email || 'بلا إيميل'} · {profile.age ? `${profile.age} عام` : 'العمر غير مسجل'} · {profile.city || 'المدينة غير مسجلة'}</small><small dir="ltr">{profile.phone || '—'}</small></div></div>
+        <div className="request-payment"><span>الخطة</span><b>{planLabel}</b><small>الهدف {profile.goal_level || '—'}</small></div>
+        {whatsappNumber && <a style={{ color: '#168b45', fontSize: 10, fontWeight: 700, textDecoration: 'none', whiteSpace: 'nowrap' }} href={`https://wa.me/${whatsappNumber}?text=${message}`} target="_blank" rel="noreferrer">تواصل عبر واتساب</a>}
+        <button className="approve-button" disabled={busyId === `account:${profile.id}`} onClick={() => void activateAccount(profile.id)}><Icon name="check" size={16} /> فعّل الدخول</button>
+      </article>
+    })}</div>}</section>
+    <div className="admin-note"><Icon name="lock" size={16} /><span>قبول طلب التحويل أو تفعيل الحساب كيفتح فضاءات التعلّم فالحين. راجع الخلاص قبل التفعيل.</span></div></main></div>
 }
