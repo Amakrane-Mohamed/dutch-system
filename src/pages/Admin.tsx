@@ -17,20 +17,28 @@ export default function AdminPage() {
   const load = useCallback(async () => {
     if (!supabase || !isAdmin) return
     setLoading(true); setError('')
-    let result = await supabase.from('access_requests').select('id,user_id,payment_method,payment_reference,plan,status,created_at').eq('status', filter).order('created_at', { ascending: false })
+    const result = await supabase.from('access_requests').select('id,user_id,payment_method,payment_reference,plan,status,created_at').eq('status', filter).order('created_at', { ascending: false })
+    let requestData = result.data as RequestRow[] | null
+    let requestError = result.error
     // Keep the admin page usable when the deployed database is one migration behind.
     if (result.error?.code === '42703' || result.error?.message.includes('access_requests.plan')) {
-      result = await supabase.from('access_requests').select('id,user_id,payment_method,payment_reference,status,created_at').eq('status', filter).order('created_at', { ascending: false })
+      const fallback = await supabase.from('access_requests').select('id,user_id,payment_method,payment_reference,status,created_at').eq('status', filter).order('created_at', { ascending: false })
+      requestData = fallback.data as RequestRow[] | null
+      requestError = fallback.error
     }
-    if (result.error) { setError(result.error.message); setLoading(false); return }
-    const requests = (result.data ?? []) as RequestRow[]
+    if (requestError) { setError(requestError.message); setLoading(false); return }
+    const requests = requestData ?? []
     if (!requests.length) { setRows([]); setLoading(false); return }
-    let profiles = await supabase.from('profiles').select('id,email,first_name,family_name,full_name,age,city,goal_level,phone,plan').in('id', [...new Set(requests.map((r) => r.user_id))])
+    const profiles = await supabase.from('profiles').select('id,email,first_name,family_name,full_name,age,city,goal_level,phone,plan').in('id', [...new Set(requests.map((r) => r.user_id))])
+    let profileData = profiles.data as ProfileRow[] | null
+    let profileError = profiles.error
     if (profiles.error?.code === '42703') {
-      profiles = await supabase.from('profiles').select('id,email').in('id', [...new Set(requests.map((r) => r.user_id))])
+      const fallback = await supabase.from('profiles').select('id,email').in('id', [...new Set(requests.map((r) => r.user_id))])
+      profileData = fallback.data as ProfileRow[] | null
+      profileError = fallback.error
     }
-    if (profiles.error) { setError(profiles.error.message); setLoading(false); return }
-    const byId = new Map(((profiles.data ?? []) as ProfileRow[]).map((p) => [p.id, p]))
+    if (profileError) { setError(profileError.message); setLoading(false); return }
+    const byId = new Map((profileData ?? []).map((p) => [p.id, p]))
     setRows(requests.map((r) => ({ ...r, plan: (r.plan ?? byId.get(r.user_id)?.plan) === 'yearly' ? 'yearly' : 'monthly', profile: byId.get(r.user_id) })))
     setLoading(false)
   }, [filter, isAdmin])
